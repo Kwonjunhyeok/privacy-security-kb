@@ -1,6 +1,6 @@
 # 매일 갱신 절차
 
-클라우드 루틴(https://claude.ai/code/routines/trig_01Qjd6uLw8oVCAZwP1cngtoz)이 매일 06:00 (KST) 이 문서를 그대로 실행한다. 데스크톱 예약 작업 `kb-daily-update` 는 일시정지된 백업이며, 클라우드 장애 시 수동으로만 돌린다. 둘을 동시에 켜지 않는다. 수동으로 돌릴 때도 같은 순서를 따른다.
+이 PC의 데스크톱 예약 작업 `kb-daily-update` 가 매일 06:00 (KST) 이 문서를 그대로 실행하고 결과를 GitHub 에 push 한다(하이브리드 구성). 06:00 에 PC·앱이 꺼져 있으면 다음에 켤 때 실행된다. 클라우드 루틴(trig_01Qjd6uLw8oVCAZwP1cngtoz)은 클라우드 네트워크가 국내 기관 사이트를 막아 원문 검증이 안 되므로 꺼 두었다. 둘을 동시에 켜지 않는다. 수동으로 돌릴 때도 같은 순서를 따른다.
 
 오늘 날짜를 `TODAY` (YYYY-MM-DD, KST) 라 한다.
 

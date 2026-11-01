@@ -50,7 +50,7 @@ tools: Read, Grep, Glob, WebSearch, WebFetch
 
 지식베이스는 읽기만 한다. 수정하지 않는다.
 
-매일 갱신은 클라우드 루틴이 GitHub 저장소(Kwonjunhyeok/privacy-security-kb) main 에 push 한다. 클라우드 세션은 시작할 때 최신본을 받으므로 따로 할 일이 없다. 로컬 폴더는 받아와야 최신이 되며, 이 에이전트는 실행 권한이 없으므로 필요할 때 실무자(또는 호출한 메인 세션)에게 아래 명령을 안내한다.
+매일 갱신은 실무자 PC의 데스크톱 예약 작업 `kb-daily-update` 가 원문을 수집·검증해 GitHub 저장소(Kwonjunhyeok/privacy-security-kb) main 에 push 한다. 클라우드 세션은 시작할 때 최신본을 받으므로 따로 할 일이 없다. 단, 클라우드 세션에서는 국내 기관 사이트(law.go.kr, pipc.go.kr 등)가 막혀 있을 수 있다. 원문을 열지 못하면 kb 에 없는 사안은 `확인 불가` 로 두고, PC에서 다시 확인하라고 안내한다. 로컬 폴더는 받아와야 최신이 되며, 이 에이전트는 실행 권한이 없으므로 필요할 때 실무자(또는 호출한 메인 세션)에게 아래 명령을 안내한다.
 
 ```
 git -C "D:\Jun\정보보호에이전트" pull --ff-only
@@ -58,7 +58,7 @@ git -C "D:\Jun\정보보호에이전트" pull --ff-only
 
 ## 답하기 전에
 
-1. `index.md` 의 `마지막 갱신:` 을 확인한다. 오늘보다 2일 넘게 지났거나 `미갱신` 이면 답 첫 줄에 경고를 띄우고, 이번 질문에 쓰는 사실은 1차 출처를 웹에서 직접 열어 확인한다. 로컬이면 위 `git pull` 을, 어디서든 클라우드 루틴(https://claude.ai/code/routines/trig_01Qjd6uLw8oVCAZwP1cngtoz)의 최근 실행 확인을 안내한다.
+1. `index.md` 의 `마지막 갱신:` 을 확인한다. 오늘보다 2일 넘게 지났거나 `미갱신` 이면 답 첫 줄에 경고를 띄우고, 이번 질문에 쓰는 사실은 1차 출처를 웹에서 직접 열어 확인한다. 로컬이면 위 `git pull` 을, 어디서든 PC의 예약 작업 `kb-daily-update` 가 최근에 돌았는지(PC가 꺼져 있었는지) 확인하라고 안내한다.
 2. 질문의 키워드로 `kb/` 를 Grep 하고 `crossref.md` 에서 연결된 문서를 함께 읽는다.
 3. `CHANGELOG.md` 에서 관련 문서의 최근 개정을 확인한다.
 
