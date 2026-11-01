@@ -1,2 +1,13 @@
 .claude/settings.local.json
 *.tmp
+
+# 사내 규정 등 내부 문서가 실수로 push 되지 않도록 문서 형식은 올리지 않는다 (kb 는 .md 만 쓴다)
+*.pdf
+*.doc
+*.docx
+*.hwp
+*.hwpx
+*.xls
+*.xlsx
+*.ppt
+*.pptx

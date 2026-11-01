@@ -1,0 +1,44 @@
+---
+title: KISA 기업 보안강화 권고 — 최근 사이버공격 대비(2026-10-03) 및 추석 연휴 대비(2026-09-17)
+category: threats
+doc_type: 보안공지
+issuer: 한국인터넷진흥원(KISA)
+promulgation_no: 해당없음
+effective_date: 해당없음
+published_date: 2026-10-03
+source_url: https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&menuNo=205020&nttId=72207
+status: 현행
+verified:
+candidate:
+  kind: new
+  target_path: kb/threats/threat-kisa-enterprise-hardening-2026-09-10.md
+  found_at:
+    - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&menuNo=205020&nttId=72207
+    - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&menuNo=205020&nttId=72189
+  attempts: 0
+---
+
+# KISA 기업 보안강화 권고
+
+## 「최근 사이버공격 대비 기업 보안강화 권고」 (2026-10-03, nttId 72207, 공지 고정, 작성 위협분석단 AI종합분석팀)
+
+- 배경(인용): "최근 국내 금융권 및 민간기업 대상으로 다수의 침해사고가 발생함에 따라". 구체 사고명 미표기.
+- 권고 요지:
+  - 인터넷 노출 도메인·IP·웹·원격접속 서비스 파악, 미사용 정리, 보안 업데이트
+  - 웹·API 요청마다 서버측 권한 검증, DB 질의 안전 처리
+  - 관리자·원격접속 계정 MFA
+  - 노출 인증정보 폐기·교체 및 사용 이력 조사
+  - 웹 프로세스 권한 최소화, 내부망 통신 대상·포트 제한, 백신·EDR 정상 동작 확인
+  - 중요정보 다운로드 업무 범위 제한, 로그 시간 동기화·통합 모니터링
+  - 침해 의심 시 KISA 신고(118), 격리, 증적 보존
+- 경보 단계 언급 없음.
+
+## 「추석 명절 대비 기업 보안점검·모니터링 강화」 (2026-09-17, nttId 72189)
+
+- 배경: 연휴 중 보안인력 공백, API 취약점 악용·클라우드 접근키 노출·랜섬웨어 증가.
+- 권고 요지: API 노출·인증 점검과 미사용·테스트 API 차단, 요청별 권한검증·rate limit / 코드·설정·저장소 내 접근키 점검, 시크릿 관리 서비스, 임시 역할 기반 자격증명 / 백신·EDR, 오프라인 백업·복구 테스트 / 관리자 계정 분리·MFA·IP 제한 / 노출 SSH·DB·웹 서버 점검·패치 / 로그·경보·비상연락망 점검.
+- 동반 공지: 「추석 명절 연휴기간 스미싱, 피싱 등 사이버사기 주의」 (2026-09-17, nttId 72191) — 본문 미확인
+
+## 연관 후보
+
+- ISMS-P 2.5.x 인증·권한, 2.6.x 접근통제, 2.9.3 백업 및 복구관리, 2.9.4 로그, 2.11.x 사고 대응, 2.10.x API·클라우드 보안
