@@ -14,7 +14,7 @@ candidate:
   target_path: kb/threats/2026-10-msit-financial-hacking-response.md
   found_at:
     - https://www.korea.kr/news/policyNewsView.do?newsId=148973069&pWise=sub&pWiseSub=C1
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모: korea.kr 정책뉴스로만 확인했다(sources.md 미등급). msit.go.kr 원문 URL 확보 필요. 원문 미열람.
@@ -35,3 +35,4 @@ candidate:
 - 2026-11-02 kb-fact-checker (attempts 1): www.msit.go.kr 직접 열람 실패(ENOTFOUND). 원문 URL 없음.
 - 유일한 근거 korea.kr 은 sources.md 미등급이라 근거로 쓸 수 없다.
 - 확인 못 한 값: 보도일 2026-10-06, 제목('24시간 비상대응체계'), 대응 주체, 금융보안원 IP 정보 제공 내용, 사고 대상·규모.
+- 2026-11-02 2차 kb-fact-checker (attempts 2): www.msit.go.kr 재열람 ENOTFOUND(세션 네트워크 허용 목록 밖). 원문 URL 여전히 없음. 보류 유지. 다음 실행에서도 미확인이면 attempts 3 → 기각.

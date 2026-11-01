@@ -16,7 +16,7 @@ candidate:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&pageIndex=1&nttId=72230&menuNo=205020
     - https://boho.or.kr/kr/bbs/view.do?bbsId=B0000133&categoryCode=&menuNo=205020&nttId=72228&pageIndex=1&searchCnd=&searchWrd=
     - https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad8c80eb5290478048f38cf
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모: boho.or.kr DNS 차단으로 원문 미열람. 같은 제목의 게시물이 nttId 72228, 72230 두 개로 검색됨(관계 확인필요). KNVD 「PHP 제품 보안 업데이트 권고」도 함께 있다. 아래 값은 검색 결과 요약에서 본 것이다.
@@ -41,3 +41,4 @@ candidate:
 - 2026-11-02 kb-fact-checker (attempts 1): www.boho.or.kr, krcert.or.kr, knvd.krcert.or.kr 직접 열람 실패(모두 ENOTFOUND). A 등급 1곳도 열지 못함.
 - 확인 못 한 값: 게시일, CVE 번호(CVE-2026-109618/109619), CVSS 9.2, 해결 버전(8.5.12/8.4.27/8.3.36/8.2.35), 8.1 이하 지원 종료 표기. nttId 72228 과 72230 의 관계(정정·재게시 여부)도 확인필요.
 - 패치 버전·CVE 가 틀리면 실무 조치가 잘못되므로, 보호나라 원문(필요하면 php.net 공식 공지도 참고)으로 대조한 뒤에만 통과.
+- 2026-11-02 2차 kb-fact-checker (attempts 2): www.boho.or.kr, www.ncsc.go.kr 재열람 ENOTFOUND(세션 네트워크 허용 목록 밖). A 등급 원문 0곳 확인. 보류 유지. CVE 번호(6자리 일련번호 109618/109619)와 해결 버전은 검색 요약 값일 뿐이므로 원문 확인 전 어디에도 옮기지 말 것. 다음 실행에서도 미확인이면 attempts 3 → 기각.

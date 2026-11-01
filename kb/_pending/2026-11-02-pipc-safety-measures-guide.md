@@ -16,7 +16,7 @@ candidate:
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=G010030020&nttId=11641
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS061&mCode=C010010000&nttId=11369
     - https://m.privacy.go.kr/front/search/search.do?searchTab=FILE&displaySize=10&page=1&andSearch=N&searchTerm=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EC%95%88%EC%A0%84%EC%84%B1+%ED%99%95%EB%B3%B4%EC%A1%B0%EC%B9%98
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모: pipc.go.kr / privacy.go.kr DNS 차단으로 원문 미열람. 검색 결과 제목·요약만 확인했다.
@@ -43,3 +43,4 @@ candidate:
 - 출처 간 불일치가 남음: 현행판이 2025.11판인지 2024.10판인지 정해지지 않음. 본문 '주요 내용'이 비어 있음.
 - 고시 「개인정보의 안전성 확보조치 기준」 제2026-9호 / 2026-07-01 시행 표기는 검색 요약에서만 나온 값이다. law.go.kr 현행본으로 확인하기 전에는 어떤 문서에도 옮기지 말 것(고시 개정 여부는 법령 수집 쪽에서 별도로 확인).
 - 다음 시도: pipc.go.kr nttId=11641 제목 전체·게시일·첨부 판 표기, privacy.go.kr 자료실의 최신판, law.go.kr 고시 현행본을 대조.
+- 2026-11-02 2차 kb-fact-checker (attempts 2): www.pipc.go.kr, www.privacy.go.kr, www.law.go.kr 재열람 모두 ENOTFOUND(세션 네트워크 허용 목록 밖). 보류 유지. 참고: 같은 날 수집된 고시 초안(2026-11-02-law-safety-measures-standard.md)에서도 '제2026-9호' 단서가 재현되지 않았으므로 이 값은 더 의심스럽다. 다음 실행에서도 미확인이면 attempts 3 → 기각.

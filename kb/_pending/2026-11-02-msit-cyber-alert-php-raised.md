@@ -14,7 +14,7 @@ candidate:
   target_path: kb/threats/2026-10-msit-cyber-alert-php.md
   found_at:
     - https://www.korea.kr/news/policyNewsView.do?newsId=148974113&pWise=main&pWiseMain=A3
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모: korea.kr(정책브리핑) 정책뉴스로만 확인했다. korea.kr 은 sources.md 에 등급이 없으므로 msit.go.kr 보도자료 원문 URL을 따로 확보해야 한다(확인필요). 원문은 열지 못했고, 아래는 검색 요약에서 본 것이다.
@@ -36,3 +36,4 @@ candidate:
 - 2026-11-02 kb-fact-checker (attempts 1): www.msit.go.kr 직접 열람 실패(ENOTFOUND). 보도자료 원문 URL 없음.
 - 유일한 근거 korea.kr 은 sources.md 에 등급이 없으므로 근거로 쓸 수 없다(단서).
 - 확인 못 한 값: 보도일 2026-10-22, 경보 상향 시각(22일 12시), 단계('관심'→'주의'), 민간 분야 한정 여부. msit.go.kr 보도자료 또는 보호나라·NCSC 경보 공지로 확인필요.
+- 2026-11-02 2차 kb-fact-checker (attempts 2): www.msit.go.kr, www.boho.or.kr, www.ncsc.go.kr 재열람 모두 ENOTFOUND(세션 네트워크 허용 목록 밖). A 등급 원문 0곳 확인. 보류 유지. 다음 실행에서도 원문 미확인이면 attempts 3 → 기각.

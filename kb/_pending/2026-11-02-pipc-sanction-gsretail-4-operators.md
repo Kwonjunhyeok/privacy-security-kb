@@ -14,7 +14,7 @@ candidate:
   target_path: kb/pipc/sanction-2026-08-gsretail-4-operators.md
   found_at:
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12425
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모: pipc.go.kr DNS 차단으로 원문 미열람. 아래 값은 웹 검색 결과 요약에서 본 것이며, nttId=12425 가 이 건의 보도자료인지도 확인필요.
@@ -40,3 +40,4 @@ candidate:
 - 2026-11-02 kb-fact-checker (attempts 1): pipc.go.kr 직접 열람 실패(ENOTFOUND). 보도자료·의결서 원문 대조 불가.
 - 확인 못 한 값: nttId=12425 가 이 건인지, 의결일(2026-08-26)·회의 차수(제17회), 나머지 3개 사업자명, 과징금 총액 129억 5,444만 원 / 지에스리테일 128억 3,600만 원 / 과태료 1,020만 원, 위반 조항, 위반 사실, 의결번호.
 - 처분 금액·대상은 오기가 있으면 실무 피해가 크므로, 보도자료와 의결서(또는 privacy.go.kr 자료) 두 곳으로 확인한 뒤에만 통과.
+- 2026-11-02 2차 kb-fact-checker (attempts 2): www.pipc.go.kr, www.privacy.go.kr 재열람 ENOTFOUND(세션 네트워크 허용 목록 밖). 보류 유지. 다음 실행에서도 미확인이면 attempts 3 → 기각.

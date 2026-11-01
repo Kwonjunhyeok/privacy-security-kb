@@ -17,7 +17,7 @@ candidate:
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=11928
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9900
     - https://www.privacy.go.kr/front/bbs/bbsView.do?bbsNo=BBSMSTR_000000000049&bbscttNo=20658
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모: pipc.go.kr / privacy.go.kr 은 이번 세션에서 DNS 차단(ENOTFOUND)으로 원문을 열지 못했다. 아래 내용은 웹 검색 결과의 제목·요약에서 본 것이며 원문 대조 전이다.
@@ -45,3 +45,4 @@ candidate:
 - 2026-11-02 kb-fact-checker (attempts 1): pipc.go.kr 직접 열람 실패(getaddrinfo ENOTFOUND, 세션 네트워크 정책 차단). privacy.go.kr 도 메인 확인상 차단. A 등급 원문 2곳 대조 불가.
 - 확인 못 한 값: 게시일, 개정판 표기(2026.3.), 서식 24종→10종, 저위험 처리 기준, nttId=11928 의 보도자료 여부.
 - 다음 시도: pipc.go.kr 안내서 게시판(nttId=11931)과 privacy.go.kr 자료실을 직접 열어 게시일·개정 요지를 대조하고, nttId=9900(2024.2.판)이 과거판으로 바뀌었는지 확인.
+- 2026-11-02 2차 kb-fact-checker (attempts 2): www.pipc.go.kr, www.privacy.go.kr 재열람 ENOTFOUND(세션 네트워크 허용 목록 밖). 보류 유지. 다음 실행에서도 미확인이면 attempts 3 → 기각.
