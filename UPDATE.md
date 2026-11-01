@@ -1,6 +1,6 @@
 # 매일 갱신 절차
 
-Claude 데스크톱 앱의 예약 작업(`kb-daily-update`)이 매일 06:00 (KST) 이 문서를 그대로 실행한다. 앱이 꺼져 있으면 다음 실행 시 실행된다. 수동으로 돌릴 때도 같은 순서를 따른다.
+클라우드 루틴(https://claude.ai/code/routines/trig_01Qjd6uLw8oVCAZwP1cngtoz)이 매일 06:00 (KST) 이 문서를 그대로 실행한다. 데스크톱 예약 작업 `kb-daily-update` 는 일시정지된 백업이며, 클라우드 장애 시 수동으로만 돌린다. 둘을 동시에 켜지 않는다. 수동으로 돌릴 때도 같은 순서를 따른다.
 
 오늘 날짜를 `TODAY` (YYYY-MM-DD, KST) 라 한다.
 
