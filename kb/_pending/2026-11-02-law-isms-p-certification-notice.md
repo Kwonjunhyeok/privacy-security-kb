@@ -18,7 +18,8 @@ candidate:
     - https://byline.network/2026/09/16-698/   # B 단서, 미열람
     - https://www.newsis.com/view/NISX20260409_0003584993   # B 단서, 미열람
     - https://v.daum.net/v/20260312160905864   # B 단서, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, isms.kisa.or.kr, pipc.go.kr, msit.go.kr ENOTFOUND. 현행 고시번호·시행일 단서는 찾지 못했다. 아래는 개편 동향 **단서**다.

@@ -14,7 +14,8 @@ candidate:
   target_path: kb/laws/ciip-act.md
   found_at:
     - https://ko.wikisource.org/wiki/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B8%B0%EB%B0%98_%EB%B3%B4%ED%98%B8%EB%B2%95   # 미등급, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, msit.go.kr ENOTFOUND. 검색에서 2026년 개정 단서를 찾지 못했다. 추적 대상 목록을 채우기 위한 자리 초안이다.

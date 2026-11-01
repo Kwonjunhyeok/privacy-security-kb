@@ -18,7 +18,8 @@ candidate:
     - https://www.nepla.ai/wiki/it-정보-방송통신/개인정보-위치정보-신용정보/망분리에서-위험기반-보호-로-2025년-개정-개인정보-안전성확보조치-고시의-의미-gy3807x469rx   # 미등급, 미열람
     - https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=228195   # B 단서, 미열람
     - https://wikidocs.net/264634   # 미등급, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, pipc.go.kr ENOTFOUND. 아래 값은 모두 검색 요약 **단서**이며 서로 맞지 않는다. 관련 보류 초안 `2026-11-02-pipc-safety-measures-guide.md`(안내서)와는 대상이 다르다(이 초안은 고시 본문).

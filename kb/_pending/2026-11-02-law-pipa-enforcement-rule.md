@@ -14,7 +14,8 @@ candidate:
   target_path: kb/laws/pipa-enforcement-rule.md
   found_at:
     - https://www.law.go.kr/법령/개인정보보호법시행규칙   # WebFetch 미시도(도메인 ENOTFOUND 확인됨)
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr 접속 불가. 검색에서도 현행 시행규칙(개인정보보호위원회규칙) 번호·시행일 단서를 찾지 못했다. 추적 대상 목록을 채우기 위한 자리 초안이다.

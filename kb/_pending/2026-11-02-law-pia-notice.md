@@ -16,7 +16,8 @@ candidate:
     - https://www.newsseoul.co.kr/news/view/1065590419837104   # B 단서, 미열람
     - https://m.boannews.com/html/detail.html?idx=133972   # B 단서, 미열람
     - https://m.boannews.com/html/detail.html?idx=127714   # B 단서, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, pipc.go.kr ENOTFOUND. 아래는 언론 기사 기반 검색 요약 **단서**다.

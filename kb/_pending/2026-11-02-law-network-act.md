@@ -20,7 +20,8 @@ candidate:
     - https://shinkim.com/kor/media/newsletter/3178   # 미열람(검색 결과)
     - https://www.lawtimes.co.kr/news/articleView.html?idxno=217999   # B 단서, 미열람
     - https://m.boannews.com/html/detail.html?idx=142785   # B 단서, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, msit.go.kr, elaw.klri.re.kr 모두 ENOTFOUND. 아래 값은 모두 검색 요약 **단서**이며, 서로 충돌한다.

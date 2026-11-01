@@ -14,7 +14,8 @@ candidate:
   target_path: kb/pipc/sanction-2026-10-2-operators.md
   found_at:
     - https://pipc.go.kr/np/
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: 웹 검색 요약에 pipc.go.kr 메인 페이지에 2026-10-29자 보도자료 「개인정보위, 안전조치 의무 위반 2개 사업자에 38억 8,500만 원 과징금 부과」가 게시되어 있다고 나왔다. 금액으로 다시 검색했을 때는 이 건이 나오지 않았다. 보도자료 상세 URL(nttId)을 찾지 못했고, pipc.go.kr 은 DNS 차단으로 열지 못했다. 단서 수준이며 모든 값을 원문과 대조해야 한다.

@@ -14,7 +14,8 @@ candidate:
   target_path: kb/threats/2026-10-ms-security-update.md
   found_at:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&pageIndex=1&nttId=72216&menuNo=205020
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: boho.or.kr DNS 차단으로 원문 미열람. 검색 요약에서 본 값이다.

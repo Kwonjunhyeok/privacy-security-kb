@@ -16,7 +16,8 @@ candidate:
     - https://www.nepla.ai/law/%EC%8B%A0%EC%9A%A9%EC%A0%95%EB%B3%B4%EC%9D%98%20%EC%9D%B4%EC%9A%A9%20%EB%B0%8F%20%EB%B3%B4%ED%98%B8%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0   # 미등급, 미열람
     - https://fsc.go.kr/po010102/86145?curPage=4   # 금융위(sources.md 미등재), 미열람
     - https://www.lawtimes.co.kr/news/articleView.html?idxno=228191   # B 단서, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr ENOTFOUND. 아래는 검색 요약 **단서**다. 금융위원회(fsc.go.kr)는 sources.md 에 등급이 없으므로 출처 추가 여부는 메인 세션 판단 사항이다.

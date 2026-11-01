@@ -15,7 +15,8 @@ candidate:
   found_at:
     - https://www.boho.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133
     - https://krcert.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: 보호나라 보안공지 목록 검색 요약에 위 제목과 2026-10-03 이 나왔다. 상세 URL(nttId)을 찾지 못했고 원문 미열람. 제목 정확도도 확인필요.

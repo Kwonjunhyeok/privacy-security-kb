@@ -16,7 +16,8 @@ candidate:
     - https://www.bkl.co.kr/law/insight/newsletter/6793   # 미열람(검색 결과)
     - https://shinkim.com/kor/media/newsletter/pdf/3381   # 미열람(검색 결과)
     - https://www.lawtimes.co.kr/news/articleView.html?idxno=222028   # B 단서, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, msit.go.kr ENOTFOUND. 아래 값은 검색 요약 **단서**(BKL 뉴스레터 요약 1건 근거).

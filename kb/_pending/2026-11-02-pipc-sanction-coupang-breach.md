@@ -15,7 +15,8 @@ candidate:
   found_at:
     - https://m.boannews.com/html//detail.html?idx=144068   # B 단서, 미열람
     - https://www.kukinews.com/article/view/kuk202606110039   # B 단서, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): pipc.go.kr ENOTFOUND. A 출처 URL 을 찾지 못했다. 아래는 B 언론 기사 기반 검색 요약 **단서**뿐이며, 의결일도 요약 1건에서만 나왔다.

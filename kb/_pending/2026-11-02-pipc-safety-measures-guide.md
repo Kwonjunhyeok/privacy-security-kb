@@ -16,7 +16,8 @@ candidate:
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=G010030020&nttId=11641
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS061&mCode=C010010000&nttId=11369
     - https://m.privacy.go.kr/front/search/search.do?searchTab=FILE&displaySize=10&page=1&andSearch=N&searchTerm=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EC%95%88%EC%A0%84%EC%84%B1+%ED%99%95%EB%B3%B4%EC%A1%B0%EC%B9%98
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: pipc.go.kr / privacy.go.kr DNS 차단으로 원문 미열람. 검색 결과 제목·요약만 확인했다.

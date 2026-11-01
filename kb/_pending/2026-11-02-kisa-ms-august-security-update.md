@@ -14,7 +14,8 @@ candidate:
   target_path: kb/threats/2026-08-ms-security-update.md
   found_at:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&pageIndex=1&nttId=72160&menuNo=205020
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: 검색 결과에는 제목과 URL만 나왔다. 연도와 게시일을 확인하지 못했다(nttId 순서로 보면 2026년 7월분 72130과 10월분 72216 사이). 게시일이 90일 범위(2026-08-04 이후) 안인지 확인해야 한다. 원문 미열람.

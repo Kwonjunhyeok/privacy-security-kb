@@ -14,7 +14,8 @@ candidate:
   target_path: kb/threats/2026-10-msit-cyber-alert-php.md
   found_at:
     - https://www.korea.kr/news/policyNewsView.do?newsId=148974113&pWise=main&pWiseMain=A3
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: korea.kr(정책브리핑) 정책뉴스로만 확인했다. korea.kr 은 sources.md 에 등급이 없으므로 msit.go.kr 보도자료 원문 URL을 따로 확보해야 한다(확인필요). 원문은 열지 못했고, 아래는 검색 요약에서 본 것이다.

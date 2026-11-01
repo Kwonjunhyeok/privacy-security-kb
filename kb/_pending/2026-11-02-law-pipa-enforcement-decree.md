@@ -16,7 +16,8 @@ candidate:
     - https://www.law.go.kr/lsRvsDocListP.do?lsId=011468   # 검색 결과에 나온 URL, 미열람
     - https://www.nepla.ai/law/개인정보 보호법 시행령   # 미등급, 미열람 (제36340호 2026-05-19 표기 단서)
     - https://www.inews24.com/view/604108   # B 단서, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): www.law.go.kr WebFetch ENOTFOUND. 아래 값은 모두 검색 요약 **단서**다.

@@ -15,7 +15,8 @@ candidate:
   found_at:
     - https://byline.network/2026/09/16-698/   # B 단서, 미열람
     - https://www.ddaily.co.kr/page/view/2026060209483580759   # B 단서(2026-06 입법예고 별건 가능성), 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): 보고용 개정안 항목. pipc.go.kr 원문 미열람. 값은 언론 기사 기반 검색 요약 **단서**다.

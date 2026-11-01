@@ -16,7 +16,8 @@ candidate:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&pageIndex=1&nttId=72230&menuNo=205020
     - https://boho.or.kr/kr/bbs/view.do?bbsId=B0000133&categoryCode=&menuNo=205020&nttId=72228&pageIndex=1&searchCnd=&searchWrd=
     - https://knvd.krcert.or.kr/info/vuln/notice/detail?id=6ad8c80eb5290478048f38cf
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: boho.or.kr DNS 차단으로 원문 미열람. 같은 제목의 게시물이 nttId 72228, 72230 두 개로 검색됨(관계 확인필요). KNVD 「PHP 제품 보안 업데이트 권고」도 함께 있다. 아래 값은 검색 결과 요약에서 본 것이다.

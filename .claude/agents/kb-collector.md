@@ -33,6 +33,7 @@ tools: WebSearch, WebFetch, Read, Grep, Glob, Write
     target_path: kb/<category>/<file>.md # 반영될 경로
     found_at: [본 URL 전부]
     attempts: 0
+    access_failures: 0
   ```
 - 조문 번호, 시행일, 공포번호, 금액 등 값은 페이지에서 본 그대로 적는다. 페이지에서 확인하지 못한 값은 추정하지 말고 `확인필요` 로 둔다.
 - `revision` 이면 본문 맨 앞에 `## 변경 요지` 를 두고 바뀐 조문을 구·신 대비로 짧게 적는다. 이 절은 검증 후 반영할 때 CHANGELOG 한 줄의 재료가 된다.

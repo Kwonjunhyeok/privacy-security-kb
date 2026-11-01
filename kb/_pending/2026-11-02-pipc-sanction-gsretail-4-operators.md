@@ -14,7 +14,8 @@ candidate:
   target_path: kb/pipc/sanction-2026-08-gsretail-4-operators.md
   found_at:
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12425
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: pipc.go.kr DNS 차단으로 원문 미열람. 아래 값은 웹 검색 결과 요약에서 본 것이며, nttId=12425 가 이 건의 보도자료인지도 확인필요.

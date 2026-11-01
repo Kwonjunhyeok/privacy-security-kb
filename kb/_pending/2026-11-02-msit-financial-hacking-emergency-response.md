@@ -14,7 +14,8 @@ candidate:
   target_path: kb/threats/2026-10-msit-financial-hacking-response.md
   found_at:
     - https://www.korea.kr/news/policyNewsView.do?newsId=148973069&pWise=sub&pWiseSub=C1
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: korea.kr 정책뉴스로만 확인했다(sources.md 미등급). msit.go.kr 원문 URL 확보 필요. 원문 미열람.

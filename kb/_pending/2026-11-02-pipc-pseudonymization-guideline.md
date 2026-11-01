@@ -17,7 +17,8 @@ candidate:
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=11928
     - https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9900
     - https://www.privacy.go.kr/front/bbs/bbsView.do?bbsNo=BBSMSTR_000000000049&bbscttNo=20658
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: pipc.go.kr / privacy.go.kr 은 이번 세션에서 DNS 차단(ENOTFOUND)으로 원문을 열지 못했다. 아래 내용은 웹 검색 결과의 제목·요약에서 본 것이며 원문 대조 전이다.

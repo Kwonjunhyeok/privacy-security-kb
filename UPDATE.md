@@ -8,6 +8,15 @@
 
 1. `CLAUDE.md`, `sources.md`, `kb/index.md` 를 읽는다.
 2. `kb/_pending/` 의 기존 항목 목록을 확인한다.
+3. **1차 출처 접속 사전 점검**: 아래 명령으로 A 등급 출처 접속을 확인한다.
+   ```bash
+   for u in https://www.law.go.kr https://www.pipc.go.kr https://isms.kisa.or.kr https://www.boho.or.kr https://www.privacy.go.kr https://www.msit.go.kr; do
+     echo "$u $(curl -sS -m 15 -o /dev/null -w '%{http_code}' "$u" 2>/dev/null)"
+   done
+   ```
+   - 응답 코드가 `000` 이거나 연결 오류(CONNECT 403, DNS 실패 등)면 접속 실패로 본다.
+   - **전부 실패하면 즉시 중단한다.** 수집·검증·반영을 하지 않고, `_pending` 의 `attempts` 도 올리지 않으며, 커밋·push 도 하지 않는다. 예약 실행이면 알림(PushNotification)으로 실패한 도메인과 응답 코드만 알리고 끝낸다. 클라우드 환경에서 실행됐다면 클라우드 루틴이 켜져 있다는 뜻이므로 알림에 그 사실도 적는다.
+   - 일부만 실패하면 계속하되, 실패한 도메인 목록을 2단계 검증기에 넘기고 보고서 `## 출처 접근 문제` 에 적는다.
 
 ## 1. 수집 — `kb-collector` 에이전트
 
@@ -23,7 +32,8 @@
     kind: new | revision | repeal   # 신규 | 개정(교체 대상) | 폐지
     replaces: kb/laws/....md        # revision/repeal 일 때 교체할 기존 문서
     found_at: [수집 때 본 URL들]
-    attempts: 0
+    attempts: 0          # 원문을 열고도 확인 못 한 횟수 (3이면 기각)
+    access_failures: 0   # 원문 접속 자체를 못 한 횟수 (기각 사유 아님)
   ```
 - 수집기는 `kb/` 의 `_pending/` 밖 파일을 절대 수정하지 않는다.
 
@@ -35,10 +45,11 @@
 |---|---|---|
 | 통과 | 1차 출처 원문을 직접 다시 열어 조문 번호·시행일·공포번호·수치가 모두 일치하고, A 등급 출처 2곳 이상이 일치 (threats 는 A 1곳) | 3단계로 반영 |
 | 수정 후 통과 | 일부 값이 틀렸으나 원문에서 정확한 값을 확인함 | 검증기가 값을 고친 뒤 통과 처리, 보고서에 고친 내용 기록 |
-| 보류 | 원문 접근 실패, 출처 간 불일치, B 등급 단서만 있음 | `_pending` 에 남기고 `attempts` +1, 사유 기록 |
+| 보류(접근) | 네트워크 차단·DNS 실패·타임아웃 등으로 필요한 A 등급 원문을 열지 못함 | `_pending` 에 남기고 `attempts` 는 **올리지 않는다**. `access_failures` +1, 사유 기록 |
+| 보류(내용) | 원문은 열었으나 출처 간 불일치, 값 미확인, B 등급 단서만 있음 | `_pending` 에 남기고 `attempts` +1, 사유 기록 |
 | 기각 | 원문과 명백히 다름, 존재하지 않는 개정, 통과 전 개정안을 개정으로 오인 등 | `_pending` 에서 삭제, 보고서에 사유 기록 |
 
-`attempts` 가 3이 된 보류 항목은 기각으로 처리한다.
+`attempts` 가 3이 된 보류 항목은 기각으로 처리한다. `attempts` 는 원문을 실제로 열고도 확인하지 못한 경우만 센다. 접속하지 못해 생긴 보류는 `access_failures` 로 따로 세고, 이것으로는 기각하지 않는다. `access_failures` 가 계속 쌓이면 보고서 `## 출처 접근 문제` 에 적어 사람이 판단하게 한다.
 
 ## 3. 반영 (통과 항목만)
 

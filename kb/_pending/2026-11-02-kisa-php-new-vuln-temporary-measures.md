@@ -14,7 +14,8 @@ candidate:
   target_path: kb/threats/2026-10-php-cve-2026-115560-temporary-measures.md
   found_at:
     - https://www.boho.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133
-  attempts: 2
+  attempts: 0
+  access_failures: 2
 ---
 
 > 수집 메모: 웹 검색 요약에 보호나라 보안공지(게시판 번호 2581로 표기)로 PHP 신규 취약점 CVE-2026-115560 임시 조치 권고가 2026-10-24 게시되었다고 나왔다. 상세 URL(nttId)을 찾지 못했고 boho.or.kr 은 DNS 차단. 제목·CVE·게시일 모두 원문 대조 필요.

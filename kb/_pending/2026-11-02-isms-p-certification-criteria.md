@@ -18,7 +18,8 @@ candidate:
     - https://www.kisa.or.kr/1050602   # 미등급(sources.md 미등재), 미열람
     - https://eiec.kdi.re.kr/policy/materialView.do?num=286910   # 미등급, 미열람
     - https://byline.network/2026/04/10-634/   # B 단서, 미열람
-  attempts: 1
+  attempts: 0
+  access_failures: 1
 ---
 
 > 수집 메모(2026-11-02 2차 실행): isms.kisa.or.kr ENOTFOUND. 인증기준 항목 체계와 안내서 최신판은 원문에서 확인하지 못했다. 아래는 검색 요약 **단서**다.
