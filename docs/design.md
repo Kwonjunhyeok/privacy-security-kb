@@ -14,7 +14,7 @@
 
 | 요소 | 위치 | 역할 |
 |---|---|---|
-| 상담 에이전트 `privacy-security-expert` | `D:\Jun\.claude\agents\` (저장소 밖, 로컬 전용) | 진위 판정·연관 분석 답변. kb 는 읽기만 함 |
+| 상담 에이전트 `security-kms` | `.claude/agents/security-kms.md` (원본) + `D:\Jun\.claude\agents\security-kms.md` (같은 내용 사본) | 진위 판정·연관 분석·규정 적합성 검토. kb 는 읽기만 함. 저장소 안에 있어 claude.ai/code 클라우드 세션에서도 쓸 수 있음 |
 | 수집 에이전트 `kb-collector` | `.claude/agents/` | 출처에서 신규·개정 후보를 `kb/_pending/` 에 초안으로 작성 |
 | 검증 에이전트 `kb-fact-checker` | `.claude/agents/` | 1차 출처 원문 재대조, 판정(통과·수정 후 통과·보류·기각) |
 | 갱신 절차 | `UPDATE.md` | 수집 → 검증 → 반영 → 정리 → 보고서 → 커밋 |
@@ -45,6 +45,8 @@
 - 누락 점검 목록은 기억이 아니라 kb 의 현행 문서에서 뽑는다.
 
 ## 의사결정 기록
+
+- 2026-11-02 상담 에이전트 이름을 `privacy-security-expert` → `security-kms` 로 바꿨다(사용자 요청 `security_kms`; 에이전트 이름 규칙상 밑줄 대신 하이픈). PC 없이도 쓰도록 원본을 저장소에 두고, D:\Jun 세션용 사본을 둔다. 원본을 고치면 사본에도 복사한다.
 
 - 저장소는 `D:\Jun\정보보호에이전트` 만 별도로 만든다. `D:\Jun` 의 이력·사진 등 개인 자료가 올라가지 않게 하기 위해서다.
 - 처음엔 클라우드 루틴을 택했으나 저장소 접근 권한(`repo_access_denied`)으로 등록되지 않아 2026-11-02 데스크톱 예약 작업으로 바꿨다. 06:00 에 PC·앱이 꺼져 있으면 다음 실행 시 돈다. 클라우드 설정안은 `docs/routine-prompt.md` 에 남겨 둔다.
