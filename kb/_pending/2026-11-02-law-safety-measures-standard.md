@@ -3,10 +3,10 @@ title: 개인정보의 안전성 확보조치 기준
 category: laws
 doc_type: 고시
 issuer: 개인정보보호위원회
-promulgation_no: 확인필요   # 단서 충돌: 제2026-9호(이전 보고서 이월 단서, 이번 검색에서 재현 안 됨), 제2023-6호(wikidocs, 2023-09-22 시행)
-effective_date: 확인필요    # 단서: 2025-10-31 시행 개정, 일부 조항 2026-10-31 시행 / 이전 단서 2026-07-01
+promulgation_no: 개인정보보호위원회고시 제2026-9호 (2026. 7. 1., 일부개정)   # 2026-11-13 law.go.kr·pipc.go.kr 일치
+effective_date: 2026-07-01
 published_date: 확인필요
-source_url: https://law.go.kr/LSW/lsLinkCommonInfo.do?lspttninfSeq=66999
+source_url: https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000281400&chrClsCd=010201
 status: 현행
 verified:
 candidate:
@@ -18,7 +18,7 @@ candidate:
     - https://www.nepla.ai/wiki/it-정보-방송통신/개인정보-위치정보-신용정보/망분리에서-위험기반-보호-로-2025년-개정-개인정보-안전성확보조치-고시의-의미-gy3807x469rx   # 미등급, 미열람
     - https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=228195   # B 단서, 미열람
     - https://wikidocs.net/264634   # 미등급, 미열람
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, pipc.go.kr ENOTFOUND. 아래 값은 모두 검색 요약 **단서**이며 서로 맞지 않는다. 관련 보류 초안 `2026-11-02-pipc-safety-measures-guide.md`(안내서)와는 대상이 다르다(이 초안은 고시 본문).
@@ -51,3 +51,5 @@ candidate:
 - 2026-11-02 2차 kb-fact-checker (attempts 1): www.law.go.kr, www.pipc.go.kr 직접 열람 ENOTFOUND(세션 네트워크 허용 목록 밖). A 등급 원문 0곳 확인.
 - 출처 간 불일치: 고시번호 단서 3개(제2026-9호 / 2025-10-31 시행분 번호 미상 / 제2023-6호)가 충돌. 제2026-9호는 이번 검색에서 재현되지 않음.
 - 2026-10-31 분리 시행 조항(접속기록 범위 확대 등)은 TODAY 기준 이미 시행일이 지났을 수 있으나 원문 부칙으로 확인하지 못함. 조문 요지 전부 비어 있음.
+
+- 2026-11-13 kb-fact-checker (attempts 2): 고시번호·시행일 충돌 해소. law.go.kr 행정규칙 현행본 [시행 2026. 7. 1.] [개인정보보호위원회고시 제2026-9호, 2026. 7. 1., 일부개정] (한글주소 → admRulSeq=2100000281400)과 pipc.go.kr 훈령·예규·고시 게시판 nttId=12226 "개인정보의 안전성 확보조치 기준(개인정보보호위원회고시 제2026-9호, 2026.7.1. 시행)" 이 일치(A 2곳). 직전: 제2025-9호(2025.10.31. 시행, pipc nttId=11599). 제2023-6호 단서는 구판. 보류 사유: 조문 요지가 비어 있어 반영할 내용이 없음. 본문은 law.go.kr admRulLsInfoR.do?admRulSeq=2100000281400&chrClsCd=010201 에서 열림(제1조~제19조, 부칙) — 다음 수집 때 조문 요지와 부칙 분리 시행 여부를 이 본문으로 작성할 것.

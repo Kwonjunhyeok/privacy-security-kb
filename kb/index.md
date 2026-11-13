@@ -1,6 +1,49 @@
 # 지식베이스 목록
 
-마지막 갱신: 2026-11-02 (최초 수집 미완료: 반영 문서 0건. 같은 날 2차 실행에서도 원문 접속 차단으로 전량 보류. 다음 실행도 첫 실행으로 처리)
+마지막 갱신: 2026-11-13 (첫 실행 1회차: 41건 반영. 검증 대기 28건은 kb/_pending, 이월 목록은 reports/2026-11-13.md)
+
+시행예정 문서(laws/pipa-amendment-21910.md)는 2027-03-09 전까지 현행 근거가 아니다. 현행 개인정보 보호법은 laws/pipa.md(법률 제21445호)다.
 
 | 카테고리 | 문서 | 유형 | 공포·고시 번호 | 시행일·게시일 | 마지막 검증일 |
 |---|---|---|---|---|---|
+| laws | [개인정보 보호법 시행령](laws/pipa-enforcement-decree.md) | 시행령 | 대통령령 제36804호 (2026. 11. 10., 타법개정) | 시행 2026-11-10 | 2026-11-13 |
+| laws | [정보통신망 이용촉진 및 정보보호 등에 관한 법률](laws/network-act.md) | 법률 | 법률 제21988호 (2026. 9. 29., 일부개정) | 시행 2026-10-02 | 2026-11-13 |
+| laws | [정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행령](laws/network-act-enforcement-decree.md) | 시행령 | 대통령령 제36728호 (2026. 9. 29., 타법개정) | 시행 2026-10-02 | 2026-11-13 |
+| laws | [개인정보 보호법](laws/pipa.md) | 법률 | 법률 제21445호 (2026. 3. 10., 일부개정) | 시행 2026-09-11 | 2026-11-13 |
+| laws | [개인정보 보호법 일부개정 (법률 제21910호, 인공지능기술 개발을 위한 개인정보 처리 특례) — 공포, 시행 전](laws/pipa-amendment-21910.md) | 법률 | 법률 제21910호 (2026. 9. 8. 공포, 일부개정) | 시행 2027-03-09 | 2026-11-13 |
+| pipc | [과징금 투자감경제도 안내서](pipc/pipc-guide-penalty-investment-reduction.md) | 가이드라인 | - | 게시 2026-09-11 | 2026-11-13 |
+| pipc | [개인정보 유출등 대응 안내서(2026.9.)](pipc/pipc-guide-breach-response-2026-09.md) | 가이드라인 | - | 게시 2026-09-11 | 2026-11-13 |
+| pipc | [가명정보 처리 가이드라인 (2026.3. 개정)](pipc/pseudonymization-guideline.md) | 가이드라인 | - | 게시 2026-03-31 | 2026-11-13 |
+| threats | [Synology 제품 보안 업데이트 권고 (DSM 10건, 2026-11-12)](threats/kisa-synology-dsm-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
+| threats | [Node.js 제품 보안 업데이트 권고 (2026-11-12)](threats/kisa-nodejs-november-2026.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
+| threats | [React 서버 컴포넌트 보안 업데이트 권고 (CVE-2026-126187)](threats/kisa-react-server-components-cve-2026-126187.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
+| threats | [Apache HTTP Server 보안 업데이트 권고 (2026-11-12)](threats/kisa-apache-httpd-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
+| threats | [WordPress 플러그인 보안 업데이트 권고 (WPML·LiteSpeed Cache·Elementor·Ninja Forms, 2026-11-12)](threats/kisa-wordpress-plugins-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
+| threats | [MS 11월 보안 위협에 따른 정기 보안 업데이트 권고 (2026년 11월)](threats/kisa-ms-november-2026-security-update.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
+| threats | [MongoDB 제품 보안 업데이트 권고 (MongoDB Server 18건, 2026-11-11)](threats/kisa-mongodb-server-2026-11.md) | 보안공지 | - | 게시 2026-11-11 | 2026-11-13 |
+| threats | [Ivanti 제품 보안 업데이트 권고 (Sentry·EPMM·EPM·CSA, 2026-11-11)](threats/kisa-ivanti-sentry-epmm-epm-csa-2026-11.md) | 보안공지 | - | 게시 2026-11-11 | 2026-11-13 |
+| threats | [IBM 제품 보안 업데이트 권고 (MQ·API Connect·Aspera Faspex, 2026-11-10)](threats/kisa-ibm-mq-apiconnect-aspera-2026-11-10.md) | 보안공지 | - | 게시 2026-11-10 | 2026-11-13 |
+| threats | [SonicWall SonicOS 보안 업데이트 권고 (2026-11-09, 2026-11-10)](threats/kisa-sonicwall-sonicos-2026-11.md) | 보안공지 | - | 게시 2026-11-10 | 2026-11-13 |
+| threats | [SAP 제품 보안 업데이트 권고 (2026년 11월, 2026-11-10)](threats/kisa-sap-november-2026.md) | 보안공지 | - | 게시 2026-11-10 | 2026-11-13 |
+| threats | [개인정보위 — 스마트 글래스 이용 시 유의사항 당부 (분석 보고서 발간, 가이드라인 연내 배포 추진)](threats/2026-11-09-pipc-smart-glasses.md) | 동향 | - | 게시 2026-11-09 | 2026-11-13 |
+| threats | [인피니트헬스케어 INFINITT ULite 보안 업데이트 권고 (2026-11-07)](threats/kisa-infinitt-ulite-2026-11-07.md) | 보안공지 | - | 게시 2026-11-07 | 2026-11-13 |
+| threats | [OpenSSH 인증 우회 취약점(CVE-2026-123158) 보안 업데이트 권고 (2026-11-07)](threats/kisa-openssh-musl-auth-bypass-cve-2026-123158.md) | 보안공지 | - | 게시 2026-11-07 | 2026-11-13 |
+| threats | [Debian 및 Ubuntu 패키지 매니저 APT 보안 업데이트 권고 (2026-11-05)](threats/kisa-debian-ubuntu-apt-cve-2026-109518.md) | 보안공지 | - | 게시 2026-11-05 | 2026-11-13 |
+| threats | [Zyxel 제품 보안 업데이트 권고 (GS1900 스위치·AP·FWA7·Security Router, 2026-11-05)](threats/kisa-zyxel-gs1900-ap-fwa7-2026-11-05.md) | 보안공지 | - | 게시 2026-11-05 | 2026-11-13 |
+| threats | [Linux 커널 Use After Free 취약점(CVE-2026-43499) 보안 업데이트 권고 (2026-11-03)](threats/kisa-linux-kernel-cve-2026-43499.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-13 |
+| threats | [Synology NAS 대상 랜섬웨어 공격 주의 권고 (2026-11-03)](threats/kisa-synology-nas-ransomware-2026-11-03.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-13 |
+| threats | [지란지교소프트 CrossUploader 보안 조치 권고 (2026-11-03)](threats/kisa-jiran-crossuploader-2026-11-03.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-13 |
+| threats | [Apache 제품 보안 업데이트 권고 (Tomcat·Fineract, 2026-11-03)](threats/kisa-apache-tomcat-fineract-2026-11-03.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-13 |
+| threats | [Ivanti Connect Secure 보안 업데이트 권고 (2026-11-02)](threats/kisa-ivanti-connect-secure-2026-11-02.md) | 보안공지 | - | 게시 2026-11-02 | 2026-11-13 |
+| threats | [Oracle Java SE·GraalVM·OpenJDK 암호 알고리즘 취약점(CVE-2026-91403) 보안 업데이트 권고](threats/threat-java-cve-2026-91403.md) | 보안공지 | - | 게시 2026-10-23 | 2026-11-13 |
+| threats | [Node.js 제품 보안 업데이트 권고](threats/2026-10-nodejs-security-update.md) | 보안공지 | - | 게시 2026-10-23 | 2026-11-13 |
+| threats | [민간분야 사이버위기 경보 단계 '관심' → '주의' 상향 (2026-10-22)](threats/threat-cyber-alert-level-2026-10-22.md) | 보안공지 | - | 게시 2026-10-22 | 2026-11-13 |
+| threats | [PHP 원격 코드 실행 취약점(PHP2Shell, CVE-2026-109618·109619) 및 후속 CVE-2026-115560](threats/threat-php2shell-2026-10.md) | 보안공지 | - | 게시 2026-10-21 | 2026-11-13 |
+| threats | [개인정보위 보도참고 — 외부 설문도구(구글·네이버폼 등) 이용 시 개인정보 처리 준수사항](threats/2026-10-16-pipc-external-survey-tools.md) | 동향 | - | 게시 2026-10-16 | 2026-11-13 |
+| threats | [KISA MS 정기 보안 업데이트 권고 (2026년 8월·9월·10월)](threats/threat-ms-monthly-updates-2026-08-10.md) | 보안공지 | - | 게시 2026-10-15 | 2026-11-13 |
+| threats | [KISA 국내 SW 취약점 공지 — 일부 SW 제품 사용 주의(2026-08-19), 보안인증 SW 클리닝 서비스(INNORIX Agent, 2026-10-06)](threats/threat-kisa-sw-caution-cleaning-2026.md) | 보안공지 | - | 게시 2026-10-06 | 2026-11-13 |
+| threats | [금융권 개인정보 유출 관련 피해보상 사칭 피싱·스미싱 주의 (KISA·개인정보위, 2026-10-06)](threats/threat-phishing-breach-compensation-2026-10.md) | 보안공지 | - | 게시 2026-10-06 | 2026-11-13 |
+| threats | [과기정통부, 금융권의 연이은 해킹사고에 사이버위협 대응체계 강화](threats/2026-10-msit-financial-hacking-response.md) | 동향 | - | 게시 2026-10-06 | 2026-11-13 |
+| threats | [KISA 기업 보안강화 권고 — 최근 사이버공격 대비(2026-10-03) 및 추석 연휴 대비(2026-09-17)](threats/threat-kisa-enterprise-hardening-2026-09-10.md) | 보안공지 | - | 게시 2026-10-03 | 2026-11-13 |
+| threats | [개인정보위 「개인정보 유출·침해 사건 신속 조사 및 조사역량 강화 방안」](threats/2026-10-02-pipc-breach-investigation-reform.md) | 동향 | - | 게시 2026-10-02 | 2026-11-13 |
+| threats | [개인정보위 — 영국 개인정보 보호 수준 동등성 인정 검토 착수](threats/2026-10-01-pipc-uk-adequacy-review.md) | 동향 | - | 게시 2026-10-01 | 2026-11-13 |

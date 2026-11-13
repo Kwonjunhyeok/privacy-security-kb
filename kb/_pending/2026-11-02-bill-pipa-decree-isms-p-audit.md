@@ -5,8 +5,8 @@ doc_type: 개정안
 issuer: 개인정보보호위원회
 promulgation_no: 해당없음
 effective_date: 확인필요
-published_date: 확인필요   # 단서: 2026-09-16 입법예고, 예고기간 2026-10-26까지
-source_url: 확인필요
+published_date: 2026-09-16   # pipc 보도자료(입법예고 2026. 9. 16.~10. 26.)
+source_url: https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12500
 status: 개정안
 verified:
 candidate:
@@ -15,7 +15,7 @@ candidate:
   found_at:
     - https://byline.network/2026/09/16-698/   # B 단서, 미열람
     - https://www.ddaily.co.kr/page/view/2026060209483580759   # B 단서(2026-06 입법예고 별건 가능성), 미열람
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모(2026-11-02 2차 실행): 보고용 개정안 항목. pipc.go.kr 원문 미열람. 값은 언론 기사 기반 검색 요약 **단서**다.
@@ -42,3 +42,5 @@ candidate:
 - 2026-11-02 2차 kb-fact-checker (attempts 1): www.pipc.go.kr, www.law.go.kr(입법예고) 직접 열람 ENOTFOUND(세션 네트워크 허용 목록 밖). 근거가 B 등급 기사 단서뿐.
 - 이 초안은 status: 개정안 으로 바르게 표기되어 있고 현행으로 오인한 것은 아니다. 다만 입법예고 존재, 예고일 2026-09-16, 예고기간 ~2026-10-26, 개정 요지(서면·현장심사 병행, 과태료 1년 유예)를 A 원문으로 하나도 확인하지 못했다. 2026-06 ddaily 건과 같은 안인지도 미확인.
 - 통과하더라도 kb/ 현행본 반영 대상이 아님(target_path 해당없음). 시행령 현행본에 개정 내용으로 섞지 말 것.
+
+- 2026-11-13 kb-fact-checker (attempts 2): pipc.go.kr 보도자료(nttId=12500, 2026-09-16, 자율보호정책과) "개인정보 보호 인증(ISMS-P) 심사 개선을 위한 개인정보 보호법 시행령 개정안 입법예고" 원문 확인. 일치: 입법예고 2026. 9. 16.~10. 26., 서면·현장심사 병행 명확화, 침해사고·유출 시 일정 자격 기술인력(정보보호산업법 시행규칙 별표 1 중급 이상)의 취약점 점검(진단·모의침투), 사후심사에도 병행, 인증 의무대상자 인증 취소 시 1년 과태료 부과 유예(보도 부제). 4월 「ISMS-P 인증제 실효성 강화방안」 구체화. 공포 여부: 2026-11-13 law.go.kr 시행령 연혁 최신은 대통령령 제36804호(2026. 11. 10. 타법개정, 법정공고 방식)이며 이 개정안은 아직 공포되지 않음 → status 개정안 유지가 맞다. 보류 사유: 두 번째 A 출처(입법예고 원문 — law.go.kr 입법예고 또는 국민참여입법센터, 후자는 sources.md 미등재) 미확인. ddaily 2026-06 별건은 미확인 그대로. 통과해도 kb/ 현행본 반영 대상 아님(target_path 해당없음).

@@ -3,10 +3,10 @@ title: 신용정보의 이용 및 보호에 관한 법률 (개인신용정보 �
 category: laws
 doc_type: 법률
 issuer: 금융위원회
-promulgation_no: 확인필요   # 단서: 법률 제21646호 (2026-05-12 일부개정)
-effective_date: 확인필요    # 단서: 2026-08-13
+promulgation_no: 법률 제21445호 (2026. 3. 10., 타법개정)   # 2026-11-13 law.go.kr 현행(lsiSeq=283841). 직전 일부개정: 법률 제21646호(2026. 5. 12., 시행 2026. 8. 13.)
+effective_date: 2026-09-11
 published_date: 확인필요
-source_url: https://www.law.go.kr/법령/신용정보의이용및보호에관한법률
+source_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283841
 status: 현행
 verified:
 candidate:
@@ -16,7 +16,7 @@ candidate:
     - https://www.nepla.ai/law/%EC%8B%A0%EC%9A%A9%EC%A0%95%EB%B3%B4%EC%9D%98%20%EC%9D%B4%EC%9A%A9%20%EB%B0%8F%20%EB%B3%B4%ED%98%B8%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0   # 미등급, 미열람
     - https://fsc.go.kr/po010102/86145?curPage=4   # 금융위(sources.md 미등재), 미열람
     - https://www.lawtimes.co.kr/news/articleView.html?idxno=228191   # B 단서, 미열람
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr ENOTFOUND. 아래는 검색 요약 **단서**다. 금융위원회(fsc.go.kr)는 sources.md 에 등급이 없으므로 출처 추가 여부는 메인 세션 판단 사항이다.
@@ -50,3 +50,5 @@ candidate:
 - 2026-11-02 2차 kb-fact-checker (attempts 1): www.law.go.kr 직접 열람 ENOTFOUND(세션 네트워크 허용 목록 밖). A 등급 원문 0곳 확인.
 - 확인 못 한 값: 법률 제21646호·2026-05-12·시행 2026-08-13(미등급 nepla.ai 1곳 단서), 개정 내용, 개인신용정보 조항 요지(비어 있음), 연관 후보 조문 제목. 신용정보업감독규정은 예고 단계라서 확정이 아님.
 - 2차 교차 확인 출처 문제: 금융위원회(fsc.go.kr)는 sources.md 미등재라 A 등급 두 번째 출처가 없음. law.go.kr 외 교차 출처를 sources.md 에 추가할지는 메인 세션이 판단할 사항(검증기는 수정하지 않음).
+
+- 2026-11-13 kb-fact-checker (attempts 2): law.go.kr 접속 성공. 수정한 값: 현행본은 제21646호가 아니라 [시행 2026. 9. 11.] [법률 제21445호, 2026. 3. 10., 타법개정] (한글주소 → lsiSeq=283841). 제21646호(2026. 5. 12. 일부개정, 시행 2026. 8. 13., lsiSeq=285955)는 직전 일부개정. 시행령 현행 후보: 대통령령 제36671호(2026. 9. 10. 타법개정, 시행 2026. 9. 11.), 그 전 제36574호(2026. 8. 11. 일부개정, 시행 8. 13.). 보류 사유: (1) 개인신용정보 조항 요지가 비어 있음 (2) sources.md 에 신용정보법 소관 기관(금융위 fsc.go.kr) 등급이 없어 두 번째 A 출처가 없음 — sources.md 에 금융위원회 추가 여부는 메인 세션 판단 사항.

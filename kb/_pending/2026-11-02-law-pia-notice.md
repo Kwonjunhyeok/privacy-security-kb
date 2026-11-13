@@ -3,10 +3,10 @@ title: 개인정보 영향평가에 관한 고시
 category: laws
 doc_type: 고시
 issuer: 개인정보보호위원회
-promulgation_no: 확인필요
-effective_date: 확인필요    # 단서: 2025-09-05 시행 개정(2025-09-03 전체회의 의결)
+promulgation_no: 개인정보보호위원회고시 제2025-7호 (2025. 9. 5., 일부개정)   # 2026-11-13 law.go.kr·pipc.go.kr 일치
+effective_date: 2025-09-05
 published_date: 확인필요
-source_url: https://www.law.go.kr/행정규칙/개인정보영향평가에관한고시
+source_url: https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000263712&chrClsCd=010201
 status: 현행
 verified:
 candidate:
@@ -16,7 +16,7 @@ candidate:
     - https://www.newsseoul.co.kr/news/view/1065590419837104   # B 단서, 미열람
     - https://m.boannews.com/html/detail.html?idx=133972   # B 단서, 미열람
     - https://m.boannews.com/html/detail.html?idx=127714   # B 단서, 미열람
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, pipc.go.kr ENOTFOUND. 아래는 언론 기사 기반 검색 요약 **단서**다.
@@ -51,3 +51,5 @@ candidate:
 
 - 2026-11-02 2차 kb-fact-checker (attempts 1): www.law.go.kr, www.pipc.go.kr 직접 열람 ENOTFOUND(세션 네트워크 허용 목록 밖). 근거가 B 등급 기사 단서뿐.
 - 확인 못 한 값: 고시번호(단서 없음), 시행일 2025-09-05, 의결일 2025-09-03, AI 평가분야 2개 명칭, 2024-10 개정의 이행결과 제출 기한(1년 → 2개월), 2025-09-05 이후 추가 개정 여부.
+
+- 2026-11-13 kb-fact-checker (attempts 2): law.go.kr 행정규칙 현행본 [시행 2025. 9. 5.] [개인정보보호위원회고시 제2025-7호, 2025. 9. 5., 일부개정] (admRulSeq=2100000263712)과 pipc.go.kr 고시 게시판 nttId=11481 "개인정보 영향평가에 관한 고시(개인정보보호위원회고시 제2025-7호, 2025.9.5. 시행)" 일치(A 2곳). 직전 제2024-10호(2024.10.31. 시행, pipc nttId=10723). 2025-09-05 이후 개정 없음. 보류 사유: (1) 조문 요지가 비어 있음 (2) 'AI 평가분야 2개 신설', '이행결과 제출 기한 1년→2개월'은 고시 본문(admRulLsInfoR.do?admRulSeq=2100000263712)에서 '인공지능' 문구를 찾지 못해 확인 못 함(별표·수행안내서 소관일 수 있음). 의결일 2025-09-03 도 미확인.

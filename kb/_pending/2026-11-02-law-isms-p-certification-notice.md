@@ -3,10 +3,10 @@ title: 정보보호 및 개인정보보호 관리체계 인증 등에 관한 고
 category: laws
 doc_type: 고시
 issuer: 과학기술정보통신부, 개인정보보호위원회
-promulgation_no: 확인필요
-effective_date: 확인필요
+promulgation_no: 개인정보보호위원회고시 제2024-8호, 과학기술정보통신부고시 제2024-30호 (2024. 7. 24., 일부개정)   # 2026-11-13 law.go.kr·pipc.go.kr 일치
+effective_date: 2024-07-24
 published_date: 확인필요
-source_url: https://www.law.go.kr/행정규칙/정보보호및개인정보보호관리체계인증등에관한고시
+source_url: https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000244750&chrClsCd=010201
 status: 현행
 verified:
 candidate:
@@ -18,7 +18,7 @@ candidate:
     - https://byline.network/2026/09/16-698/   # B 단서, 미열람
     - https://www.newsis.com/view/NISX20260409_0003584993   # B 단서, 미열람
     - https://v.daum.net/v/20260312160905864   # B 단서, 미열람
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, isms.kisa.or.kr, pipc.go.kr, msit.go.kr ENOTFOUND. 현행 고시번호·시행일 단서는 찾지 못했다. 아래는 개편 동향 **단서**다.
@@ -56,3 +56,5 @@ candidate:
 
 - 2026-11-02 2차 kb-fact-checker (attempts 1): www.law.go.kr, isms.kisa.or.kr, www.pipc.go.kr, www.msit.go.kr 직접 열람 ENOTFOUND(세션 네트워크 허용 목록 밖). A 등급 원문 0곳 확인.
 - 현행 고시번호·시행일 단서조차 없음. '개편 동향'은 B 등급 기사에서 나온 정책 발표·계획이며 고시 개정 확정이 아님(행정예고·확정 공고 미확인). 현행 고시 내용으로 옮기면 안 됨.
+
+- 2026-11-13 kb-fact-checker (attempts 2): law.go.kr 행정규칙 현행본 [시행 2024. 7. 24.] [개인정보보호위원회고시 제2024-8호 / 과학기술정보통신부고시 제2024-30호, 2024. 7. 24., 일부개정] (admRulSeq=2100000244750)과 pipc.go.kr 고시 게시판 nttId=10393 "정보보호 및 개인정보보호 관리체계 인증 등에 관한 고시 일부개정(고시 제2024-8호, 2024.7.24)" 일치(A 2곳). 보류 사유: (1) 조문 요지가 비어 있음 — 본문은 admRulLsInfoR.do?admRulSeq=2100000244750&chrClsCd=010201 에서 열림(제1조~제39조; 제23조 인증심사 기준: ISMS-P는 별표 7 가목~다목, ISMS는 별표 7 가목·나목, 차등적용 대상은 별표 7의2·7의3). (2) 주의: 정보통신망법 제47조의7제2항(강화인증, 법률 제21500호, 2026. 10. 1. 시행)과 시행령 제36735호가 시행됐지만 2026-11-13 현재 law.go.kr 의 고시 현행본은 여전히 2024-07-24 판이다. '개편 동향'(강화·표준·간편 3단계, 101+20개)은 고시 개정 확정이 아니므로 현행으로 쓰지 말 것. 고시 개정 행정예고·공고 여부를 다음 수집 때 pipc 고시 게시판(bbsId=BS216)과 msit 에서 확인.

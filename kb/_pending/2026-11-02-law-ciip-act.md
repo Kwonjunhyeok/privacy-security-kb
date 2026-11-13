@@ -3,10 +3,10 @@ title: 정보통신기반 보호법
 category: laws
 doc_type: 법률
 issuer: 과학기술정보통신부
-promulgation_no: 확인필요
-effective_date: 확인필요
+promulgation_no: 법률 제20068호 (2024. 1. 23., 일부개정)   # 2026-11-13 law.go.kr 현행본(lsiSeq=259005)
+effective_date: 2025-01-24
 published_date: 확인필요
-source_url: https://www.law.go.kr/법령/정보통신기반보호법
+source_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=259005
 status: 현행
 verified:
 candidate:
@@ -14,7 +14,7 @@ candidate:
   target_path: kb/laws/ciip-act.md
   found_at:
     - https://ko.wikisource.org/wiki/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B8%B0%EB%B0%98_%EB%B3%B4%ED%98%B8%EB%B2%95   # 미등급, 미열람
-  attempts: 1
+  attempts: 2
 ---
 
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, msit.go.kr ENOTFOUND. 검색에서 2026년 개정 단서를 찾지 못했다. 추적 대상 목록을 채우기 위한 자리 초안이다.
@@ -43,3 +43,5 @@ candidate:
 
 - 2026-11-02 2차 kb-fact-checker (attempts 1): www.law.go.kr, www.msit.go.kr 직접 열람 ENOTFOUND(세션 네트워크 허용 목록 밖).
 - 내용이 없는 자리 초안: 법률번호·시행일·조문 요지 모두 확인필요. wikisource 의 제11690호는 미등급 출처이고 현행본인지 알 수 없어 쓰지 않음.
+
+- 2026-11-13 kb-fact-checker (attempts 2): law.go.kr 접속 성공. 현행 [시행 2025. 1. 24.] [법률 제20068호, 2024. 1. 23., 일부개정] 확인(한글주소 → lsiSeq=259005, 법령명 검색 연혁 최상위). 2026년 개정 없음. 시행령 현행 대통령령 제35947호(2025. 12. 30. 타법개정, 시행 2026. 1. 2.), 시행규칙 과학기술정보통신부령 제156호(2025. 10. 1. 타법개정). 보류 사유: (1) 조문 요지가 비어 있어 반영할 내용이 없음 — 다음 수집 때 law.go.kr 본문(lsInfoR.do?lsiSeq=259005&chrClsCd=010202&urlMode=lsInfoP&efYd=20250124&ancYnChk=0)으로 작성 필요 (2) 두 번째 A 출처(msit.go.kr 공포·시행 보도자료) 미확인.
