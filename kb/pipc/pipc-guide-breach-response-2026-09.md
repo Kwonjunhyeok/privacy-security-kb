@@ -6,6 +6,8 @@ issuer: 개인정보보호위원회
 promulgation_no: 해당없음
 effective_date: 해당없음   # 안내서
 published_date: 2026-09-11   # pipc.go.kr 안내서 게시판 작성일 (privacy.go.kr 지침자료 등록일 2026-09-14)
+edition: 2026.9.
+topics: [P03]
 source_url: https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12465
 status: 현행
 verified:

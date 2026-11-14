@@ -16,6 +16,7 @@
 |---|---|---|
 | 상담 에이전트 `security-kms` | `.claude/agents/security-kms.md` (원본) + `D:\Jun\.claude\agents\security-kms.md` (같은 내용 사본) | 진위 판정·연관 분석·규정 적합성 검토. kb 는 읽기만 함. 저장소 안에 있어 claude.ai/code 클라우드 세션에서도 쓸 수 있음 |
 | 수집 에이전트 `kb-collector` | `.claude/agents/` | 출처에서 신규·개정 후보를 `kb/_pending/` 에 초안으로 작성 |
+| 가이드 취합 에이전트 `kb-guide-curator` | `.claude/agents/` | 개인정보위·과기정통부·KISA 등의 가이드·안내서·정책자료를 분류(`kb/topics.md`)별로 취합하고 판 변경을 `kb/_pending/` 에 초안으로 작성. 결과는 `kb/catalog.md` |
 | 검증 에이전트 `kb-fact-checker` | `.claude/agents/` | 1차 출처 원문 재대조, 판정(통과·수정 후 통과·보류·기각) |
 | 갱신 절차 | `UPDATE.md` | 수집 → 검증 → 반영 → 정리 → 보고서 → 커밋 |
 | 데스크톱 예약 작업 `kb-daily-update` | 매일 06:00 KST | 이 PC에서 `UPDATE.md` 실행(원문 접속 가능) 후 main 에 push |
@@ -45,6 +46,8 @@
 - 누락 점검 목록은 기억이 아니라 kb 의 현행 문서에서 뽑는다.
 
 ## 의사결정 기록
+
+- 2026-11-14 가이드·안내서 취합을 `kb-collector` 에서 떼어 `kb-guide-curator` 로 분리했다. 법령은 공포번호·시행일로 개정을 알 수 있지만 안내서는 게시판을 넘기며 판(개정 연월)과 현행·과거 표시를 봐야 해서 일이 다르다. 분류 체계(`kb/topics.md`)와 분류별 목록(`kb/catalog.md`), 개인정보위 외 기관 자료용 `kb/guides/` 를 추가했다. 안내서는 한 기관 게시판에만 올라오는 일이 많아, 교차 확인을 "기관 게시물 + 다른 A 출처 한 곳(보도자료·첨부 원문 포함)"으로 정했다.
 
 - 2026-11-02 상담 에이전트 이름을 `privacy-security-expert` → `security-kms` 로 바꿨다(사용자 요청 `security_kms`; 에이전트 이름 규칙상 밑줄 대신 하이픈). PC 없이도 쓰도록 원본을 저장소에 두고, D:\Jun 세션용 사본을 둔다. 원본을 고치면 사본에도 복사한다.
 - 2026-11-02 하이브리드로 전환했다. 클라우드 환경에서 law.go.kr·pipc.go.kr·isms.kisa.or.kr·boho.or.kr 등이 프록시 CONNECT 403 으로 막혀(네트워크 설정 변경 후에도 동일) 원문 검증이 불가능했다. 수집·검증은 원문이 열리는 이 PC의 데스크톱 예약 작업이 맡고 GitHub 에 push 한다. 상담(`security-kms`)은 PC 없이 claude.ai/code 에서 저장소를 열어 쓸 수 있다. 단, 클라우드 상담에서는 kb 에 없는 사안을 국내 원문으로 바로 확인할 수 없다.
