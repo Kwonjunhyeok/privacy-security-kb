@@ -6,6 +6,7 @@
 |---|---|
 | `page.js` | 페이지 본문 텍스트와 링크 목록 저장. 메뉴 구조·게시물 본문 확인용 |
 | `board.js` | 게시판 목록 표의 행 추출. 여러 쪽 URL을 한 번에 넘긴다 |
+| `download.js` | 게시물 첨부(PDF 등) 내려받기. 게시물을 연 뒤 페이지 안에서 받는다. 첨부 주소 형식은 파일 머리 주석 참고 |
 
 ```bash
 # Playwright 가 전역 설치된 환경(클라우드 세션 기본)
@@ -26,3 +27,5 @@ PC(Windows)에서 Node·Playwright 가 없으면 Claude 데스크톱 앱의 내�
 | 과기정통부 보도자료 | https://www.msit.go.kr/bbs/list.do?sCode=user&mPid=208&mId=307&bbsSeqNo=94 | `&pageIndex=N`, 제목 검색 `&searchOpt=NTT_SJ&searchTxt=…` | 표가 아니라 `page.js` 로 읽는다 |
 
 가끔 첫 시도에서 빈 결과(0행)가 나온다. 그 쪽만 다시 받는다.
+
+첨부 원문(PDF)은 저장소에 넣지 않는다(.gitignore). 임시 폴더에 받아 `pdftotext` 나 Python `pypdf` 로 글자를 뽑아 읽는다.
