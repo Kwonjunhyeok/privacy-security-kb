@@ -1,6 +1,6 @@
 # 분류별 자료 목록
 
-마지막 갱신: 2026-11-15 (개인정보위·KISA·과기정통부 현행 목록, ISMS-P, 안내서 요약 반영. 보호나라·국가사이버안보센터 목록 추가)
+마지막 갱신: 2026-11-15 (주간 갱신: 법령 해설서·전문기관 지정 안내서 요약 반영. 이전: 개인정보위·KISA·과기정통부 현행 목록, ISMS-P, 안내서 요약, 보호나라·국가사이버안보센터 목록)
 
 가이드·안내서·정책자료를 `kb/topics.md` 의 분류별로 모은 목록이다. 검증을 통과해 `kb/` 에 들어온 문서만 적는다. `UPDATE.md` 4단계에서 기관별 현행 목록 문서와 개별 문서 frontmatter(`topics`, `edition`, `published_date`)로 다시 만든다.
 
@@ -34,14 +34,14 @@
 | P01 | [해외사업자의 개인정보 보호법 적용 안내서(2024.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10059) | 개인정보보호위원회 | 2024.4. | 2024-04-04 | 목록만 | 2026-11-15 |
 | P01 | [개인정보 보호법 및 시행령 2차 개정사항 안내서(2024.3.) 및 현장설명회(3.18.) 자료](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9986) | 개인정보보호위원회 | 2024.3. | 2024-03-12 | 목록만 | 2026-11-15 |
 | P01 | [개인정보 보호법 및 시행령 개정사항 안내서(2023.12.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9898) | 개인정보보호위원회 | 2023.12. | 2024-02-02 | 목록만 | 2026-11-15 |
-| P01 | [2020 개인정보 보호 법령 및 지침·고시 해설서](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=6968) | 개인정보보호위원회 | 확인필요 | 2020-12-02 | 목록만 | 2026-11-15 |
+| P01 | [2020 개인정보 보호 법령 및 지침·고시 해설서](pipc/pipc-guide-legal-commentary.md) ⚠ 2020년 법 기준, 현행 조문과 다를 수 있음 | 개인정보보호위원회 | 2020. 12 | 2020-12-02 | 있음 | 2026-11-15 |
 | P01 | [웹사이트 회원탈퇴 기능 구현 안내서](https://www.kisa.or.kr/2060305/form?postSeq=4) | 한국인터넷진흥원 게시 | 확인필요 | 2016-02-24 | 목록만 | 2026-11-15 |
 | P02 | [개인정보의 안전성 확보조치 기준 안내서(2026.11.)](pipc/safety-measures-guide.md) | 개인정보보호위원회 | 2026.11. | 2026-11-05 | 있음 | 2026-11-15 |
 | P02 | [개발자 대상 개인정보 보호조치 적용 안내서](https://www.kisa.or.kr/2060301/form?postSeq=25) ⚠ 이전 판 가능성 | 한국인터넷진흥원 게시 | 확인필요 | 2025-10-15 | 목록만 | 2026-11-15 |
 | P02 | [홈페이지 개인정보 노출방지 안내서(2024.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10877) | 개인정보보호위원회 | 2024.4. | 2024-12-20 | 목록만 | 2026-11-15 |
 | P03 | [개인정보 유출등 대응 안내서(2026.9.)](pipc/pipc-guide-breach-response.md) | 개인정보보호위원회 | 2026.9. | 2026-09-11 | 있음 | 2026-11-15 |
 | P03 | [개인정보 손해배상책임 보장제도 안내서(2024.3.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10024) | 개인정보보호위원회 | 2024.3. | 2024-03-27 | 목록만 | 2026-11-15 |
-| P04 | [개인정보관리 전문기관 지정 안내서 및 신청 관련 양식](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12619) | 개인정보보호위원회 | 확인필요 | 2026-11-05 | 목록만 | 2026-11-15 |
+| P04 | [개인정보관리 전문기관 지정 안내서 및 신청 관련 양식](pipc/pipc-guide-mydata-specialist-agency.md) | 개인정보보호위원회 | 일반 2026. 11. / 특수 2026. 8. / 중계 2025. 03. | 2026-11-05 | 있음 | 2026-11-15 |
 | P04 | [(전 분야 마이데이터) 개인정보 전송요구권 제도 안내서(2026.6. 개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12199) | 개인정보보호위원회 | 2026.6. 개정 | 2026-06-25 | 목록만 | 2026-11-15 |
 | P04 | [전 분야 마이데이터 전송 절차 및 기술 가이드라인(마이데이터 표준 API 규격 및 명세 포함)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11106) | 개인정보보호위원회 | 확인필요 | 2025-04-02 | 목록만 | 2026-11-15 |
 | P04 | [인터넷 자기게시물 접근배제요청권 안내서(2024.12.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10895) | 개인정보보호위원회 | 2024.12. | 2024-12-30 | 목록만 | 2026-11-15 |
