@@ -1,6 +1,6 @@
 # 지식베이스 목록
 
-마지막 갱신: 2026-11-15 (가이드·안내서 주간 점검: 기관별 현행 목록 3건, ISMS-P 인증기준 4건, 개인정보위 안내서 요약 6건 반영, reports/2026-11-15.md)
+마지막 갱신: 2026-11-15 (가이드·안내서 주간 점검: 기관별 현행 목록 3건, ISMS-P 인증기준 4건, 개인정보위 안내서 요약 6건, KISA 가이드 요약 5건 반영, reports/2026-11-15.md)
 
 시행예정 문서(laws/pipa-amendment-21910.md)는 2027-03-09 전까지 현행 근거가 아니다. 현행 개인정보 보호법은 laws/pipa.md(법률 제21445호)다.
 
@@ -17,6 +17,11 @@
 | isms-p | [ISMS-P 인증기준 1. 관리체계 수립 및 운영 (16개)](isms-p/1-management-system.md) | 인증기준 | - | 게시 2024-01-17 | 2026-11-15 |
 | isms-p | [ISMS-P 인증기준 2. 보호대책 요구사항 (64개)](isms-p/2-protection-measures.md) | 인증기준 | - | 게시 2024-01-17 | 2026-11-15 |
 | isms-p | [ISMS-P 인증기준 3. 개인정보 처리 단계별 요구사항 (21개)](isms-p/3-personal-info-lifecycle.md) | 인증기준 | - | 게시 2024-01-17 | 2026-11-15 |
+| guides | [제로트러스트 가이드라인 2.0](guides/zero-trust-guideline.md) | 가이드라인 | - | 게시 2024-12-03 | 2026-11-15 |
+| guides | [주요정보통신기반시설 기술적 취약점 분석·평가 방법 상세가이드](guides/ciip-technical-vulnerability-assessment-guide.md) | 가이드라인 | - | 게시 2025-12-24 | 2026-11-15 |
+| guides | [주요정보통신기반시설 관리·물리적 취약점 분석·평가 방법 안내서](guides/ciip-managerial-physical-vulnerability-assessment-guide.md) | 가이드라인 | - | 게시 2025-12-24 | 2026-11-15 |
+| guides | [인공지능(AI) 보안 안내서](guides/ai-security-guide.md) | 가이드라인 | - | 게시 2025-12-10 | 2026-11-15 |
+| guides | [에이전틱 AI 제로트러스트 안내서](guides/agentic-ai-zero-trust-guide.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
 | guides | [한국인터넷진흥원 현행 가이드라인·안내서 목록](guides/kisa-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
 | guides | [과학기술정보통신부 정보보호 가이드 발표 목록](guides/msit-guides-current-list.md) | 정책자료 | - | 게시 2026-03-05 | 2026-11-15 |
 | pipc | [개인정보위 현행 안내서 목록 (안내서 게시판 기준)](pipc/pipc-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |

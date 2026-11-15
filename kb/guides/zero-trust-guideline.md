@@ -19,16 +19,6 @@ verified:
     - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=307&mPid=208&bbsSeqNo=94&nttSeqNo=3185203   # 과기정통부 보도자료 게시물: 정보보호산업과, 2024-12-03
     - https://www.msit.go.kr/ssm/file/fileDown.do?atchFileNo=47821&fileOrd=1   # 보도자료 hwpx: 배포 2024. 12. 3.(화) 14:00, 붙임 1.0 대비 비교표
     - https://www.msit.go.kr/ssm/file/fileDown.do?atchFileNo=47821&fileOrd=3   # 제로트러스트 가이드라인 2.0.zip → PDF 7,124,274 bytes, 245쪽 (KISA 첨부와 해시 다름, 아래 검증 기록)
-candidate:
-  kind: new
-  target_path: kb/guides/zero-trust-guideline.md
-  found_at:
-    - https://www.kisa.or.kr/2060204/form?postSeq=18
-    - https://www.kisa.or.kr/post/fileDownload?menuSeq=2060204&postSeq=18&attachSeq=1&lang_type=KO
-    - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=307&mPid=208&bbsSeqNo=94&nttSeqNo=3185203
-    - https://www.msit.go.kr/ssm/file/fileDown.do?atchFileNo=47821&fileOrd=1
-    - https://www.kisa.or.kr/2060207
-  attempts: 0
 ---
 
 # 제로트러스트 가이드라인 2.0
