@@ -24,6 +24,8 @@ PC(Windows)에서 Node·Playwright 가 없으면 Claude 데스크톱 앱의 내�
 | KISA 가이드라인 | https://www.kisa.or.kr/2060207 | `?page=N` | 쪽당 10건 |
 | KISA 안내서 | https://www.kisa.or.kr/2060307 | `?page=N` | 쪽당 10건 |
 | 개인정보 포털 안내서 | https://www.privacy.go.kr/front/bbs/bbsList.do?bbsNo=BBSMSTR_000000000049 | `&pageIndex=N` | 표가 아니라 `page.js` 로 읽는다 |
+| 보호나라 보고서/가이드 | https://www.boho.or.kr/kr/bbs/list.do?menuNo=205021&bbsId=B0000127 | `&pageIndex=N` | `board.js` 로 읽힘. 첨부 `/common/cmm/fms/FileDown.do?atchFileId=…&fileSn=…&bbsId=B0000127` |
+| 국가사이버안보센터 지침·가이드 | 메인 → 자료실 > 지침·가이드 (token 주소) | 화면의 `.paging a` 클릭 | 첨부는 `download.js` 의 `click:<링크 글자>` 방식. 게시물의 SHA-256 과 대조 |
 | 과기정통부 보도자료 | https://www.msit.go.kr/bbs/list.do?sCode=user&mPid=208&mId=307&bbsSeqNo=94 | `&pageIndex=N`, 제목 검색 `&searchOpt=NTT_SJ&searchTxt=…` | 표가 아니라 `page.js` 로 읽는다 |
 
 가끔 첫 시도에서 빈 결과(0행)가 나온다. 그 쪽만 다시 받는다.
