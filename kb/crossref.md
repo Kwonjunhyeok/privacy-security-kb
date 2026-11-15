@@ -2,12 +2,14 @@
 
 ISMS-P 인증기준 항목을 축으로 관련 법 조항, 가이드, 처분 사례, 위협 동향을 잇는다. 연결은 양쪽 문서 본문에서 근거를 확인한 것만 적는다.
 
+2026-11-15: ISMS-P 인증기준 문서가 kb/isms-p 에 반영됐다(2.11.5 연결 추가). 처분 사례 문서는 아직 검증 대기 중이라 kb 에 없다. 아래 2026-11-13 메모 참고.
+
 2026-11-13 기준: ISMS-P 인증기준·처분 사례 문서는 아직 검증 대기 중이라 kb 에 없다. 그래서 해당 열은 `-` 로 두고, kb 에 실제로 있는 문서끼리의 연결만 적었다. 위협 문서 본문에 적힌 ISMS-P 항목(2.10.8 패치관리 등)은 인증기준 문서가 반영되면 이 표로 옮긴다.
 
 | ISMS-P 항목 | 법 조항 | 고시·가이드 | 처분 사례 | 관련 위협·동향 |
 |---|---|---|---|---|
 | - | 개인정보 보호법 제31조 ([pipa](laws/pipa.md)) ↔ 시행령 제32조제4항 ([pipa-enforcement-decree](laws/pipa-enforcement-decree.md)) | - | - | - |
-| - | 개인정보 보호법 제34조 ([pipa](laws/pipa.md)) ↔ 시행령 제39조의2·제39조의3 ([pipa-enforcement-decree](laws/pipa-enforcement-decree.md)) | [개인정보 유출등 대응 안내서(2026.9.)](pipc/pipc-guide-breach-response-2026-09.md) | - | - |
+| [2.11.5 사고 대응 및 복구](isms-p/2-protection-measures.md) | 개인정보 보호법 제34조 ([pipa](laws/pipa.md)) ↔ 시행령 제39조의2·제39조의3 ([pipa-enforcement-decree](laws/pipa-enforcement-decree.md)) | [개인정보 유출등 대응 안내서(2026.9.)](pipc/pipc-guide-breach-response-2026-09.md) | - | - |
 | - | 개인정보 보호법 제64조의2 (제6항 투자 감경) ([pipa](laws/pipa.md)) ↔ 시행령 제60조의2제5항, 별표 1의5 ([pipa-enforcement-decree](laws/pipa-enforcement-decree.md)) | [과징금 투자감경제도 안내서](pipc/pipc-guide-penalty-investment-reduction.md) | - | [유출·침해 사건 신속 조사 및 조사역량 강화 방안](threats/2026-10-02-pipc-breach-investigation-reform.md) |
 | - | 개인정보 보호법 제28조의2~제28조의5 ([pipa](laws/pipa.md)) | [가명정보 처리 가이드라인(2026.3.)](pipc/pseudonymization-guideline.md) | - | - |
 | - | 개인정보 보호법 제28조의8제1항제5호, 제28조의9 ([pipa](laws/pipa.md)) | - | - | [영국 동등성 인정 검토 착수](threats/2026-10-01-pipc-uk-adequacy-review.md) |

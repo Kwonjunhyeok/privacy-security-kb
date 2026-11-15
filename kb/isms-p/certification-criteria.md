@@ -20,16 +20,6 @@ verified:
     - https://www.kisa.or.kr/post/fileDownload?menuSeq=2060301&postSeq=54&attachSeq=1&lang_type=KO   # 첨부 원문, 개인정보위 첨부와 sha256 동일
     - https://www.law.go.kr/행정규칙/정보보호및개인정보보호관리체계인증등에관한고시   # 현행 고시 제2024-8호·제2024-30호, 시행 2024. 7. 24.
     - https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000244750   # 제23조, 별표 7·7의2·7의3 (별표 7 PDF flSeq=152893983)
-candidate:
-  kind: new
-  target_path: kb/isms-p/certification-criteria.md
-  found_at:
-    - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9862   # 첨부 「ISMS-P 인증기준 안내서(2023.11.23).pdf」
-    - https://www.kisa.or.kr/2060301/form?postSeq=54   # 첨부 「★정보보호 및 개인정보보호 관리체계 인증기준 안내서(2023.11).pdf」(7MB)
-    - https://pipc.go.kr/np/cmm/fms/FileDown.do?atchFileId=FILE_000000000556830&fileSn=0   # 개인정보위 첨부 원문
-    - https://www.kisa.or.kr/post/fileDownload?menuSeq=2060301&postSeq=54&attachSeq=1&lang_type=KO   # KISA 첨부 원문
-    # 두 첨부와 사용자 제공 파일(★…인증기준 안내서(2023.11).pdf)이 sha256 6df06f8ddf007094…e599, 7,336,823 bytes, 264쪽으로 같다(2026-11-15 확인)
-  attempts: 2
 ---
 
 # ISMS-P 인증기준 및 인증기준 안내서
@@ -197,13 +187,6 @@ candidate:
 
 - 개인정보 보호법 제32조의2(개인정보 보호 인증): 안내서 4쪽에 근거 조문으로 적혀 있다 ↔ [pipa.md](../laws/pipa.md) `## 제32조의2`
 - 개인정보위 현행 안내서 목록: [pipc-guides-current-list.md](../pipc/pipc-guides-current-list.md) S01 행 (nttId 9862, 자율보호정책과, 2024-01-17)
-
-## 보류 사유
-
-- 2026-11-02 2차 kb-fact-checker (attempts 1): isms.kisa.or.kr, www.pipc.go.kr, www.law.go.kr 직접 열람 ENOTFOUND(세션 네트워크 허용 목록 밖). A 등급 원문 0곳 확인.
-- 확인 못 한 값: 안내서 최신판·게시일, 영역·분야·항목 수, 항목별 요지(비어 있음). '101개 + 강화 20개'는 B 등급 기사 속 개편 계획(시행 2027 단서)이지 현행 인증기준이 아님. 공공데이터포털·kisa.or.kr 은 미등급.
-
-- 2026-11-13 kb-fact-checker (attempts 2): isms.kisa.or.kr 은 여전히 DNS 실패. 대체 경로로 law.go.kr 인증 고시 본문(admRulLsInfoR.do?admRulSeq=2100000244750)을 열어 제23조에서 인증기준이 별표 7(ISMS-P: 가목~다목, ISMS: 가목·나목)이고 차등적용 대상은 별표 7의2·7의3 임을 확인. 그러나 별표 본문(영역·분야·항목 수, 항목명)은 조문 본문 응답에 포함되지 않아 대조하지 못함(별표 파일 다운로드는 하지 않음). pipc.go.kr ISMS-P 페이지(page.do?mCode=D040020000)는 법적 근거(개인정보 보호법 제32조의2)와 절차만 보여 항목 체계 확인 불가. 보류 사유: 항목 체계·항목별 요지가 비어 있고 A 원문 대조 불가. '101개 + 강화 20개'는 여전히 개편 계획 단서로만 취급.
 
 ## 검증 기록
 
