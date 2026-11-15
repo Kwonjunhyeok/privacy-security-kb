@@ -10,6 +10,8 @@
 | A | 개인정보보호위원회 법령·고시 | https://www.pipc.go.kr | 소관 고시 제·개정 공고, 입법·행정예고 |
 | A | 과학기술정보통신부 | https://www.msit.go.kr | 정보통신망법 소관 고시, 보도자료 |
 | A | 국회 의안정보시스템 | https://likms.assembly.go.kr/bill | 개정안 발의·통과 여부 (통과 전은 `개정안` 으로만 기록) |
+| A | 금융위원회 | https://www.fsc.go.kr | 신용정보법 소관. 법령·고시 개정 공고, 입법예고, 보도자료 (신용정보법의 두 번째 A 출처) |
+| B | 정책브리핑 | https://www.korea.kr | 부처 보도자료 재게시. 단서로만 쓰고 소관 부처 원문으로 재확인 |
 
 추적 대상(최소):
 - 개인정보 보호법 / 시행령 / 시행규칙
@@ -26,6 +28,7 @@
 |---|---|---|---|
 | A | KISA ISMS-P 인증 | https://isms.kisa.or.kr | 인증기준, 인증기준 안내서 개정판, 공지사항 |
 | A | 개인정보보호위원회 | https://www.pipc.go.kr | 인증 고시 개정 공고 |
+| A | 한국인터넷진흥원(KISA) | https://www.kisa.or.kr | KISA 발간 안내서·가이드, 공지·보도자료 |
 
 ## 개인정보위 가이드·처분 (kb/pipc)
 
@@ -41,6 +44,9 @@
 | A | KISA 보호나라 | https://www.boho.or.kr | 보안공지, 취약점 정보, 침해사고 경보 |
 | A | 과학기술정보통신부 | https://www.msit.go.kr | 정보보호 정책 보도자료 |
 | A | KrCERT/CC·NCSC 공지 | https://www.boho.or.kr, https://www.ncsc.go.kr | 경보 단계, 공식 권고 |
+| A | 한국인터넷진흥원(KISA) | https://www.kisa.or.kr | KISA 보도자료, 보고서 |
+| B | 정책브리핑 | https://www.korea.kr | 부처 보도자료 재게시. 단서로만 쓰고 소관 부처 원문으로 재확인 |
+| B | 공공데이터포털 | https://www.data.go.kr | 데이터셋·목록. 단서로만 씀 |
 | B | 보안 전문 언론 (보안뉴스, 데일리시큐 등) | - | 단서. 반드시 A 출처로 재확인 |
 
 ## 이 목록 자체의 변경
