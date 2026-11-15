@@ -11,6 +11,15 @@ topics: [S01]
 source_url: https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9862
 status: 현행
 verified:
+  date: 2026-11-15
+  by: kb-fact-checker
+  sources:
+    - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9862   # 게시물: [현재 안내서], 자율보호정책과, 작성일 2024-01-17, 첨부 ISMS-P 인증기준 안내서(2023.11.23).pdf
+    - https://pipc.go.kr/np/cmm/fms/FileDown.do?atchFileId=FILE_000000000556830&fileSn=0   # 첨부 원문 sha256 6df06f8d…e599, 7,336,823 bytes, 264쪽
+    - https://www.kisa.or.kr/2060301/form?postSeq=54   # 게시물: 등록일 2025-10-15, 첨부 ★…인증기준 안내서(2023.11).pdf (7MB)
+    - https://www.kisa.or.kr/post/fileDownload?menuSeq=2060301&postSeq=54&attachSeq=1&lang_type=KO   # 첨부 원문, 개인정보위 첨부와 sha256 동일
+    - https://www.law.go.kr/행정규칙/정보보호및개인정보보호관리체계인증등에관한고시   # 현행 고시 제2024-8호·제2024-30호, 시행 2024. 7. 24.
+    - https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000244750   # 제23조, 별표 7·7의2·7의3 (별표 7 PDF flSeq=152893983)
 candidate:
   kind: new
   target_path: kb/isms-p/2-protection-measures.md
@@ -1499,7 +1508,7 @@ candidate:
 **결함사례**
 - 사례 1 : 재해 복구 훈련을 계획·시행하지 않았거나 관련 계획서 및 결과보고서가 확인되지 않은 경우
 - 사례 2 : 재해 복구 훈련 계획을 수립하였으나, 타당한 사유 또는 승인 없이 계획대로 실시하지 않았거나 관련 결과보고가 확인되지 않은 경우
-- 사례 3 : 재해 복구 훈련을 계획하여 실시하였으나, 내부 관련 지침에 정한 절차 및 서식에 따라 이행되지 않아 수립한 재해 복구 절차의 적정성 및 효과성을 평가하기 위한 훈련으로 보기 어려운 경우 개인정보 처리 단계별 요구사항
+- 사례 3 : 재해 복구 훈련을 계획하여 실시하였으나, 내부 관련 지침에 정한 절차 및 서식에 따라 이행되지 않아 수립한 재해 복구 절차의 적정성 및 효과성을 평가하기 위한 훈련으로 보기 어려운 경우
 
 
 ## 연관 후보

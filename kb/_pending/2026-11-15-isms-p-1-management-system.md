@@ -11,6 +11,15 @@ topics: [S01]
 source_url: https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9862
 status: 현행
 verified:
+  date: 2026-11-15
+  by: kb-fact-checker
+  sources:
+    - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9862   # 게시물: [현재 안내서], 자율보호정책과, 작성일 2024-01-17, 첨부 ISMS-P 인증기준 안내서(2023.11.23).pdf
+    - https://pipc.go.kr/np/cmm/fms/FileDown.do?atchFileId=FILE_000000000556830&fileSn=0   # 첨부 원문 sha256 6df06f8d…e599, 7,336,823 bytes, 264쪽
+    - https://www.kisa.or.kr/2060301/form?postSeq=54   # 게시물: 등록일 2025-10-15, 첨부 ★…인증기준 안내서(2023.11).pdf (7MB)
+    - https://www.kisa.or.kr/post/fileDownload?menuSeq=2060301&postSeq=54&attachSeq=1&lang_type=KO   # 첨부 원문, 개인정보위 첨부와 sha256 동일
+    - https://www.law.go.kr/행정규칙/정보보호및개인정보보호관리체계인증등에관한고시   # 현행 고시 제2024-8호·제2024-30호, 시행 2024. 7. 24.
+    - https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000244750   # 제23조, 별표 7·7의2·7의3 (별표 7 PDF flSeq=152893983)
 candidate:
   kind: new
   target_path: kb/isms-p/1-management-system.md

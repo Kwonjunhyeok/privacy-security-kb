@@ -3,6 +3,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 (async () => {
   const [out, ...urls] = process.argv.slice(2);
+  fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch();
   const ctx = await b.newContext({ locale: 'ko-KR' });
   let i = 0;
