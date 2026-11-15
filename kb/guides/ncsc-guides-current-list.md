@@ -9,21 +9,11 @@ published_date: 2026-08-01   # 지침·가이드 게시판 최신 등록일 (수
 source_url: https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNsYfHBDSvLeAA55UtgT6j6-A
 status: 현행
 verified:
-candidate:
-  kind: new
-  target_path: kb/guides/ncsc-guides-current-list.md
-  found_at:
-    - https://www.ncsc.go.kr/   # 메인 → 전체메뉴 > 자료실
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNsYfHBDSvLeAA55UtgT6j6-A   # 자료실 > 지침·가이드 (23건, 3쪽)
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bjbj6TOOuVDquFOkUDrBeAcxeKdtZc4Tlj2YP1o4ge42A   # 자료실 > 발간자료 > 국가정보보호백서 (31건, 7쪽)
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvKlgmp4pbcUcyETJn6NrHSIACCUP_xvUj35ZGb7sJqI4   # N2SF 보안가이드라인 1.0
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvHOSgNtKWDPReFBiQDhPux5JMwBMtawT2n7fNohXumkr   # N2SF 보안 가이드라인(Draft)
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNj_uU6OMakPcrAhgWAjJq6eEvT3SmMyxg5hgnvZ2g1h   # N2SF 이해 및 활용 안내
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvMBQ9yji1O0uKiPsS2aFQM07mQ5u7yGVw572DcM-zepU   # 국가 사이버보안 기본지침(5.1부 개정) 안내
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNzTOjP8gkChNnk_EYRuXrf0ZUeMzjGQSWwdLqxeWhxW   # 舊 국가 정보보안 기본지침
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvKcQbyRHaulf1awVnDFAlNbWO8NgMZZSCNgNXo13u9W6   # 암호모듈 시험 및 검증지침(2025.6.1부)
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvBL0bbZO5HiVN9vMjIKidIGinjESc-bO9B3A3DTpW0SM   # 민간클라우드 도입 가능 목록(2026.9.30)
-  attempts: 0
+  date: 2026-11-15
+  by: kb-fact-checker
+  sources:
+    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNsYfHBDSvLeAA55UtgT6j6-A   # 지침·가이드 목록 1~3쪽 (23건)
+    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvMBQ9yji1O0uKiPsS2aFQM07mQ5u7yGVw572DcM-zepU   # 게시물 본문 23건 전부 열람(대표: 2번)
 ---
 
 # 국가사이버안보센터 지침·가이드 현행 목록
@@ -48,7 +38,7 @@ candidate:
 |---|---|---|---|---|---|
 | S04, S09 | [국가·공공기관 민간클라우드 컴퓨팅서비스 도입 가능 목록(2026.9.30)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvBL0bbZO5HiVN9vMjIKidIGinjESc-bO9B3A3DTpW0SM) | 1 | 기타 공시 | 2026-08-01 | 첨부 「20260930_국가공공기관_민간클라우드_컴퓨팅서비스_도입_가능목록(20260930_기준).pdf」. 제목 기준일(2026.9.30)이 작성일(2026.08.01)보다 늦음 → 게시판 표기 그대로 |
 | S09 | [국가 사이버보안 기본지침(5.1부 개정) 안내](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvMBQ9yji1O0uKiPsS2aFQM07mQ5u7yGVw572DcM-zepU) | 2 | 지침 | 2026-07-20 | 게시물: "2026년 5월 1일부로 국가 사이버보안 기본지침(舊 국가 정보보안 기본지침)을 개정". 첨부 「국가사이버보안기본지침.pdf」 1건. 원문 미확인 |
-| S04, X01 | [SW 공급망 보안 강화 로드맵](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvMmE7Jz3x_Huja3jsX_79Kjr-BFqUyc8mzWR7QUAp0D-) | 3 | 기타 공시 | 2026-07-03 | KISA 지식플랫폼 「SW 공급망 보안 강화 로드맵 발표(2026.06.)」(가이드라인 72번)과 같은 자료인지 확인필요 |
+| S04, X01 | [SW 공급망 보안 강화 로드맵](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvMmE7Jz3x_Huja3jsX_79Kjr-BFqUyc8mzWR7QUAp0D-) | 3 | 기타 공시 | 2026-07-03 | 게시물: "관계부처 합동으로 발간". 첨부 「SW 공급망 보안 강화 로드맵(2026년 6월).pdf」. KISA 지식플랫폼 「SW 공급망 보안 강화 로드맵 발표(2026.06.)」(가이드라인 72번)과 같은 자료인지 확인필요 |
 | S09 | [국가 망 보안체계(N2SF) 이해 및 활용 안내](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNj_uU6OMakPcrAhgWAjJq6eEvT3SmMyxg5hgnvZ2g1h) | 4 | 기타 공시 | 2026-03-24 | N2SF 설명자료(13쪽). 원문 열람 |
 | S08 | [지능형 전력망 사이버보안 가이드라인(2026.03)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvLVRScxAP7e6jeBCRF3hXUiVuzOi3FNpsh9hOhVTcmLY) | 6 | 가이드 | 2026-03-11 |  |
 | S09 | [2026년도 사이버보안 실태 평가지표](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvH4D27_lndraxOrzvh9YmIvJ_eJWtU2132BbQuPrDilQ) | 7 | 기타 공시 | 2025-12-11 |  |
@@ -58,7 +48,7 @@ candidate:
 | S02, S03 | [관제기술 플랫폼(SIEM/SOAR) 구축 가이드라인(25.5)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvFzM5mNyA454egeZn0YzoQBB8MIAM0m9PkW_2a_CDWnT) | 11 | 가이드 | 2025-06-20 |  |
 | S09, S03 | [암호모듈 시험 및 검증지침(2025.6.1부)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvKcQbyRHaulf1awVnDFAlNbWO8NgMZZSCNgNXo13u9W6) | 12 | 지침 | 2025-05-30 | 첨부 HWP 1건(원문 미확인) |
 | 미분류 | [병원정보시스템 보안가이드라인(2025.4)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvD10NTv7jzfU2GzEhHBs5LhAkv8lbZbtgr73szxJRfUc) | 13 | 가이드 | 2025-04-03 | 분류: 보건의료 분야 정보보호에 맞는 S 코드 없음 |
-| S04 | [SW 공급망 보안 가이드라인(v1.0)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvI6DXWnxR4wxUsEwN57ThTn8uHzPDjaAHwhGzHILF1Ys) | 15 | 가이드 | 2024-05-13 | KISA 지식플랫폼 「SW 공급망 보안 가이드라인 1.0 (전체본, 요약본)」(2024-05-13)과 같은 날짜. 같은 자료인지 확인필요 |
+| S04 | [SW 공급망 보안 가이드라인(v1.0)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvI6DXWnxR4wxUsEwN57ThTn8uHzPDjaAHwhGzHILF1Ys) | 15 | 가이드 | 2024-05-13 | 게시물: 국가정보원·과학기술정보통신부·디지털플랫폼정부위원회 합동, 전체본·요약본 2건. KISA 지식플랫폼 「SW 공급망 보안 가이드라인 1.0 (전체본, 요약본)」(2024-05-13)과 같은 날짜. 같은 자료인지 확인필요 |
 | S08, S09 | [챗GPT 등 생성형 AI 활용 보안 가이드라인(2023.6)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNW9wnrsXcREF_zixwc3sj_du7Fw_EQfsAy0Fhg_EjyI) | 16 | 가이드 | 2023-06-29 | 제목에 (2023.6). N2SF 1.0 본문(각주 2, 제1장 제4절 6.)이 관련 가이드라인으로 인용 |
 | S04, S09 | [국가 클라우드 컴퓨팅 보안 가이드라인(2023.01)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvMbrfd5kR0-lqj8TEr3qHESwn6A1voTj_GLzwyg5SD5x) | 19 | 가이드 | 2023-01-31 | 제목에 (2023.01). N2SF 1.0 본문이 관련 가이드라인으로 인용 |
 | S09, S03 | [암호모듈 제출물 작성 안내서(2022.08)](https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvJVn8qmhKw0MIdR-IY6gitS0ohKoKn-a1agz9phCyLZ2) | 20 | 가이드 | 2022-08-31 |  |
@@ -85,3 +75,14 @@ candidate:
 
 - 그 밖의 게시물(29건): 2025 국가정보보호백서 영문본(2025-08-18), 2025(2025-06-16), 2024 영문본(2024-10-04), 2024(2024-05-07), 2023 영문본(2023-07-18), 2023(2023-06-02), 2022 영문본(2022-08-22), 2022(2022-06-20), 2021 영문본(2021-07-05), 2021(2021-05-10), 2020(2020-06-01), 2019(2019-06-17), 2018(2019-03-31), 2017(2019-03-29), 2016(2019-03-28), 2015(2019-03-27), 2014(2019-03-26), 2013(2019-03-25), 2012(2019-03-24), 2011(2019-03-23), 2010(2019-03-22), 2009(2019-03-21), 2008(2019-03-20), 2007(2007-05-01), 2006(2006-05-01), 2005(2005-05-01), 2004(2004-05-01), 2003(2003-05-01), 2002(2002-05-01). 모두 게시판 표기 "N 국가정보보호백서" 형식, 괄호 안은 등록일자.
 - 백서 게시물별 URL은 목록에 링크로 드러나지 않아(다운로드·미리보기 버튼) 적지 않았다(확인필요).
+
+## 검증 기록
+
+- 2026-11-15 kb-fact-checker: **통과**(비고 보강).
+- 목록: 국가사이버안보센터 자료실 > 지침·가이드("전체" 탭)를 Playwright 로 다시 열어 `.paging` 쪽 번호를 눌러 1~3쪽 전수 수집. 게시판 표기 "총 23건의 게시물이 있습니다. (1/3페이지)". 번호·구분·제목·등록일 23행을 스크립트로 초안 표(19행 + 이전 판 제외 4행)와 비교해 전부 글자 그대로 일치.
+- 게시물 본문: 23건 전부 열어 제목·작성일·첨부 파일명·첨부 SHA-256 게시를 확인(첨부는 이 목록 문서 검증에서는 받지 않음. N2SF 1.0 첨부는 개별 요약 검증에서 받아 해시 대조).
+- 이전 판 제외 4쌍 확인: (5→1) 두 게시물 모두 "도입 가능 목록(… 기준)을 배포" 같은 목록의 기준일 차이. (14→9) 9번 본문 "기존 Draft 버전을 보완·개정한 … 1.0". (17→12) 같은 「암호모듈 시험 및 검증지침」의 시행 기준일 차이(2023.3.9부 → 2025.6.1부). (18→2) 제목의 기관 표시 "舊", 18번 본문 "2026년 5월 1일부 개정된 '국가 사이버보안 기본지침' 관련하여 '국가 정보보안 기본지침' 과거버전 파일을 첨부", 2번 본문 "2026년 5월 1일부로 국가 사이버보안 기본지침(舊 국가 정보보안 기본지침)을 개정". 넷 모두 같은 자료의 판 차이가 맞다.
+- 1번·5번은 제목의 기준일(2026.9.30, 2026.6.23)이 작성일(2026.08.01, 2026.03.12)보다 늦다. 게시판 표기 그대로 둔다.
+- 분류: kb/topics.md 의 코드(S02·S03·S04·S08·S09·X01)만 쓰였고 자료 내용과 맞다. 병원정보시스템 보안가이드라인은 보건의료 분야 정보보호에 맞는 S 코드가 없어 미분류 유지.
+- 발간자료(국가정보보호백서): 1~7쪽 다시 수집, 게시판 표기 "총 31건", 발간자료 명·등록일자 31건 모두 초안과 일치.
+- 확인필요로 남는 값(담당 부서, token 고정 여부, 3·15번의 KISA 게시물과 같은 자료인지)은 목록 행의 정확성과 무관한 부가 정보라 통과를 막지 않는다.

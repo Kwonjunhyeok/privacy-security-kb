@@ -21,3 +21,4 @@ ISMS-P 인증기준 항목을 축으로 관련 법 조항, 가이드, 처분 사
 | - | 정보통신망법 제48조의8 ([network-act](laws/network-act.md)) ↔ 개인정보 보호법 제64조의2제1항제9호 ([pipa](laws/pipa.md)) | - | - | - |
 | - | - | - | - | [PHP2Shell](threats/threat-php2shell-2026-10.md) ↔ [사이버위기 경보 '주의' 상향](threats/threat-cyber-alert-level-2026-10-22.md) (72233 공지가 상향 사유로 명시) |
 | - | - | - | - | [금융권 해킹 대응체계 강화](threats/2026-10-msit-financial-hacking-response.md) ↔ [기업 보안강화 권고](threats/threat-kisa-enterprise-hardening-2026-09-10.md) |
+| [2.11.5 사고 대응 및 복구](isms-p/2-protection-measures.md) | 정보통신망법 제48조의3(침해사고 신고, 24시간) ([network-act](laws/network-act.md)) | [정보통신분야 침해사고 대응 안내서](guides/incident-response-guide.md), [랜섬웨어 대응 가이드](guides/ransomware-response-guide.md) | - | - |

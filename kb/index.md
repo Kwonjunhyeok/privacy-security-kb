@@ -1,6 +1,6 @@
 # 지식베이스 목록
 
-마지막 갱신: 2026-11-15 (가이드·안내서 주간 점검: 기관별 현행 목록 3건, ISMS-P 인증기준 4건, 개인정보위 안내서 요약 6건, KISA 가이드 요약 5건 반영, reports/2026-11-15.md)
+마지막 갱신: 2026-11-15 (가이드·안내서 점검: 기관별 현행 목록 5건, ISMS-P 인증기준 4건, 안내서·가이드 요약 15건 반영, reports/2026-11-15.md)
 
 시행예정 문서(laws/pipa-amendment-21910.md)는 2027-03-09 전까지 현행 근거가 아니다. 현행 개인정보 보호법은 laws/pipa.md(법률 제21445호)다.
 
@@ -22,6 +22,12 @@
 | guides | [주요정보통신기반시설 관리·물리적 취약점 분석·평가 방법 안내서](guides/ciip-managerial-physical-vulnerability-assessment-guide.md) | 가이드라인 | - | 게시 2025-12-24 | 2026-11-15 |
 | guides | [인공지능(AI) 보안 안내서](guides/ai-security-guide.md) | 가이드라인 | - | 게시 2025-12-10 | 2026-11-15 |
 | guides | [에이전틱 AI 제로트러스트 안내서](guides/agentic-ai-zero-trust-guide.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
+| guides | [국가사이버안보센터 지침·가이드 현행 목록](guides/ncsc-guides-current-list.md) | 목록 | - | 게시 2026-08-01 | 2026-11-15 |
+| guides | [국가 망 보안체계(N2SF) 보안가이드라인 1.0](guides/n2sf-security-guideline.md) | 가이드라인 | - | 게시 2025-09-30 | 2026-11-15 |
+| guides | [정보통신분야 침해사고 대응 안내서(개정본)](guides/incident-response-guide.md) | 가이드라인 | - | 게시 2025-08-29 | 2026-11-15 |
+| guides | [침해사고 분석절차 안내서](guides/incident-analysis-procedure.md) | 가이드라인 | - | 게시 2016-02-24 | 2026-11-15 |
+| guides | [랜섬웨어 대응 가이드('23년 개정본)](guides/ransomware-response-guide.md) | 가이드라인 | - | 게시 2023-08-02 | 2026-11-15 |
+| guides | [KISA 보호나라 보고서/가이드 게시판 현행 목록](guides/boho-guides-current-list.md) | 목록 | - | 게시 2026-10-28 | 2026-11-15 |
 | guides | [한국인터넷진흥원 현행 가이드라인·안내서 목록](guides/kisa-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
 | guides | [과학기술정보통신부 정보보호 가이드 발표 목록](guides/msit-guides-current-list.md) | 정책자료 | - | 게시 2026-03-05 | 2026-11-15 |
 | pipc | [개인정보위 현행 안내서 목록 (안내서 게시판 기준)](pipc/pipc-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |

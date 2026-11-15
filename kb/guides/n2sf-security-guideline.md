@@ -11,16 +11,12 @@ topics: [S09]
 source_url: https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvKlgmp4pbcUcyETJn6NrHSIACCUP_xvUj35ZGb7sJqI4
 status: 현행
 verified:
-candidate:
-  kind: new
-  target_path: kb/guides/n2sf-security-guideline.md
-  found_at:
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvKlgmp4pbcUcyETJn6NrHSIACCUP_xvUj35ZGb7sJqI4   # 1.0 게시물 (본문·부록1·부록2 첨부)
-    - https://www.ncsc.go.kr/api/usr/bbs/downloadFile   # 첨부 내려받기 주소(게시물에서 downFile('56247779-ff9c-441c-af28-8200851e88ed',0) 등으로 요청)
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvHOSgNtKWDPReFBiQDhPux5JMwBMtawT2n7fNohXumkr   # Draft 게시물(이전 판)
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNj_uU6OMakPcrAhgWAjJq6eEvT3SmMyxg5hgnvZ2g1h   # 국가 망 보안체계(N2SF) 이해 및 활용 안내 (설명자료)
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNsYfHBDSvLeAA55UtgT6j6-A   # 지침·가이드 목록
-  attempts: 0
+  date: 2026-11-15
+  by: kb-fact-checker
+  sources:
+    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvKlgmp4pbcUcyETJn6NrHSIACCUP_xvUj35ZGb7sJqI4   # 1.0 게시물(작성일·본문·첨부 SHA-256)
+    - https://www.ncsc.go.kr/api/usr/bbs/downloadFile   # 첨부 원문: (본문) 88쪽·(부록1) 103쪽·(부록2) zip, 해시 3건 일치
+    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvMBQ9yji1O0uKiPsS2aFQM07mQ5u7yGVw572DcM-zepU   # 국가 사이버보안 기본지침(5.1부 개정) 안내
 ---
 
 # 국가 망 보안체계(N2SF) 보안가이드라인 1.0
@@ -31,7 +27,7 @@ candidate:
 - 첨부 3건(게시물에 SHA-256 해시값 게시, 2026-11-15 내려받아 모두 일치 확인):
   - 「(본문)국가 망 보안체계 보안 가이드라인 1.0.pdf」 88쪽, SHA-256 8702ca53…689aad7 → 열어 읽음(목차·장 구성 중심)
   - 「(부록1)보안통제_항목_해설서.pdf」 103쪽, SHA-256 808930e4…58a3d83 → 목차와 앞부분(보안통제 항목 종합)만 읽음
-  - 「(부록2)정보서비스 모델 해설서(11종).zip」 SHA-256 920786f7…40243f39 → 압축 안 파일 이름만 확인, 내용은 열지 않음(원문 미확인 → 확인필요). 들어 있는 PDF 11건(파일명 끝 250923): 모델1 인터넷 단말의 업무 활용성 제고 / 모델2 업무환경에서 생성형 AI 활용 / 모델3 외부 클라우드 활용 업무협업 체계 / 모델4 업무 단말의 인터넷 이용 / 모델5 공공 데이터의 외부 AI 융합 / 모델6 연구 목적 단말의 신기술 활용 / 모델7 개발 환경 편의성 향상 / 모델8 클라우드 기반 통합문서체계 / 모델9 모바일 업무환경 정보 연계 / 모델10 무선 업무환경 운용 체계 / 모델11 정보 연계를 위한 CDS 구성
+  - 「(부록2)정보서비스 모델 해설서(11종).zip」 SHA-256 920786f7…40243f39 → 압축 안 파일 이름만 확인, 각 PDF 내용은 열지 않음(원문 미확인). 들어 있는 PDF 11건(파일명 끝 250923): 모델1 인터넷 단말의 업무 활용성 제고 / 모델2 업무환경에서 생성형 AI 활용 / 모델3 외부 클라우드 활용 업무협업 체계 / 모델4 업무 단말의 인터넷 이용 / 모델5 공공 데이터의 외부 AI 융합 / 모델6 연구 목적 단말의 신기술 활용 / 모델7 개발 환경 편의성 향상 / 모델8 클라우드 기반 통합문서체계 / 모델9 모바일 업무환경 정보 연계 / 모델10 무선 업무환경 운용 체계 / 모델11 정보 연계를 위한 CDS 구성
 - 이전 판: 「국가 망 보안체계 보안 가이드라인(Draft)」(같은 게시판 14번, 작성일 2025.01.23, 첨부 본문·부록1 PDF). Draft 게시물은 "부록2. 정보서비스 모델 해설서는 국가·공공기관 대상 공문으로 제한 배포"라고 적었고, 1.0 게시물은 부록2를 zip 으로 게시했다. 원문 문서이력: 2025.1. Draft 발간 → 2025.9. 1.0 발간. 목록 문서(kb/_pending/2026-11-15-ncsc-guides-current-list.md)에서 Draft 를 "이전 판 제외"로 두었다.
 - 관련 설명자료: 「국가 망 보안체계(N2SF) 이해 및 활용 안내」(같은 게시판 4번, 구분 "기타 공시", 작성일 2026.03.24, 첨부 PDF 13쪽, SHA-256 af605dd1…ead3af06 일치) → 열어 읽음. N2SF 개념, 활용효과(예시), 적용 5단계, 정책 카드뉴스를 담은 설명자료다. 가이드라인 판을 바꾸는 문서가 아니다.
 - 1.0 이후 판(1.1 등)은 같은 게시판 23건 중에 없다(2026-11-15 기준).
@@ -96,10 +92,23 @@ candidate:
   - 「국가정보보안기본지침」: 보안성 검토 근거(p.17), 준용 지침(Summary 각주 1). 국가사이버안보센터 게시판에 따르면 이 지침은 2026년 5월 1일부로 「국가 사이버보안 기본지침」으로 개정됐다(같은 게시판 2번 게시물 「국가 사이버보안 기본지침(5.1부 개정) 안내」, 2026.07.20). 가이드라인 1.0(2025. 9)은 개정 전 명칭을 쓴다. 보안성 검토 근거 조항 번호는 원문에 없음 → 확인필요.
 - 의무와 권고 구분: 가이드라인 자체는 각급기관이 "자율적으로" 적용"할 수 있는" 절차로 서술한다. 보안성 검토 요청은 기본지침에 따른 절차로 적혀 있으나, 이를 의무로 정한 지침 조문은 이번에 확인하지 않았다(확인필요). 분리·운영 권고, BRM 레벨5 권고 등은 가이드라인 권고다.
 
-## 연관 후보
+## 연관
 
-- 같은 분류(S09): 「국가 사이버보안 기본지침(5.1부 개정) 안내」, 「국가 망 보안체계(N2SF) 이해 및 활용 안내」, 「2026년도 사이버보안 실태 평가지표」(kb/_pending/2026-11-15-ncsc-guides-current-list.md)
-- 함께 준용하라고 적힌 가이드: 「국가 클라우드 컴퓨팅 보안 가이드라인(2023.01)」, 「챗GPT 등 생성형 AI 활용 보안 가이드라인(2023.6)」, 「국가ㆍ공공기관 AI보안 가이드북」(같은 목록)
-- 제로트러스트(S04): KISA 「제로트러스트 가이드라인 2.0」(kb/_pending/2026-11-15-guides-zero-trust-guideline.md) — 적용 대상이 민간 중·대규모 조직이고 정부·공공은 분야별 지침 우선이라고 적은 자료
-- ISMS-P(kb/isms-p/2-protection-measures.md): 2.6.1 네트워크 접근, 2.6.6 원격접근 통제, 2.6.7 인터넷 접속 통제, 2.7.1 암호정책 적용, 2.7.2 암호키 관리, 1.2.1 정보자산 식별(등급분류와 대응 후보)
-- 사고 대응 연계: 2.11.x 사고 예방 및 대응(kb/isms-p/2-protection-measures.md), 「개인정보 유출등 대응 안내서(2026.9.)」(kb/_pending/2026-11-15-pipc-guide-breach-response.md) — 공공기관이 개인정보 유출 시 따르는 별도 절차
+- 제로트러스트(S04): KISA 「제로트러스트 가이드라인 2.0」(kb/guides/zero-trust-guideline.md). 적용 대상이 민간 중·대규모 조직이고 정부·공공·군 분야는 분야별 지침·규정을 우선한다고 적은 자료라, 국가·공공기관은 N2SF 를 먼저 본다.
+- ISMS-P: 1.2.1 정보자산 식별(kb/isms-p/1-management-system.md, C/S/O 등급분류와 대응), 2.6.1 네트워크 접근, 2.6.6 원격접근 통제, 2.6.7 인터넷 접속 통제, 2.7.1 암호정책 적용, 2.7.2 암호키 관리(kb/isms-p/2-protection-measures.md, 부록1 보안통제 분리·원격접속·암호 항목과 대응). 대응 관계는 검증자가 양쪽 제목·범위를 보고 정한 색인이며 원문이 정한 매핑이 아니다.
+- 사고 대응 연계: 2.11 사고 예방 및 대응(kb/isms-p/2-protection-measures.md), 「개인정보 유출등 대응 안내서(2026.9.)」(kb/pipc/pipc-guide-breach-response.md). N2SF 와 별개로 개인정보 유출등이 생기면 따르는 통지·신고 절차.
+
+## 검증 기록
+
+- 2026-11-15 kb-fact-checker: **수정 후 통과**(게시 정보 + 본문 장별 원문 대조).
+- 게시물(지침·가이드 9번)을 다시 열어 제목·작성일 2025.09.30·본문 문구("기존 Draft 버전을 보완·개정한 … 1.0")·첨부 3건과 게시 SHA-256 을 확인. 첨부 3건을 직접 내려받아 sha256 대조: 본문 8702ca53…689aad7, 부록1 808930e4…58a3d83, 부록2 zip 920786f7…40243f39 모두 일치. 쪽수 본문 88쪽, 부록1 103쪽 일치. zip 안 PDF 11건 이름(모델1~11, 250923)이 초안과 일치.
+- 표지: "1.0 / 국가 망 보안체계 보안 가이드라인 / 2025. 9" — 표지 글자에 발행 기관 표기 없음(초안 주석과 같음). 발행 기관은 본문 p.11 "국가정보원은 … '보안가이드라인 1.0'을 발표"로 확인. 문서이력 2025.1. Draft → 2025.9. 1.0 일치(본문·부록1 모두).
+- 목차: 본문 제1~3장·참고 절 제목과 쪽수 전수 일치. 부록1 목차(6개 장, 중항목과 약어) 전수 일치.
+- 장별 원문 대조: Summary(목적, "자율적으로 … 구현·운영할 수 있다", 각주 1·2) / 제1장(p.10 2006년 망 분리, p.11 TF·1.0 발표, p.13 C/S/O 정의, p.14~15 5단계·국가정보원 보안성 검토 요청·정보화사업 범위, p.17 "국가정보보안기본지침에 따른 국가정보원 보안성 검토", p.22 정보공개법 제9조 제1~4호/제5~8호, p.23 최고 등급·분리 운영 권고·위치 등급, p.25 두 보안원칙, p.26~27 6개 대항목·표 1-1 N2SF-RA-1, p.28~29 클라우드·생성형 AI 가이드 준수) / 제2장(표 2-1, 표 2-2 정보보안담당관·레벨5 이하 권고, 표 2-14~ 평가지표) / 제3장(p.66 제출 문서 4종, p.67 최종 산출물 서식). 모두 초안과 일치.
+- 적용 대상: 원문 "각급기관", "국가·공공기관은 정보화사업 … 추진할 때"(p.15), Summary "자율적으로 … 할 수 있다". 초안의 "국가·공공기관 대상, 민간 기업 적용 기준 아님" 서술이 원문과 맞다.
+- 지침 명칭 변경: 국가사이버안보센터 지침·가이드 2번 게시물 「국가 사이버보안 기본지침(5.1부 개정) 안내」(작성일 2026.07.20) 본문 "2026년 5월 1일부로 국가 사이버보안 기본지침(舊 국가 정보보안 기본지침)을 개정"으로 확인. 18번 게시물 「舊 국가 정보보안 기본지침」도 같은 사실을 적었다. 가이드라인 1.0 은 개정 전 명칭을 쓴다는 초안 서술이 맞다. 개정 지침 원문은 열지 않았다.
+- 설명자료 「국가 망 보안체계(N2SF) 이해 및 활용 안내」 첨부를 내려받아 SHA-256 af605dd1…ead3af06 일치, 13쪽, "업무정보 식별은 정부기능분류체계(BRM)의 최소 '소기능(5레벨)' 수준에서 수행" 문구 확인.
+- 현행 여부: 같은 게시판 23건에 1.0 이후 판 없음(목록 전수 확인). 기관 표시 없음(A 기준)으로 게시 중인 최신 판.
+- topics: S09(국가·공공 망 보안, N2SF 명시) 맞음.
+- 원문 미확인으로 남긴 것: 부록2 각 모델 PDF 내용, Draft 원문(Draft 대비 항목별 변경), 정보공개법 제9조 조문 원문(가이드라인 인용 표기만 확인), 보안성 검토 의무를 정한 지침 조문. 부록1 은 목차와 보안통제 항목 종합 앞부분만 봤다.
+- 수정: 연관 후보를 정리해 `## 연관` 으로 바꿈. 같은 날 검증한 국가사이버안보센터 목록과 그 안의 자료(기본지침 안내·클라우드·생성형 AI 가이드 등)는 아직 kb 에 없어 연관에서 뺐다(반영 후 목록 문서로 연결 가능). 제로트러스트 경로를 kb/guides/zero-trust-guideline.md 로, 유출등 대응 안내서 경로를 kb/pipc/pipc-guide-breach-response.md 로 바꿈. 부록2 표기를 "원문 미확인"으로 정리.
