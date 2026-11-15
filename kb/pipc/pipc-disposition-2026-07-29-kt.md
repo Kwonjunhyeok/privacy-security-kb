@@ -8,7 +8,6 @@ effective_date: 2026-07-29   # 의결일 (처분 문서라 시행일 대신 의�
 published_date: 2026-07-30   # 보도자료 작성일, 첨부명 "[260730 배포즉시]"
 source_url: https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12349
 status: 현행
-fact_check: 수정 후 통과
 verified:
   date: 2026-11-15
   by: kb-fact-checker
@@ -16,16 +15,7 @@ verified:
     - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12349
     - https://www.law.go.kr/LSW/ppcInfoP.do?ppcSeq=10989   # 결정문 제2026-015-093호 주식회사 케이티
     - https://www.law.go.kr/LSW/ppcInfoP.do?ppcSeq=10979   # 결정문 제2026-015-094호 주식회사 케이티(고발)
-candidate:
-  kind: new
-  target_path: kb/pipc/pipc-disposition-2026-07-29-kt.md
-  found_at:
-    - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12349
-    - https://www.law.go.kr/LSW/ppcInfoP.do?ppcSeq=10989   # A, law.go.kr 결정문: 제2026-015-093호 주식회사 케이티
-    - https://www.law.go.kr/LSW/ppcInfoP.do?ppcSeq=10979   # A, law.go.kr 결정문: 제2026-015-094호 주식회사 케이티(고발)
-  attempts: 2
 ---
-
 # ㈜KT 유출사고 제재처분
 
 - 보도자료: 「개인정보위, '㈜KT의개인정보 유출사고' 제재처분 의결」 (작성일 2026-07-30, 조사2과)
