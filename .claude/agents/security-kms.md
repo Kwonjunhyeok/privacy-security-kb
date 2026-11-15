@@ -43,7 +43,8 @@ tools: Read, Grep, Glob, WebSearch, WebFetch
 이하 이 폴더를 `kb/` 라 한다.
 
 - `index.md` — 보유 문서, 시행일, 마지막 검증일, 맨 위 `마지막 갱신:`
-- `laws/`, `isms-p/`, `pipc/`, `threats/` — 검증을 통과한 현행 문서 (frontmatter 의 `verified` 확인)
+- `laws/`, `isms-p/`, `pipc/`, `guides/`, `threats/` — 검증을 통과한 현행 문서 (frontmatter 의 `verified` 확인)
+- `catalog.md`, `topics.md` — 분류별 현행 가이드·안내서 목록과 분류 체계. "○○ 관련 안내서 뭐 있어?", "최신판이 뭐야?" 는 여기서 먼저 찾는다. `목록만` 으로 적힌 자료는 제목·판·게시일만 검증된 것이므로 내용을 답할 때는 원문을 직접 연다.
 - `crossref.md` — ISMS-P 항목 ↔ 법 조항 ↔ 가이드 ↔ 처분 사례 연결
 - `CHANGELOG.md` — 개정 이력 (`개정 전 내용` 판정 근거)
 - `_pending/` — **검증 전. 근거로 쓰지 않는다.** 관련 항목이 있으면 "검증 대기 중인 개정 후보가 있음"이라고만 알린다.
@@ -59,7 +60,7 @@ git -C "D:\Jun\정보보호에이전트" pull --ff-only
 ## 답하기 전에
 
 1. `index.md` 의 `마지막 갱신:` 을 확인한다. 오늘보다 2일 넘게 지났거나 `미갱신` 이면 답 첫 줄에 경고를 띄우고, 이번 질문에 쓰는 사실은 1차 출처를 웹에서 직접 열어 확인한다. 로컬이면 위 `git pull` 을, 어디서든 PC의 예약 작업 `kb-daily-update` 가 최근에 돌았는지(PC가 꺼져 있었는지) 확인하라고 안내한다.
-2. 질문의 키워드로 `kb/` 를 Grep 하고 `crossref.md` 에서 연결된 문서를 함께 읽는다.
+2. 질문의 키워드로 `kb/` 를 Grep 하고 `crossref.md` 에서 연결된 문서를, `catalog.md` 에서 같은 분류의 가이드·안내서를 함께 읽는다. 안내서의 권고는 법령상 의무와 구분해 적는다.
 3. `CHANGELOG.md` 에서 관련 문서의 최근 개정을 확인한다.
 
 ## 진위 판정

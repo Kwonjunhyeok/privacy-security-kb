@@ -1,8 +1,10 @@
 # 지식베이스 목록
 
-마지막 갱신: 2026-11-13 (첫 실행 1회차: 41건 반영. 검증 대기 28건은 kb/_pending, 이월 목록은 reports/2026-11-13.md)
+마지막 갱신: 2026-11-15 (가이드·안내서 점검: 기관별 현행 목록 5건, ISMS-P 인증기준 4건, 안내서·가이드 요약 15건 반영, reports/2026-11-15.md)
 
 시행예정 문서(laws/pipa-amendment-21910.md)는 2027-03-09 전까지 현행 근거가 아니다. 현행 개인정보 보호법은 laws/pipa.md(법률 제21445호)다.
+
+분류별 가이드·안내서 목록은 [catalog.md](catalog.md) 를 본다.
 
 | 카테고리 | 문서 | 유형 | 공포·고시 번호 | 시행일·게시일 | 마지막 검증일 |
 |---|---|---|---|---|---|
@@ -11,8 +13,31 @@
 | laws | [정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행령](laws/network-act-enforcement-decree.md) | 시행령 | 대통령령 제36728호 (2026. 9. 29., 타법개정) | 시행 2026-10-02 | 2026-11-13 |
 | laws | [개인정보 보호법](laws/pipa.md) | 법률 | 법률 제21445호 (2026. 3. 10., 일부개정) | 시행 2026-09-11 | 2026-11-13 |
 | laws | [개인정보 보호법 일부개정 (법률 제21910호, 인공지능기술 개발을 위한 개인정보 처리 특례) — 공포, 시행 전](laws/pipa-amendment-21910.md) | 법률 | 법률 제21910호 (2026. 9. 8. 공포, 일부개정) | 시행 2027-03-09 | 2026-11-13 |
+| isms-p | [ISMS-P 인증기준 및 인증기준 안내서 (2023.11.)](isms-p/certification-criteria.md) | 인증기준 | 해당없음(안내서, 고시 제2023-8호 기준) | 게시 2024-01-17 | 2026-11-15 |
+| isms-p | [ISMS-P 인증기준 1. 관리체계 수립 및 운영 (16개)](isms-p/1-management-system.md) | 인증기준 | - | 게시 2024-01-17 | 2026-11-15 |
+| isms-p | [ISMS-P 인증기준 2. 보호대책 요구사항 (64개)](isms-p/2-protection-measures.md) | 인증기준 | - | 게시 2024-01-17 | 2026-11-15 |
+| isms-p | [ISMS-P 인증기준 3. 개인정보 처리 단계별 요구사항 (21개)](isms-p/3-personal-info-lifecycle.md) | 인증기준 | - | 게시 2024-01-17 | 2026-11-15 |
+| guides | [제로트러스트 가이드라인 2.0](guides/zero-trust-guideline.md) | 가이드라인 | - | 게시 2024-12-03 | 2026-11-15 |
+| guides | [주요정보통신기반시설 기술적 취약점 분석·평가 방법 상세가이드](guides/ciip-technical-vulnerability-assessment-guide.md) | 가이드라인 | - | 게시 2025-12-24 | 2026-11-15 |
+| guides | [주요정보통신기반시설 관리·물리적 취약점 분석·평가 방법 안내서](guides/ciip-managerial-physical-vulnerability-assessment-guide.md) | 가이드라인 | - | 게시 2025-12-24 | 2026-11-15 |
+| guides | [인공지능(AI) 보안 안내서](guides/ai-security-guide.md) | 가이드라인 | - | 게시 2025-12-10 | 2026-11-15 |
+| guides | [에이전틱 AI 제로트러스트 안내서](guides/agentic-ai-zero-trust-guide.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
+| guides | [국가사이버안보센터 지침·가이드 현행 목록](guides/ncsc-guides-current-list.md) | 목록 | - | 게시 2026-08-01 | 2026-11-15 |
+| guides | [국가 망 보안체계(N2SF) 보안가이드라인 1.0](guides/n2sf-security-guideline.md) | 가이드라인 | - | 게시 2025-09-30 | 2026-11-15 |
+| guides | [정보통신분야 침해사고 대응 안내서(개정본)](guides/incident-response-guide.md) | 가이드라인 | - | 게시 2025-08-29 | 2026-11-15 |
+| guides | [침해사고 분석절차 안내서](guides/incident-analysis-procedure.md) | 가이드라인 | - | 게시 2016-02-24 | 2026-11-15 |
+| guides | [랜섬웨어 대응 가이드('23년 개정본)](guides/ransomware-response-guide.md) | 가이드라인 | - | 게시 2023-08-02 | 2026-11-15 |
+| guides | [KISA 보호나라 보고서/가이드 게시판 현행 목록](guides/boho-guides-current-list.md) | 목록 | - | 게시 2026-10-28 | 2026-11-15 |
+| guides | [한국인터넷진흥원 현행 가이드라인·안내서 목록](guides/kisa-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
+| guides | [과학기술정보통신부 정보보호 가이드 발표 목록](guides/msit-guides-current-list.md) | 정책자료 | - | 게시 2026-03-05 | 2026-11-15 |
+| pipc | [개인정보위 현행 안내서 목록 (안내서 게시판 기준)](pipc/pipc-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
+| pipc | [개인정보의 안전성 확보조치 기준 안내서(2026.11.)](pipc/safety-measures-guide.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
+| pipc | [개인정보 보호책임자 지정·신고 실무 매뉴얼(2026.9.)](pipc/pipc-guide-cpo-designation-manual.md) | 가이드라인 | - | 게시 2026-09-15 | 2026-11-15 |
+| pipc | [개인정보 처리 통합 안내서(2025.7.)_파일수정게시](pipc/pipc-guide-integrated-processing.md) | 가이드라인 | - | 게시 2025-07-14 | 2026-11-15 |
+| pipc | [개인정보 처리방침 작성지침(2026.4. 개정)](pipc/pipc-guide-privacy-policy-writing.md) | 가이드라인 | - | 게시 2026-04-23 | 2026-11-15 |
+| pipc | [개인정보 영향평가 수행안내서(2025.10. 개정)_파일수정게시](pipc/pipc-guide-pia-manual.md) | 가이드라인 | - | 게시 2025-12-12 | 2026-11-15 |
 | pipc | [과징금 투자감경제도 안내서](pipc/pipc-guide-penalty-investment-reduction.md) | 가이드라인 | - | 게시 2026-09-11 | 2026-11-13 |
-| pipc | [개인정보 유출등 대응 안내서(2026.9.)](pipc/pipc-guide-breach-response-2026-09.md) | 가이드라인 | - | 게시 2026-09-11 | 2026-11-13 |
+| pipc | [개인정보 유출등 대응 안내서(2026.9.)](pipc/pipc-guide-breach-response.md) | 가이드라인 | - | 게시 2026-09-11 | 2026-11-15 |
 | pipc | [가명정보 처리 가이드라인 (2026.3. 개정)](pipc/pseudonymization-guideline.md) | 가이드라인 | - | 게시 2026-03-31 | 2026-11-13 |
 | threats | [Synology 제품 보안 업데이트 권고 (DSM 10건, 2026-11-12)](threats/kisa-synology-dsm-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
 | threats | [Node.js 제품 보안 업데이트 권고 (2026-11-12)](threats/kisa-nodejs-november-2026.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |

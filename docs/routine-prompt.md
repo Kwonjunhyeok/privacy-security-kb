@@ -1,3 +1,5 @@
+> 2026-11-15 부터 쓰지 않는다. 갱신은 주 1회 PC 수동 실행(`UPDATE.md`)이고, 클라우드 예약 작업은 토요일 안내 알림만 한다. 아래는 예전 설정 기록이다.
+
 # 클라우드 루틴 설정
 
 https://claude.ai/code/routines 에서 등록한다.
@@ -21,6 +23,7 @@ https://claude.ai/code/routines 에서 등록한다.
 1. 저장소 루트의 CLAUDE.md, sources.md, UPDATE.md 를 먼저 끝까지 읽는다.
 2. UPDATE.md 의 0~6단계를 순서대로 빠짐없이 실행한다.
    - 1단계 수집은 반드시 `kb-collector` 서브에이전트(Agent 도구, .claude/agents/kb-collector.md)에 맡긴다.
+   - 1-2단계 가이드·안내서 취합은 `kb-collector` 가 끝난 뒤 `kb-guide-curator` 서브에이전트(.claude/agents/kb-guide-curator.md)에 맡긴다.
    - 2단계 검증은 반드시 별도의 `kb-fact-checker` 서브에이전트(.claude/agents/kb-fact-checker.md)에 맡긴다. 수집과 검증을 같은 에이전트가 하거나 네가 검증을 생략해서는 안 된다.
    - 3단계 반영은 검증 판정이 '통과' 또는 '수정 후 통과'인 항목만 한다. 보류·기각 항목은 절대 kb/_pending/ 밖으로 옮기지 않는다.
    - 개정이 확인된 문서는 구버전 본문을 통째로 교체하고 kb/CHANGELOG.md 에 한 줄만 남긴다.
