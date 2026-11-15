@@ -4,11 +4,18 @@ category: pipc
 doc_type: 가이드라인
 issuer: 개인정보보호위원회
 promulgation_no: 해당없음
-effective_date: 확인필요
+effective_date: 해당없음
 published_date: 2026-11-05   # 게시판 최신 게시물 작성일 (수집 2026-11-15)
 source_url: https://www.pipc.go.kr/np/cop/bbs/selectBoardList.do?bbsId=BS217&mCode=D010030000
 status: 현행
 verified:
+  date: 2026-11-15
+  by: kb-fact-checker
+  sources:
+    - https://www.pipc.go.kr/np/cop/bbs/selectBoardList.do?bbsId=BS217&mCode=D010030000   # pageIndex=1~14 행 단위 대조
+    - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12605   # 첨부 「개인정보위 안내서 전체 목록(261030 기준).hwpx」
+    - https://www.privacy.go.kr/front/bbs/bbsList.do?bbsNo=BBSMSTR_000000000049   # pageIndex=1~9
+    - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12609
 candidate:
   kind: new
   target_path: kb/pipc/pipc-guides-current-list.md
@@ -23,9 +30,9 @@ candidate:
 
 - 출처: 개인정보위 누리집 정책·법령 > 법령정보 > 안내서 게시판(bbsId=BS217). 2026-11-15 브라우저로 1~13쪽 전부 열람. 게시판 표기 "전체 129 건", 수집 129건(공지 3건 포함)으로 일치.
 - 게시판 표시별 건수: [현재 안내서] 45건(전체 목록 공지 3건 포함), [과거 안내서] 76건, [기타 자료] 8건.
-- 공식 전체 목록: 「개인정보위 안내서 전체 목록('26.10.30. 기준)」(nttId 12605). 첨부가 hwpx 라 열지 않음 → 이 표와 첨부 목록의 대조는 확인필요.
-- 분류 코드는 `kb/topics.md` 기준으로 수집 시 붙인 후보다. 검증 때 고친다.
-- 개인정보 포털(privacy.go.kr) 지침자료와의 교차 확인은 이번에 하지 않음 → 확인필요.
+- 공식 전체 목록: 「개인정보위 안내서 전체 목록('26.10.30. 기준)」(nttId 12605). 첨부 hwpx(연번 1~42)를 2026-11-15 열어 대조: 첨부의 42종이 모두 아래 「현재 안내서」 표의 게시물로 확인됨(35~38번 전문기관 지정안내서 3편·일반수신자 등재 안내서는 12619 한 게시물, 27번 자율규제 업종별 가이드는 7054·7053 두 게시물). 첨부 24번 이름은 「개인정보 유출 등 사고대응 매뉴얼」이고 게시판 현행본은 「개인정보 유출등 대응 안내서(2026.9.)」(12465). 표의 「개인정보 처리방침 표준(안)(2026.2.)」(11838)은 게시판 표시는 [현재 안내서]이나 첨부 목록에는 없음.
+- 분류 코드는 `kb/topics.md` 기준. 2026-11-15 검증 때 확인하고, 과거 안내서 표의 `미분류` 는 코드로 고쳤다.
+- 개인정보 포털(privacy.go.kr) 안내서 게시판(https://www.privacy.go.kr/front/bbs/bbsList.do?bbsNo=BBSMSTR_000000000049, 총 86건)과 2026-11-15 교차 확인. 포털 등록일은 포털 자체 등록일이라 게시판 게시일과 며칠 다를 수 있다(예: 12468·12465 는 포털 2026-09-14, 12436 은 포털 2026-08-20). 포털에 아직 없는 것: 12619, 12611, 12605, 12501, 12199(포털은 2025.4.판), 12183(포털은 2024.12.판). 12611 은 개인정보위 보도자료(BS074 nttId 12609, 2026-11-04, "안내서 … 125번 게시물")로 확인.
 
 ## 현재 안내서
 
@@ -78,12 +85,18 @@ candidate:
 
 ## 기타 자료
 
+가명정보 활용 우수사례집은 해마다 그해 경진대회 수상작을 싣는 별개 사례집이라(각 게시물 본문, 2026-11-15 확인) 판 차이로 보지 않고 모두 둔다.
+
 | 분류 | 자료명 (게시판 제목 그대로) | 담당 부서 | 게시일 | nttId |
 |---|---|---|---|---|
 | P05 | [2025 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12504) | 데이터안전정책과 | 2026-09-16 | 12504 |
+| P05 | [2024 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11117) | 데이터안전정책과 | 2025-04-10 | 11117 |
 | P06 | [개인정보보호책임자(CPO) 핸드북(2024.11.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10773) | 자율보호정책과 | 2024-11-19 | 10773 |
 | P01 | [개인정보 보호법 및 시행령 2차 개정사항 안내서(2024.3.) 및 현장설명회(3.18.) 자료](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9986) | 개인정보보호정책과 | 2024-03-12 | 9986 |
+| P05 | [2023 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9962) | 데이터안전정책과 | 2024-03-04 | 9962 |
 | P01 | [개인정보 보호법 및 시행령 개정사항 안내서(2023.12.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9898) | 개인정보보호정책과 | 2024-02-02 | 9898 |
+| P05 | [2022 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=8718) | 데이터안전정책과 | 2023-03-27 | 8718 |
+| P05 | [2021 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=7858) | 데이터안전정책과 | 2022-02-11 | 7858 |
 
 ## 이전 판 제외
 
@@ -92,10 +105,6 @@ candidate:
 - 개인정보 안내서 전체 목록('26.3.31. 기준) (2025-08-19, nttId 11429) → [개인정보위 안내서 전체 목록('26.10.30. 기준)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12605) (2026-10-30, nttId 12605). 사유: 같은 「안내서 전체 목록」의 이전 기준일('26.3.31.)
 - 개인정보위 안내서 전체 목록(260731 기준) (2026-08-03, nttId 12353) → [개인정보위 안내서 전체 목록('26.10.30. 기준)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12605) (2026-10-30, nttId 12605). 사유: 같은 「안내서 전체 목록」의 이전 기준일(260731)
 - 개인정보관리 전문기관 지정심사 안내서 및 신청 관련 양식 (2025-03-26, nttId 11090) → [개인정보관리 전문기관 지정 안내서 및 신청 관련 양식](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12619) (2026-11-05, nttId 12619). 사유: 같은 자료의 직전판(2025-03-26). 12619 게시물이 2026년 개정본(일반·특수)과 2025년 발간본(중계·일반수신자)을 함께 싣고 있다는 점은 2026-11-13 검증 기록(kb/_pending/2026-11-13-pipc-guide-mydata-specialist-agency-2026.md)에 따름. 기관 표시는 아직 [현재 안내서]
-- 2024 가명정보 활용 우수사례집 (2025-04-10, nttId 11117) → [2025 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12504) (2026-09-16, nttId 12504). 사유: 같은 우수사례집 연간판의 이전 연도
-- 2023 가명정보 활용 우수사례집 (2024-03-04, nttId 9962) → [2025 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12504) (2026-09-16, nttId 12504). 사유: 같은 우수사례집 연간판의 이전 연도
-- 2022 가명정보 활용 우수사례집 (2023-03-27, nttId 8718) → [2025 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12504) (2026-09-16, nttId 12504). 사유: 같은 우수사례집 연간판의 이전 연도
-- 2021 가명정보 활용 우수사례집 (2022-02-11, nttId 7858) → [2025 가명정보 활용 우수사례집](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12504) (2026-09-16, nttId 12504). 사유: 같은 우수사례집 연간판의 이전 연도
 
 ## 과거 안내서 (기관이 과거로 표시, 76건)
 
@@ -103,28 +112,32 @@ candidate:
 
 | 분류 | 자료명 (게시판 제목 그대로) | 담당 부서 | 게시일 | nttId |
 |---|---|---|---|---|
-| 미분류 | [개인정보의 안전성 확보조치 기준 안내서(2025.11.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11641) | 신기술개인정보과 | 2025-11-28 | 11641 |
-| 미분류 | [개인정보 영향평가 수행안내서(2025.10. 개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11611) | 개인정보보호위원회 | 2025-11-19 | 11611 |
-| 미분류 | [(전 분야 마이데이터) 개인정보 전송요구권 제도 안내서(2025.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11160) | 범정부 마이데이터추진단 | 2025-04-29 | 11160 |
-| 미분류 | [개인정보 처리방침 작성지침(2025.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11134) | 개인정보보호위원회 | 2025-04-21 | 11134 |
-| 미분류 | [(전 분야 마이데이터) 개인정보 전송요구권 제도 안내서 초안 공개 및 의견수렴](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11076) | 개인정보보호위원회 | 2025-03-24 | 11076 |
-| 미분류 | [개인정보 처리 통합 안내서(안) 공개 및 의견수렴](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10905) | 개인정보보호정책과 | 2024-12-31 | 10905 |
-| 미분류 | [개인정보의 안전성 확보조치 기준 안내서(2024.10.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10719) | 신기술개인정보과 | 2024-10-31 | 10719 |
-| 미분류 | [개인정보 처리방침 작성지침(2024.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10127) | 개인정보보호정책과 | 2024-04-30 | 10127 |
-| 미분류 | [[과거 안내서]개인정보 유출 등 사고대응 매뉴얼(2024.03. 개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10123) | 디지털소통팀 | 2024-04-29 | 10123 |
-| 미분류 | [개인정보 영향평가 수행안내서(2024.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10089) | 자율보호정책과 | 2024-04-18 | 10089 |
-| 미분류 | [보건의료데이터 활용 가이드라인(2024.12.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9901) | 데이터안전정책과 | 2024-02-05 | 9901 |
-| 미분류 | [가명정보 처리 가이드라인(2024.2.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9900) | 데이터안전정책과 | 2024-02-05 | 9900 |
-| 미분류 | [(공공기관/민간분야) 고정형 영상정보처리기기(CCTV) 설치운영 가이드라인 (2024.1. 개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9870) | 신기술개인정보과 | 2024-01-20 | 9870 |
-| 미분류 | [개인정보 영향평가 사업 대가산정 가이드](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9863) | 자율보호정책과 | 2024-01-17 | 9863 |
+| P02 | [개인정보의 안전성 확보조치 기준 안내서(2025.11.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11641) | 신기술개인정보과 | 2025-11-28 | 11641 |
+| P06 | [개인정보 영향평가 수행안내서(2025.10. 개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11611) | 개인정보보호위원회 | 2025-11-19 | 11611 |
+| P04 | [(전 분야 마이데이터) 개인정보 전송요구권 제도 안내서(2025.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11160) | 범정부 마이데이터추진단 | 2025-04-29 | 11160 |
+| P01 | [개인정보 처리방침 작성지침(2025.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11134) | 개인정보보호위원회 | 2025-04-21 | 11134 |
+| P04 | [(전 분야 마이데이터) 개인정보 전송요구권 제도 안내서 초안 공개 및 의견수렴](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11076) | 개인정보보호위원회 | 2025-03-24 | 11076 |
+| P01 | [개인정보 처리 통합 안내서(안) 공개 및 의견수렴](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10905) | 개인정보보호정책과 | 2024-12-31 | 10905 |
+| P02 | [개인정보의 안전성 확보조치 기준 안내서(2024.10.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10719) | 신기술개인정보과 | 2024-10-31 | 10719 |
+| P01 | [개인정보 처리방침 작성지침(2024.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10127) | 개인정보보호정책과 | 2024-04-30 | 10127 |
+| P03 | [[과거 안내서]개인정보 유출 등 사고대응 매뉴얼(2024.03. 개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10123) | 디지털소통팀 | 2024-04-29 | 10123 |
+| P06 | [개인정보 영향평가 수행안내서(2024.4.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10089) | 자율보호정책과 | 2024-04-18 | 10089 |
+| P05, P09 | [보건의료데이터 활용 가이드라인(2024.12.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9901) | 데이터안전정책과 | 2024-02-05 | 9901 |
+| P05 | [가명정보 처리 가이드라인(2024.2.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9900) | 데이터안전정책과 | 2024-02-05 | 9900 |
+| P07 | [(공공기관/민간분야) 고정형 영상정보처리기기(CCTV) 설치운영 가이드라인 (2024.1. 개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9870) | 신기술개인정보과 | 2024-01-20 | 9870 |
+| P06 | [개인정보 영향평가 사업 대가산정 가이드](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9863) | 자율보호정책과 | 2024-01-17 | 9863 |
 
-## 연관 후보
+## 연관
 
-- 개별 요약 초안이 대기 중인 자료: 12611(안전성 확보조치 기준 안내서), 12619(개인정보관리 전문기관 지정 안내서), 12501(보호책임자 실무 매뉴얼), 6968(2020 법령 해설서)
-- kb 반영 완료: 12465(유출등 대응), 12468(과징금 투자감경), 11931(가명정보)
-- ISMS-P 인증기준 안내서(9862)는 `kb/isms-p` 담당
+- 12465 개인정보 유출등 대응 안내서(2026.9.) → `kb/pipc/pipc-guide-breach-response-2026-09.md` (source_url nttId=12465)
+- 12468 과징금 투자감경제도 안내서 → `kb/pipc/pipc-guide-penalty-investment-reduction.md` (source_url nttId=12468)
+- 11931 가명정보 처리 가이드라인(2026.3. 개정) → `kb/pipc/pseudonymization-guideline.md` (source_url nttId=11931)
 
 ## 보류 사유
 
 - 2026-11-02 kb-fact-checker (attempts 1): 게시판 3쪽 이후와 공식 전체 목록 첨부(hwpx)를 확인하지 못해 목록이 불완전하다. 표의 신규 3종(nttId 12465·12468·12501)은 게시판 원문과 제목·게시일이 일치함을 확인했으나, 나머지 항목은 이번에 다시 대조하지 않았다. privacy.go.kr 은 스크립트 렌더링으로 읽지 못해 두 번째 A 출처 없음. 보류.
 - 2026-11-13 kb-fact-checker (attempts 2): pipc.go.kr 안내서 게시판 1~14쪽(129건)을 모두 열어 "[현재 안내서]" 표시 게시물을 다시 뽑았다(전체 목록 게시물 3건 포함 45건). 초안 표는 이미 낡았다 — ① 「개인정보의 안전성 확보조치 기준 안내서(2025.11.)」(11641)는 현재 "[과거 안내서]", 현행은 2026.11.판(12611, 2026-11-05) ② 「개인정보관리 전문기관 지정 안내서 및 신청 관련 양식」(12619, 2026-11-05) 신규 ③ 3쪽 이후 현재 안내서(예: ISMS-P 인증기준 안내서 9862, 개인정보 손해배상책임 보장제도 안내서(2024.3.) 10024, 2020 법령 해설서 6968 등) 누락. 공식 전체 목록('26.10.30. 기준, nttId=12605)은 hwpx 첨부라 열지 않았다. "현재" 여부는 pipc 게시판 표시 한 곳만의 값이고 privacy.go.kr 은 현재/과거 표시를 하지 않아 교차 확인이 안 된다. 보류 유지. 제안: 이 목록은 1차 문서가 아니라 게시판 스냅숏이므로 kb 문서로 반영하기보다 kb/index.md 갱신 재료로만 쓰고, 다음 실행에서도 교차 확인이 안 되면 기각.
+
+## 검증 기록
+
+- 2026-11-15 kb-fact-checker: 수정 후 통과. 안내서 게시판 1~14쪽(14쪽은 공지 3건만)을 다시 받아 129건(공지 3, 일반 126)을 행 단위로 대조 — 현재 안내서·기타 자료·과거 안내서 표 60행과 이전 판 제외 7건 모두 제목·담당 부서·게시일·nttId·게시판 표시가 일치(불일치 0). 교차 확인: 공식 전체 목록 첨부(hwpx, 42종)가 현재 안내서 표와 일치, 개인정보 포털 안내서 게시판과 보도자료(12609)로 제목·판 확인(위 「게시 정보」). 고친 것: effective_date 확인필요→해당없음, 가명정보 활용 우수사례집 2021~2024 4건을 이전 판 제외에서 기타 자료 표로 되돌림(연도별 별개 사례집), 과거 안내서 표 분류 `미분류`→코드, 연관 후보→연관(kb 파일 3건만). 12619↔11090 은 게시물 본문을 열어 같은 자료(전문기관 지정안내서 3편+일반수신자 등재 안내서+양식 3종)의 2026년 개정 게시본임을 확인. 게시 정보만 검증(각 안내서 PDF 본문은 열지 않음).
