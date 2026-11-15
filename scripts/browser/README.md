@@ -22,6 +22,7 @@ PC(Windows)에서 Node·Playwright 가 없으면 Claude 데스크톱 앱의 내�
 | 개인정보위 안내서 | https://www.pipc.go.kr/np/cop/bbs/selectBoardList.do?bbsId=BS217&mCode=D010030000 | `&pageIndex=N` | `pipc.go.kr`(www 없음)로 넘어감. 쪽당 10건+공지 |
 | KISA 가이드라인 | https://www.kisa.or.kr/2060207 | `?page=N` | 쪽당 10건 |
 | KISA 안내서 | https://www.kisa.or.kr/2060307 | `?page=N` | 쪽당 10건 |
+| 개인정보 포털 안내서 | https://www.privacy.go.kr/front/bbs/bbsList.do?bbsNo=BBSMSTR_000000000049 | `&pageIndex=N` | 표가 아니라 `page.js` 로 읽는다 |
 | 과기정통부 보도자료 | https://www.msit.go.kr/bbs/list.do?sCode=user&mPid=208&mId=307&bbsSeqNo=94 | `&pageIndex=N`, 제목 검색 `&searchOpt=NTT_SJ&searchTxt=…` | 표가 아니라 `page.js` 로 읽는다 |
 
 가끔 첫 시도에서 빈 결과(0행)가 나온다. 그 쪽만 다시 받는다.

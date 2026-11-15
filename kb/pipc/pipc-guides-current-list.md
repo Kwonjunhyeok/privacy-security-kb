@@ -16,13 +16,6 @@ verified:
     - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12605   # 첨부 「개인정보위 안내서 전체 목록(261030 기준).hwpx」
     - https://www.privacy.go.kr/front/bbs/bbsList.do?bbsNo=BBSMSTR_000000000049   # pageIndex=1~9
     - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12609
-candidate:
-  kind: new
-  target_path: kb/pipc/pipc-guides-current-list.md
-  found_at:
-    - https://www.pipc.go.kr/np/cop/bbs/selectBoardList.do?bbsId=BS217&mCode=D010030000&pageIndex=1  # 1~13쪽 전부 (2026-11-15 브라우저로 열람)
-    - https://www.pipc.go.kr/np/cop/bbs/selectBoardList.do?bbsId=BS217&mCode=D010030000&pageIndex=13
-  attempts: 2
 ---
 # 개인정보위 현행 안내서 목록
 
@@ -132,11 +125,6 @@ candidate:
 - 12465 개인정보 유출등 대응 안내서(2026.9.) → `kb/pipc/pipc-guide-breach-response-2026-09.md` (source_url nttId=12465)
 - 12468 과징금 투자감경제도 안내서 → `kb/pipc/pipc-guide-penalty-investment-reduction.md` (source_url nttId=12468)
 - 11931 가명정보 처리 가이드라인(2026.3. 개정) → `kb/pipc/pseudonymization-guideline.md` (source_url nttId=11931)
-
-## 보류 사유
-
-- 2026-11-02 kb-fact-checker (attempts 1): 게시판 3쪽 이후와 공식 전체 목록 첨부(hwpx)를 확인하지 못해 목록이 불완전하다. 표의 신규 3종(nttId 12465·12468·12501)은 게시판 원문과 제목·게시일이 일치함을 확인했으나, 나머지 항목은 이번에 다시 대조하지 않았다. privacy.go.kr 은 스크립트 렌더링으로 읽지 못해 두 번째 A 출처 없음. 보류.
-- 2026-11-13 kb-fact-checker (attempts 2): pipc.go.kr 안내서 게시판 1~14쪽(129건)을 모두 열어 "[현재 안내서]" 표시 게시물을 다시 뽑았다(전체 목록 게시물 3건 포함 45건). 초안 표는 이미 낡았다 — ① 「개인정보의 안전성 확보조치 기준 안내서(2025.11.)」(11641)는 현재 "[과거 안내서]", 현행은 2026.11.판(12611, 2026-11-05) ② 「개인정보관리 전문기관 지정 안내서 및 신청 관련 양식」(12619, 2026-11-05) 신규 ③ 3쪽 이후 현재 안내서(예: ISMS-P 인증기준 안내서 9862, 개인정보 손해배상책임 보장제도 안내서(2024.3.) 10024, 2020 법령 해설서 6968 등) 누락. 공식 전체 목록('26.10.30. 기준, nttId=12605)은 hwpx 첨부라 열지 않았다. "현재" 여부는 pipc 게시판 표시 한 곳만의 값이고 privacy.go.kr 은 현재/과거 표시를 하지 않아 교차 확인이 안 된다. 보류 유지. 제안: 이 목록은 1차 문서가 아니라 게시판 스냅숏이므로 kb 문서로 반영하기보다 kb/index.md 갱신 재료로만 쓰고, 다음 실행에서도 교차 확인이 안 되면 기각.
 
 ## 검증 기록
 
