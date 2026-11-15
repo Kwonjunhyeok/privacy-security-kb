@@ -3,6 +3,8 @@
 // 첨부 주소 형식 (2026-11-15 확인)
 //   개인정보위: https://www.pipc.go.kr/np/cmm/fms/FileDown.do?atchFileId=<FILE_...>&fileSn=<n>   (게시물의 fn_egov_downFile 인자)
 //   KISA     : https://www.kisa.or.kr/post/fileDownload?menuSeq=<게시판>&postSeq=<번호>&attachSeq=<n>&lang_type=KO
+//   국가사이버안보센터·보호나라처럼 첨부가 자바스크립트(downFile 등)로만 받아지는 곳은 세 번째 인자를
+//   click:<첨부 링크 글자> 로 준다. 게시물에서 그 글자를 가진 링크를 눌러 브라우저 다운로드로 저장한다(2026-11-15 추가).
 const { chromium } = require('playwright');
 const fs = require('fs');
 (async () => {
@@ -11,6 +13,19 @@ const fs = require('fs');
   const ctx = await b.newContext({ locale: 'ko-KR' });
   const p = await ctx.newPage();
   await p.goto(page, { waitUntil: 'networkidle', timeout: 60000 }).catch(() => {});
+  if (file.startsWith('click:')) {
+    const text = file.slice(6);
+    const [dl] = await Promise.all([
+      p.waitForEvent('download', { timeout: 120000 }),
+      p.locator('a', { hasText: text }).first().click(),
+    ]);
+    const fail = await dl.failure();
+    if (fail) { console.error('ERR download', fail); await b.close(); process.exit(1); }
+    await dl.saveAs(out);
+    console.log('download', dl.url(), dl.suggestedFilename(), fs.statSync(out).size, out);
+    await b.close();
+    return;
+  }
   // 페이지 안에서 fetch 해야 브라우저와 같은 프록시·쿠키를 쓴다(ctx.request 는 프록시를 거치지 않는다)
   const res = await p.evaluate(async (u) => {
     const r = await fetch(u, { credentials: 'include' });
