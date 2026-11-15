@@ -5,39 +5,27 @@ doc_type: 고시
 issuer: 과학기술정보통신부, 개인정보보호위원회
 promulgation_no: 개인정보보호위원회고시 제2024-8호, 과학기술정보통신부고시 제2024-30호 (2024. 7. 24., 일부개정)   # 2026-11-13 law.go.kr·pipc.go.kr 일치
 effective_date: 2024-07-24
-published_date: 확인필요
+published_date: 2024-07-29   # pipc.go.kr 훈령·예규·고시 게시판 nttId=10393 작성일
 source_url: https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000244750&chrClsCd=010201
 status: 현행
 verified:
-candidate:
-  kind: new
-  target_path: kb/laws/isms-p-certification-notice.md
-  found_at:
-    - https://www.kisa.or.kr/1050602   # 미등급(kisa.or.kr 은 sources.md 미등재), 미열람
-    - https://byline.network/2026/04/10-634/   # B 단서, 미열람
-    - https://byline.network/2026/09/16-698/   # B 단서, 미열람
-    - https://www.newsis.com/view/NISX20260409_0003584993   # B 단서, 미열람
-    - https://v.daum.net/v/20260312160905864   # B 단서, 미열람
-    - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS216&mCode=D010020000&nttId=10393   # A, 고시 게시판(2026-11-13 검증기 확인)
-    - https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000244750&chrClsCd=010201   # A, 조문 본문
-  attempts: 2
+  date: 2026-11-15
+  by: kb-fact-checker
+  sources:
+    - https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000244750&chrClsCd=010201
+    - https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS216&mCode=D010020000&nttId=10393
 ---
-
 > 수집 메모(2026-11-02 2차 실행): law.go.kr, isms.kisa.or.kr, pipc.go.kr, msit.go.kr ENOTFOUND. 현행 고시번호·시행일 단서는 찾지 못했다. 아래는 개편 동향 **단서**다.
 
-## 현행본 식별
+## 현행본 식별 (2026-11-15 원문 확인)
 
-- 고시번호: 확인필요 (단서 없음)
-- 시행일: 확인필요 (단서 없음)
-- 근거 법률(단서): 정보통신망법 제47조, 개인정보 보호법 제32조의2
+- 현행: [시행 2024. 7. 24.] [개인정보보호위원회고시 제2024-8호 / 과학기술정보통신부고시 제2024-30호, 2024. 7. 24., 일부개정] (law.go.kr, pipc.go.kr nttId=10393 일치). pipc 고시 게시판 2026-03~10월분에 이 고시의 개정 게시 없음.
+- 근거 법률(제1조 원문): 정보통신망법 제47조제3항·제4항, 같은 법 시행령 제47조~제53조의2, 시행규칙 제3조 / 개인정보 보호법 제32조의2, 같은 법 시행령 제34조의2~제34조의8.
 
-## 개편 동향 (단서, 고시 개정 확정 아님)
+## 개편 동향 (고시 개정 아님)
 
-- 2026-03 과기정통부·개인정보위 「ISMS·ISMS-P 인증제 실효성 강화방안」 수립 예고, 2026-04-10 발표 단서
-- 인증 체계 '강화·표준·간편' 3단계, ISMS-P 표준 기준 101개에 강화 인증 기준 20개 추가 단서
-- 서면·스냅샷 중심 심사에서 현장 중심(취약점 진단·모의침투) 전환, 예비심사 도입 단서
-- 의무화 대상(주요 공공시스템 운영기관, 이동통신사, 본인확인기관, 대규모 개인정보처리자) 단서, 시행 2027년(하반기 또는 2027-07-01) 단서 불일치
-- 개인정보위가 관련 고시를 연내 개정할 계획이라는 단서(2026-09-16 시행령 개정안 입법예고 보도). 고시 개정안 행정예고·확정 공고는 확인 못함.
+- 수집 때의 기사 단서('강화·표준·간편' 3단계, 101+20개 기준, 예비심사 도입, 의무화 대상·시기)는 B 등급뿐이고 고시 원문에 반영되지 않아 삭제했다. 2026-11-15 현재 고시 현행본은 2024-07-24 판이다.
+- 관련 A 확인 사실: 개인정보위가 2026-09-16 「ISMS-P 심사 개선을 위한 개인정보 보호법 시행령 개정안」을 입법예고했다(pipc.go.kr 보도자료 nttId=12500, 별도 초안 bill-pipa-decree-isms-p-audit). 정보통신망법 제47조의7제2항(강화인증, 법률 제21500호)은 [laws/network-act.md](../laws/network-act.md) 참조. 이 고시의 후속 개정은 아직 없다.
 
 ## 조문 요지
 
@@ -101,21 +89,21 @@ candidate:
 
 ## 부칙 (원문 확인)
 - 제2024-8호(2024. 7. 24.): 발령한 날부터 시행.
+- 그 밖의 부칙(연혁): 제2013-4호(2013. 2. 18. 시행), 제2013-36호, 제2016-38호, 제2016-59호, 제2018-80호(제19조제4항 적용례, 인증심사원·신청인·인증기관 경과조치), 제2020-37호(2020. 8. 5. 시행, 종전 행정안전부·방송통신위원회 고시 행위 승계), 제2021-27호, 제2022-46호(제18조의2 가상자산사업자 적용례), 제2023-8호(공포한 날 시행).
 
-## 연관 후보
+## 연관
 
-- ISMS-P 인증기준 전 항목(별표 인증기준)
-- 개인정보 보호법 제32조의2, 시행령 인증 조문
-- 정보통신망법 제47조
+- ISMS-P 인증기준(별표 7, 제23조) — [isms-p/certification-criteria.md](../isms-p/certification-criteria.md), [isms-p/1-management-system.md](../isms-p/1-management-system.md), [isms-p/2-protection-measures.md](../isms-p/2-protection-measures.md), [isms-p/3-personal-info-lifecycle.md](../isms-p/3-personal-info-lifecycle.md) (각 문서가 "인증기준 근거는 인증 고시 제23조·별표 7", 현행 고시 제2024-8호·제2024-30호라고 적음)
+- 개인정보 보호법 제32조의2(개인정보 보호 인증) — [laws/pipa.md](../laws/pipa.md) 제32조의2 절 (고시 제1조 근거 조문)
+- 정보통신망법 제47조의7(인증의 차등적용) — [laws/network-act.md](../laws/network-act.md) 제47조의7 절 (고시 제21조제3항제4호·제23조제3항이 제47조의7제1항 인용)
+- 정보통신망법 시행령 제55조의7(차등적용 대상자의 범위) — [laws/network-act-enforcement-decree.md](../laws/network-act-enforcement-decree.md). 참고: 고시 제23조제3항·제4항은 "시행령 제49조의2제1항"을 인용한다(고시 원문 그대로). 현행 시행령과의 조문 번호 대응은 확인필요.
+
+## 검증 기록
+
+- 2026-11-15 kb-fact-checker: law.go.kr 행정규칙 본문 전문(제1조~제39조, 부칙 12건, 별표·별지 목록)을 열어 조문 요지 전 절과 대조, 일치. pipc.go.kr BS216 nttId=10393 제목·작성일(2024-07-29)·첨부(제2024-8호 pdf) 확인. B 단서 '개편 동향' 삭제.
 
 ## 다음 확인할 것
 
 - law.go.kr 행정규칙 현행본 고시번호·시행일, 별표 인증기준 항목 수
 - isms.kisa.or.kr 공지사항, pipc.go.kr·msit.go.kr 고시 개정 행정예고 여부
 
-## 보류 사유
-
-- 2026-11-02 2차 kb-fact-checker (attempts 1): www.law.go.kr, isms.kisa.or.kr, www.pipc.go.kr, www.msit.go.kr 직접 열람 ENOTFOUND(세션 네트워크 허용 목록 밖). A 등급 원문 0곳 확인.
-- 현행 고시번호·시행일 단서조차 없음. '개편 동향'은 B 등급 기사에서 나온 정책 발표·계획이며 고시 개정 확정이 아님(행정예고·확정 공고 미확인). 현행 고시 내용으로 옮기면 안 됨.
-
-- 2026-11-13 kb-fact-checker (attempts 2): law.go.kr 행정규칙 현행본 [시행 2024. 7. 24.] [개인정보보호위원회고시 제2024-8호 / 과학기술정보통신부고시 제2024-30호, 2024. 7. 24., 일부개정] (admRulSeq=2100000244750)과 pipc.go.kr 고시 게시판 nttId=10393 "정보보호 및 개인정보보호 관리체계 인증 등에 관한 고시 일부개정(고시 제2024-8호, 2024.7.24)" 일치(A 2곳). 보류 사유: (1) 조문 요지가 비어 있음 — 본문은 admRulLsInfoR.do?admRulSeq=2100000244750&chrClsCd=010201 에서 열림(제1조~제39조; 제23조 인증심사 기준: ISMS-P는 별표 7 가목~다목, ISMS는 별표 7 가목·나목, 차등적용 대상은 별표 7의2·7의3). (2) 주의: 정보통신망법 제47조의7제2항(강화인증, 법률 제21500호, 2026. 10. 1. 시행)과 시행령 제36735호가 시행됐지만 2026-11-13 현재 law.go.kr 의 고시 현행본은 여전히 2024-07-24 판이다. '개편 동향'(강화·표준·간편 3단계, 101+20개)은 고시 개정 확정이 아니므로 현행으로 쓰지 말 것. 고시 개정 행정예고·공고 여부를 다음 수집 때 pipc 고시 게시판(bbsId=BS216)과 msit 에서 확인.
