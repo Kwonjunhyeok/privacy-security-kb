@@ -17,7 +17,7 @@ candidate:
   found_at:
     - 사용자 제공 사본: 구글 드라이브 「자료집/S01_ISMS-P」 파일 "개인정보위_ISMS-P 인증기준 안내서_2024.07.pdf" (8,275,892 bytes, Drive id 1f_tGo01xZZ9R4dW6tstJMFYT37Lp9GIB). 파일명은 "인증기준 안내서"이나 표지·본문은 「인증제도 안내서」(2024. 7.)다
     - https://isms-p.kisa.or.kr   # 안내서 본문이 밝힌 최신본 게재처. 미열람
-  attempts: 0
+  attempts: 1
 ---
 
 # ISMS-P 인증제도 안내서 (2024. 7.)
@@ -82,4 +82,12 @@ candidate:
 - ISMS-P 인증기준 안내서(2023.11.): `kb/isms-p/certification-criteria.md`
 - 정보통신망법 제47조·제47조의7: `kb/laws/network-act.md` (해당 조문 요지 수록 여부 확인필요)
 - 개인정보 보호법 제32조의2: `kb/laws/pipa.md`
-- 인증 고시: `kb/_pending/2026-11-02-law-isms-p-certification-notice.md` (검증 대기)
+- 인증 고시: `kb/laws/isms-p-certification-notice.md` (2026-11-15 확인: 예전 경로 `kb/_pending/2026-11-02-law-isms-p-certification-notice.md` 는 더 이상 없고 kb/laws 에 반영돼 있음)
+
+## 보류 사유
+
+- 2026-11-15 kb-fact-checker (attempts 1): **기관 게시물 접근 실패.** 이 PC 에서도 isms.kisa.or.kr·isms-p.kisa.or.kr 는 DNS 조회 단계에서 실패("DNS name does not exist", 내장 브라우저 이동 실패, curl exit 6). 그래서 기관 게시판의 자료명·게시일·첨부 파일과 대조하지 못했고, 사용자 제공 사본의 해시도 게시판 첨부와 맞춰 보지 못했다.
+- 다른 A 출처에도 없음: 개인정보위 안내서 게시판(BS217)을 "ISMS"·"인증제도"·"관리체계"로 검색하면 「ISMS-P 인증기준 안내서」(9862, 2024-01-17)만 나오고 「인증제도 안내서」는 없다. KISA 지식플랫폼 가이드라인·안내서 전수 목록(`kb/guides/kisa-guides-current-list.md`)에도 없다.
+- A2: 보안뉴스 2024-07-23 기사(http://www.boannews.com/news/articleView.html?idxno=131534)는 과기정통부·개인정보위·KISA 가 ISMS·ISMS-P 간편인증(인증 특례)을 2024. 7. 24.부터 시행한다고 보도해 초안의 "2024년 7월부터 특례 시행" 문구와 맞는다. 그러나 안내서 자체(자료명·판·게시일)는 언급하지 않아 게시 정보 확인에는 쓸 수 없다.
+- 현행 여부 미확인: ISMS-P 누리집 자료실에서 2024. 7. 판 뒤에 더 새 판(2025~2026년 고시 개정 반영 판 등)이 있는지 확인하지 못했다. 사본 표지는 「정보보호 및 개인정보보호 관리체계(ISMS-P) 인증제도 안내서」, 2024. 7., 과학기술정보통신부·개인정보보호위원회·한국인터넷진흥원으로 초안과 일치(59쪽, 8,275,892 bytes, sha256 E7BA3E97FC3FF29AA53D924316A01F313A115EC416D1741ADD374F50CF92A548). 장별 요지 수치는 이번에 대조하지 않았다.
+- 다음 실행: ISMS-P 누리집이 열리는 망(다른 DNS·사내망 등)에서 자료실 게시물의 제목·등록일·첨부를 확인하고 첨부 sha256 을 위 값과 맞춘다. 더 새 판이 있으면 이 초안은 새 판으로 다시 써야 한다.

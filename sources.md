@@ -42,7 +42,7 @@
 | A | 한국인터넷진흥원 지식플랫폼 가이드라인 | https://www.kisa.or.kr/2060207 (`?page=N`, 2026-11-15 확인) | 정보보호·개인정보보호 가이드라인, 등록일. 현행·과거 표시 없음 |
 | A | 한국인터넷진흥원 지식플랫폼 안내서 | https://www.kisa.or.kr/2060307 (`?page=N`, 2026-11-15 확인) | 안내서·해설서. 개인정보위 안내서 재게시본 포함 |
 | A | KISA 보호나라 가이드·매뉴얼 | https://www.boho.or.kr (세부 경로 확인필요) | 기술 보안 가이드, 침해사고 대응 매뉴얼 |
-| A | KISA ISMS-P 자료실 | https://isms.kisa.or.kr | 인증 제도 안내서, 신청 안내 (인증기준 안내서는 `kb/isms-p`) |
+| A | KISA ISMS-P 자료실 | https://isms.kisa.or.kr | 인증 제도 안내서, 신청 안내 (인증기준 안내서는 `kb/isms-p`). 2026-11-15 PC 에서 DNS 조회 실패(isms.kisa.or.kr, isms-p.kisa.or.kr), 클라우드는 502 |
 | A | 과학기술정보통신부 보도자료 | https://www.msit.go.kr/bbs/list.do?sCode=user&mPid=208&mId=307&bbsSeqNo=94 (제목 검색 `&searchOpt=NTT_SJ&searchTxt=가이드`, 2026-11-15 확인) | 가이드 발표 보도자료. 전용 가이드 게시판은 찾지 못함. 정책 발표자료(종합계획 등) 게시판은 확인필요 |
 | A | KISA 보호나라 보고서/가이드 | https://www.boho.or.kr/kr/bbs/list.do?menuNo=205021&bbsId=B0000127 (`&pageIndex=N`, 2026-11-15 확인, 1,562건) | 침해사고·랜섬웨어·디도스 대응 가이드, 백업 가이드. 동향 보고서도 함께 게시됨. 담당 부서 칸 없음 |
 | A | 국가정보원 국가사이버안보센터 지침·가이드 | https://www.ncsc.go.kr 자료실 > 지침·가이드 (주소는 token 형식, 쪽 넘김은 화면의 쪽 번호를 눌러야 함, 2026-11-15 확인) | 국가망 보안체계(N2SF), 국가 사이버보안 기본지침, 클라우드·AI 보안 가이드. 게시물마다 첨부 SHA-256 게시 |
