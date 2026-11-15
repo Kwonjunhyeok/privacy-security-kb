@@ -1,6 +1,6 @@
 # 지식베이스 목록
 
-마지막 갱신: 2026-11-15 (가이드·안내서 주간 점검: 기관별 현행 목록 3건, ISMS-P 인증기준 4건 반영, reports/2026-11-15.md)
+마지막 갱신: 2026-11-15 (가이드·안내서 주간 점검: 기관별 현행 목록 3건, ISMS-P 인증기준 4건, 개인정보위 안내서 요약 6건 반영, reports/2026-11-15.md)
 
 시행예정 문서(laws/pipa-amendment-21910.md)는 2027-03-09 전까지 현행 근거가 아니다. 현행 개인정보 보호법은 laws/pipa.md(법률 제21445호)다.
 
@@ -20,8 +20,13 @@
 | guides | [한국인터넷진흥원 현행 가이드라인·안내서 목록](guides/kisa-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
 | guides | [과학기술정보통신부 정보보호 가이드 발표 목록](guides/msit-guides-current-list.md) | 정책자료 | - | 게시 2026-03-05 | 2026-11-15 |
 | pipc | [개인정보위 현행 안내서 목록 (안내서 게시판 기준)](pipc/pipc-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
+| pipc | [개인정보의 안전성 확보조치 기준 안내서(2026.11.)](pipc/safety-measures-guide.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
+| pipc | [개인정보 보호책임자 지정·신고 실무 매뉴얼(2026.9.)](pipc/pipc-guide-cpo-designation-manual.md) | 가이드라인 | - | 게시 2026-09-15 | 2026-11-15 |
+| pipc | [개인정보 처리 통합 안내서(2025.7.)_파일수정게시](pipc/pipc-guide-integrated-processing.md) | 가이드라인 | - | 게시 2025-07-14 | 2026-11-15 |
+| pipc | [개인정보 처리방침 작성지침(2026.4. 개정)](pipc/pipc-guide-privacy-policy-writing.md) | 가이드라인 | - | 게시 2026-04-23 | 2026-11-15 |
+| pipc | [개인정보 영향평가 수행안내서(2025.10. 개정)_파일수정게시](pipc/pipc-guide-pia-manual.md) | 가이드라인 | - | 게시 2025-12-12 | 2026-11-15 |
 | pipc | [과징금 투자감경제도 안내서](pipc/pipc-guide-penalty-investment-reduction.md) | 가이드라인 | - | 게시 2026-09-11 | 2026-11-13 |
-| pipc | [개인정보 유출등 대응 안내서(2026.9.)](pipc/pipc-guide-breach-response-2026-09.md) | 가이드라인 | - | 게시 2026-09-11 | 2026-11-13 |
+| pipc | [개인정보 유출등 대응 안내서(2026.9.)](pipc/pipc-guide-breach-response.md) | 가이드라인 | - | 게시 2026-09-11 | 2026-11-15 |
 | pipc | [가명정보 처리 가이드라인 (2026.3. 개정)](pipc/pseudonymization-guideline.md) | 가이드라인 | - | 게시 2026-03-31 | 2026-11-13 |
 | threats | [Synology 제품 보안 업데이트 권고 (DSM 10건, 2026-11-12)](threats/kisa-synology-dsm-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
 | threats | [Node.js 제품 보안 업데이트 권고 (2026-11-12)](threats/kisa-nodejs-november-2026.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |

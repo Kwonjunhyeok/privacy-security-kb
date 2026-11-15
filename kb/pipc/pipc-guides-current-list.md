@@ -122,7 +122,7 @@ verified:
 
 ## 연관
 
-- 12465 개인정보 유출등 대응 안내서(2026.9.) → `kb/pipc/pipc-guide-breach-response-2026-09.md` (source_url nttId=12465)
+- 12465 개인정보 유출등 대응 안내서(2026.9.) → `kb/pipc/pipc-guide-breach-response.md` (source_url nttId=12465)
 - 12468 과징금 투자감경제도 안내서 → `kb/pipc/pipc-guide-penalty-investment-reduction.md` (source_url nttId=12468)
 - 11931 가명정보 처리 가이드라인(2026.3. 개정) → `kb/pipc/pseudonymization-guideline.md` (source_url nttId=11931)
 
