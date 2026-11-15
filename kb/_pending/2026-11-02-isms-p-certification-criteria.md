@@ -18,6 +18,8 @@ candidate:
     - https://www.kisa.or.kr/1050602   # 미등급(sources.md 미등재), 미열람
     - https://eiec.kdi.re.kr/policy/materialView.do?num=286910   # 미등급, 미열람
     - https://byline.network/2026/04/10-634/   # B 단서, 미열람
+    - https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000244750&chrClsCd=010201   # A, 고시 본문(제23조, 별표 목록)
+    - https://www.law.go.kr/LSW/admRulBylContentsInfoR.do?bylSeq=3030645   # A, 별표 7 뷰어 — PDF 이미지 변환 뷰어(iframe)만 반환, HTML 텍스트 없음
   attempts: 2
 ---
 
@@ -37,6 +39,8 @@ candidate:
 ## 항목별 요지
 
 - 확인필요 (원문 미열람)
+- 2026-11-14 수집기: law.go.kr 고시 본문에서 [별표 7] 인증기준(제23조 관련), [별표 7의2] 인증기준(제23조제3항 관련), [별표 7의3] 인증기준(제23조제4항 관련) 이 별표 목록에 있음을 확인. 그러나 별표 본문은 HWP·PDF 첨부(flDownload.do)와 PDF 이미지 변환 뷰어(admRulBylContentsInfoR.do?bylSeq=3030645 → /LSW/viewer/skin/doc.html iframe)로만 제공되고 HTML 텍스트가 없어 항목 목록을 채우지 못했다. 첨부 파일은 지시에 따라 내려받지 않음. isms.kisa.or.kr 은 2026-11-14 에도 DNS 해석 실패(이 PC curl, WebFetch 모두 ENOTFOUND).
+- 제23조 원문으로 확인한 적용 구분: ISMS-P 별표 7 가목~다목, ISMS 별표 7 가목·나목. 정보통신망법 제47조의7제1항제1호·시행령 제49조의2제1항제1호 해당자는 별표 7의2(ISMS 는 가목 중 1.1.2. 항목 제외), 시행령 제49조의2제1항제2호 해당자는 별표 7의3.
 
 ## 연관 후보
 
