@@ -73,7 +73,10 @@ description: 정보보호·개인정보보호 지식베이스 저장소(privacy-
 국내 기관 누리집은 WebFetch 로 자주 실패하고(ENOTFOUND), 검색 요약은 근거가 아니다. 그래서:
 
 - **메인 세션**: 앱 내장 브라우저(`mcp__Claude_Browser__*`)로 연다. 게시판 목록·첨부 ID는 페이지 안 `fetch` 와 DOMParser 로 여러 쪽을 한 번에 읽을 수 있다(같은 출처일 때).
-- **서브에이전트**: 내장 브라우저 도구가 없을 수 있으므로 `scripts/browser/`(Playwright)를 쓰게 한다. 준비는 아래.
+- **서브에이전트**: 2026-11-15 실행에서는 서브에이전트(`general-purpose`)도 내장 브라우저 도구를 그대로 썼다. 프롬프트에 "필요하면 ToolSearch 로 `mcp__Claude_Browser__` 를 한 번에 불러온다"고 적는다. 내장 브라우저는 창 하나를 같이 쓰므로 검증·수집 에이전트는 한 번에 하나씩 돌린다. 내장 브라우저가 없는 환경에서만 `scripts/browser/`(Playwright)를 쓴다. 준비는 아래.
+- **개인정보위 첨부**: curl 로 받을 때 게시물 페이지를 먼저 받아 쿠키(`-c`/`-b`)를 쓰고 브라우저 User-Agent·Referer 를 붙인다. 쿠키가 없으면 400 이 온다.
+- **한글이 안 뽑히는 PDF**(회의록·속기록 등): `pdftotext` 결과가 비면 PowerShell 의 `Windows.Data.Pdf` 로 필요한 쪽을 PNG 로 렌더링해 읽는다.
+- **이 PC 의 Python 3.6**: 한글이 든 스크립트를 `python - <<EOF` 로 넘기면 깨진다. 스크립트를 `# -*- coding: utf-8 -*-` 파일로 저장해 실행한다.
 - 기관별 쪽 넘김·첨부 주소 형식은 저장소 `scripts/browser/README.md` 에 있다. 개인정보위는 `pipc.go.kr`(www 없음)로 넘어간다. 국가사이버안보센터는 token 주소이고 첨부는 `POST /api/usr/bbs/downloadFile`(`downloadFileId`)이며 게시물에 SHA-256 이 적혀 있다.
 - 첨부가 0바이트·502 로 오면 한 번 더 받는다. 그래도 안 되면 보류 사유로 적는다.
 
@@ -84,7 +87,7 @@ description: 정보보호·개인정보보호 지식베이스 저장소(privacy-
 ```bash
 mkdir -p ~/.cache/kb-tools && cd ~/.cache/kb-tools
 npm init -y >/dev/null && npm install playwright
-npx playwright install chromium     # 수백 MB, 10분 넘게 걸릴 수 있다 → 백그라운드로 돌린다
+npx playwright install chromium     # 수백 MB. 2026-11-15 PC 에서는 headless shell 받기가 끝나지 않고 실패했다(내장 브라우저로 대신함)
 # 사용: NODE_PATH=~/.cache/kb-tools/node_modules node <저장소>/scripts/browser/board.js <출력> <URL...>
 ```
 
