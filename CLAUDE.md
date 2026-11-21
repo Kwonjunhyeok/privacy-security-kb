@@ -66,4 +66,4 @@ verified:
 
 ## 주간 갱신
 
-주 1회 PC에서 수동으로 실행한다(매주 토요일 오전 알림). 절차는 `UPDATE.md` 를 따른다. PC를 쓸 수 없을 때나 일부 분야만 갱신할 때는 클라우드 세션(환경 `privacy-security-kb`)에서 `/kb-cloud-update [범위]` 스킬(`.claude/skills/kb-cloud-update/`)을 쓴다. 클라우드 갱신은 main 에 직접 쓰지 않고 PR 로 반영한다. 설계 배경은 `docs/design.md`.
+주 1회 PC에서 수동으로 실행한다(매주 토요일 오전 알림). 절차는 `UPDATE.md` 를 따른다. PC를 쓸 수 없을 때나 일부 분야만 갱신할 때는 클라우드 세션(환경 `privacy-security-kb`)에서 `/kb-cloud-update [범위]` 스킬(`.claude/skills/kb-cloud-update/`)을 쓴다. 클라우드 갱신은 main 에 직접 쓰지 않고 PR 로 반영한다. PR 은 `.github/workflows/kb-check.yml` 이 형식을 검사하고(`scripts/ci/check_kb.py`), `kb/` 안의 변경뿐이면 통과 즉시 자동 병합한다. `.claude/`·`CLAUDE.md`·`UPDATE.md`·`sources.md`·`scripts/`·`.github/`·`docs/` 를 바꾼 PR 은 자동 병합하지 않고 사용자가 승인한다. 설계 배경은 `docs/design.md`.

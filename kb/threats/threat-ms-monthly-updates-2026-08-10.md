@@ -8,7 +8,6 @@ effective_date: 해당없음
 published_date: 2026-10-15   # 가장 최근 공지 기준. 개별 게시일은 본문 표
 source_url: https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&menuNo=205020&nttId=72216
 status: 현행
-fact_check: 수정 후 통과
 verified:
   date: 2026-11-13
   by: kb-fact-checker

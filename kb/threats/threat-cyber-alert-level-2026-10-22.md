@@ -8,7 +8,6 @@ effective_date: 2026-10-22   # "10.22일 12:00부로"
 published_date: 2026-10-22
 source_url: https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000342&menuNo=205024&nttId=72233
 status: 현행
-fact_check: 통과
 verified:
   date: 2026-11-13
   by: kb-fact-checker
