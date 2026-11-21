@@ -17,14 +17,6 @@ verified:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000127&menuNo=205021&nttId=72125   # 보호나라 게시물 (제목·등록일 2026-07-08·TLP·본문)
     - https://www.boho.or.kr/common/cmm/fms/FileDown.do?atchFileId=oRW1jQ9iSW1AIQtLJ0Yx05G52lod_qJEh4P-qMeyYDA&fileSn=1&bbsId=B0000127   # 첨부 원문 (sha256 23cd4941…6195a7, 표지·목차·6·12·13·51·67쪽(인쇄 쪽)·간기 열람)
     - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=328&mPid=243&bbsSeqNo=127&nttSeqNo=3139463   # 과기정통부 게시물 (게시 시작일 Jul 8, 2026, 정보보호기획과). 첨부 zip 안 PDF sha256 이 보호나라 첨부와 같음
-candidate:
-  kind: new
-  target_path: kb/guides/ai-security-red-teaming-guide.md
-  found_at:
-    - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000127&menuNo=205021&nttId=72125   # 보호나라 보고서/가이드 1557번, 2026-07-08 (2026-11-15 내장 브라우저)
-    - https://www.boho.or.kr/common/cmm/fms/FileDown.do?atchFileId=oRW1jQ9iSW1AIQtLJ0Yx05G52lod_qJEh4P-qMeyYDA&fileSn=1&bbsId=B0000127   # 첨부 「[최종]AI 보안 레드티밍 가이드.pdf」 1,225,390바이트, sha256 23cd4941d739730de14f5f20063f1cdafe49803acb5bd0ea17c76d5f6d6195a7
-    - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=328&mPid=243&bbsSeqNo=127&nttSeqNo=3139463   # 과기정통부 정책정보 > 네트워크·전파 게시판 8번, 담당부서 정보보호기획과, 2026. 7. 8, 첨부 「AI 보안 레드티밍 가이드.zip」(2026-11-21 검증 때 받음: 안의 「[최종] AI 보안 레드티밍 가이드.pdf」 1,225,390바이트, sha256 이 보호나라 첨부와 같음)
-  attempts: 0
 ---
 
 # AI 보안 레드티밍 가이드

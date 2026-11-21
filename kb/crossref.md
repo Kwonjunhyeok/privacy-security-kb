@@ -44,3 +44,6 @@ ISMS-P 인증기준 항목을 축으로 관련 법 조항, 가이드, 처분 사
 | [2.5.1 사용자 계정 관리](isms-p/2-protection-measures.md) | - | - | - | [E-GENE ITSM 비인가 회원가입 취약점·신규 사용자 수동 등록 임시 조치](threats/kisa-steg-egene-itsm-2026-11-06.md) |
 | - | 정보통신망법 시행령 제36조의7 ([network-act-enforcement-decree](laws/network-act-enforcement-decree.md)) ↔ 시행규칙 제2조·제3조 ([network-act-enforcement-rule](laws/network-act-enforcement-rule.md)) | [ISMS-P 인증 고시](laws/isms-p-certification-notice.md) (제1조가 시행규칙 제3조를 근거로 듦) | - | - |
 | - | - | [공공 AX 프라이버시 보호 안내서](pipc/pipc-guide-public-ax-privacy.md) ↔ [생성형 AI 개인정보 처리 안내서](pipc/pipc-guide-generative-ai-privacy.md), [영향평가 수행안내서 5.7 AI 지표](pipc/pipc-guide-pia-manual.md), [처리 통합 안내서](pipc/pipc-guide-integrated-processing.md) (공공 AX 안내서 2쪽·29쪽) | - | - |
+| - | - | [AI 보안 레드티밍 가이드](guides/ai-security-red-teaming-guide.md) ↔ [AI 보안위협 대응 매뉴얼](guides/ai-security-threat-manual.md) ↔ [인공지능(AI) 보안 안내서](guides/ai-security-guide.md) (매뉴얼 6쪽: 안내서의 후속) | - | - |
+| - | - | [국가ㆍ공공기관 AI보안 가이드북](guides/public-ai-security-guidebook.md) ↔ [N2SF 보안가이드라인](guides/n2sf-security-guideline.md) (가이드북 부록 5) | - | - |
+| - | - | [OT 제로트러스트 적용 안내서](guides/ot-zero-trust-guide.md), [제로트러스트 성숙도 모델 해설서](guides/zero-trust-maturity-model-commentary.md) ↔ [제로트러스트 가이드라인 2.0](guides/zero-trust-guideline.md) | - | - |

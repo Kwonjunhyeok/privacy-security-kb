@@ -36,6 +36,12 @@
 | guides | [KISA 보호나라 보고서/가이드 게시판 현행 목록](guides/boho-guides-current-list.md) | 목록 | - | 게시 2026-10-28 | 2026-11-15 |
 | guides | [한국인터넷진흥원 현행 가이드라인·안내서 목록](guides/kisa-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
 | guides | [과학기술정보통신부 정보보호 가이드 발표 목록](guides/msit-guides-current-list.md) | 정책자료 | - | 게시 2026-03-05 | 2026-11-15 |
+| guides | [AI 보안 레드티밍 가이드](guides/ai-security-red-teaming-guide.md) | 가이드라인 | - | 게시 2026-07-08 | 2026-11-21 |
+| guides | [AI 보안위협 대응 매뉴얼](guides/ai-security-threat-manual.md) | 가이드라인 | - | 게시 2026-07-08 | 2026-11-21 |
+| guides | [국가 망 보안체계(N2SF) 이해 및 활용 안내](guides/n2sf-overview.md) | 가이드라인 | - | 게시 2026-03-24 | 2026-11-21 |
+| guides | [OT 환경의 제로트러스트 적용 안내서](guides/ot-zero-trust-guide.md) | 가이드라인 | - | 게시 2025-12-22 | 2026-11-21 |
+| guides | [국가ㆍ공공기관 AI보안 가이드북 (2.0)](guides/public-ai-security-guidebook.md) | 가이드라인 | - | 게시 2025-12-10 | 2026-11-21 |
+| guides | [제로트러스트 성숙도 모델 해설서](guides/zero-trust-maturity-model-commentary.md) | 가이드라인 | - | 게시 2025-12-18 | 2026-11-21 |
 | pipc | [개인정보위 현행 안내서 목록 (안내서 게시판 기준)](pipc/pipc-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
 | pipc | [개인정보의 안전성 확보조치 기준 안내서(2026.11.)](pipc/safety-measures-guide.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
 | pipc | [개인정보 보호책임자 지정·신고 실무 매뉴얼(2026.9.)](pipc/pipc-guide-cpo-designation-manual.md) | 가이드라인 | - | 게시 2026-09-15 | 2026-11-15 |

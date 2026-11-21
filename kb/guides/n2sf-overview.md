@@ -2,32 +2,30 @@
 title: 국가 망 보안체계(N2SF) 이해 및 활용 안내
 category: guides
 doc_type: 가이드라인
-issuer: 국가정보원 국가사이버안보센터   # 게시 기관. 원문에서 읽은 쪽(1·2·4·5·9·12쪽)에 발행 기관 표기는 보지 못함 → 확인필요
+issuer: 국가정보원 국가사이버안보센터   # 게시 기관 기준. 원문 표지(1쪽)·본문 쪽·마지막 쪽(13쪽)에 발행 기관 표기 없음(2026-11-21 확인)
 promulgation_no: 해당없음
 effective_date: 해당없음
 published_date: 2026-03-24
-edition: 확인필요
+edition: 표기 없음   # 표지(1쪽)·마지막 쪽(13쪽)에 판·발행 연월 표기 없음(2026-11-21 확인). 게시판 작성일 2026.03.24
 topics: [S09]
 source_url: https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNj_uU6OMakPcrAhgWAjJq6eEvT3SmMyxg5hgnvZ2g1h
 status: 현행
 verified:
-candidate:
-  kind: new
-  target_path: kb/guides/n2sf-overview.md
-  found_at:
-    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNj_uU6OMakPcrAhgWAjJq6eEvT3SmMyxg5hgnvZ2g1h   # 자료실 > 지침·가이드 4번(기타 공시), 작성일 2026.03.24 (2026-11-15 내장 브라우저)
-    - https://www.ncsc.go.kr/api/usr/bbs/downloadFile   # POST downloadFileId=48175697-2b66-4979-a6cb-74cfc69c5d55, 「국가_망_보안체계(N2SF)_이해_및_활용_안내.pdf」 7,970,302바이트. sha256 af605dd1b82b444e691f5ed4303e7842e37390ac97e703c2d3b7e0a9ead3af06 = 게시물 게시 해시값과 일치
-  attempts: 0
+  date: 2026-11-21
+  by: kb-fact-checker
+  sources:
+    - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNj_uU6OMakPcrAhgWAjJq6eEvT3SmMyxg5hgnvZ2g1h   # 게시물 (제목·작성일 2026.03.24·본문·첨부 해시 게시). 2026-11-21 목록 기준 7번
+    - https://www.ncsc.go.kr/api/usr/bbs/downloadFile   # POST downloadFileId=48175697-2b66-4979-a6cb-74cfc69c5d55, 7,970,302바이트, sha256 af605dd1…ead3af06 = 게시 해시. 1·2·4·5·9·12·13쪽 열람
 ---
 
 # 국가 망 보안체계(N2SF) 이해 및 활용 안내
 
 ## 게시 정보
 
-- 국가사이버안보센터 자료실 > 지침·가이드, 번호 4, 구분 "기타 공시", 작성일 2026.03.24. 게시물 본문: "국가 망 보안체계(N2SF) 이해를 돕기위한 설명자료입니다".
+- 국가사이버안보센터 자료실 > 지침·가이드, 번호 7(2026-11-21 기준. 2026-11-15 수집 때는 4번이었으나 2026.11.16 새 게시물 3건으로 밀림), 구분 "기타 공시", 작성일 2026.03.24. 게시물 본문: "국가 망 보안체계(N2SF) 이해를 돕기위한 설명자료입니다".
 - 첨부 1건 「국가_망_보안체계(N2SF)_이해_및_활용_안내.pdf」(13쪽). 받은 파일의 SHA-256 이 게시물에 적힌 해시값과 같다.
 - 글자 추출이 되지 않아(Adobe-Korea1 글꼴) 1·2·4·5·9·12쪽을 렌더링해 읽었다. 3·6·7·8·10·11·13쪽은 원문 미확인.
-- 판·발행일·발행 기관 표기는 읽은 쪽에서 보지 못했다(확인필요).
+- 판·발행일·발행 기관 표기는 표지(1쪽)·읽은 본문 쪽·마지막 쪽(13쪽, "마무리" 카드와 생성형 AI 이미지 안내)에 없다. 게시 정보(게시판 작성일 2026.03.24, 게시 기관 국가사이버안보센터)를 기준으로 한다.
 
 ## 목적·적용 대상
 
@@ -54,9 +52,15 @@ candidate:
 
 - 읽은 쪽에서 법령 조문 인용은 보지 못했다(확인필요). 등급분류·보안대책·평가 절차의 세부 기준은 「N2SF 보안가이드라인 1.0」(kb/guides/n2sf-security-guideline.md)이 근거 문서다. 이 설명자료의 평가지표는 "권고"로 표기돼 있다.
 
-## 연관 후보
+## 연관
 
-- kb/guides/n2sf-security-guideline.md (국가 망 보안체계(N2SF) 보안가이드라인 1.0, 2025-09-30)
-- 국가사이버안보센터 「국가 사이버보안 기본지침(5.1부 개정) 안내」(2026-07-20, 원문 미확인)
-- 같은 분류(S09): 「2026년도 사이버보안 실태 평가지표」(2025-12-11)
-- ISMS-P 후보: 1.2.1 정보자산 식별, 2.6.1 네트워크 접근, 2.6.7 인터넷 접속 통제
+- kb/guides/n2sf-security-guideline.md (국가 망 보안체계(N2SF) 보안가이드라인 1.0, 2025-09-30): 이 설명자료 9쪽이 "가이드라인에 수록된 단계별 '적절성 평가지표'"로 평가한다고 적어 가이드라인을 근거 문서로 가리킴. 같은 게시판·같은 체계(N2SF)의 본문 자료.
+
+## 검증 기록
+
+- 2026-11-21 kb-fact-checker: **수정 후 통과**(게시 정보 + 원문 표본 대조). 고친 값: edition `확인필요` → `표기 없음`, 게시판 번호 4 → 7(2026-11-21 기준).
+- 게시 정보: 내장 브라우저로 지침·가이드 목록 1~3쪽(총 26건)과 게시물을 다시 열어 제목·구분·작성일(2026.03.24)·본문("국가 망 보안체계(N2SF) 이해를 돕기위한 설명자료입니다")·첨부 파일명·게시 SHA-256 대조. 첨부를 받아 SHA-256 이 게시 해시값과 같음 → 기관 게시물 + 첨부 원문 2곳 일치.
+- 원문(렌더링): 1쪽 표지(제목만, 기관·연월 표기 없음), 2쪽 개념·C/S/O 예시, 4쪽 5단계 개관, 5쪽 1단계 준비(BRM 5레벨), 9쪽 5단계 적절성 평가지표(권고) 4개 문항, 12쪽 카드뉴스(강철 금고 방·든든한 서재·사랑방), 13쪽 마무리. 초안 서술과 일치. 3·6~8·10·11쪽은 원문 미확인으로 남김.
+- 번호: 게시판 번호가 2026-11-16 새 게시물 3건으로 4 → 7로 바뀌어 본문을 고쳤다(수집 시점 값은 맞았고, 게시판 변동 반영).
+- edition·issuer: 원문에 표기가 없음을 확인해 `확인필요` → `표기 없음`(게시 정보 기준)으로 바꿨다.
+- 연관: 국가 사이버보안 기본지침(5.1부 개정)·2026년도 실태 평가지표는 이 원문에서 인용 근거를 확인하지 못해 지웠다. ISMS-P 후보도 지웠다.

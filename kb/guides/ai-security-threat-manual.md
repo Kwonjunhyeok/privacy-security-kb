@@ -17,14 +17,6 @@ verified:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000127&menuNo=205021&nttId=72124   # 보호나라 게시물 (제목·등록일 2026-07-08·TLP·본문)
     - https://www.boho.or.kr/common/cmm/fms/FileDown.do?atchFileId=oRW1jQ9iSW1AIQtLJ0Yx09U7NDxx2wQnErUqhPz0Rjw&fileSn=1&bbsId=B0000127   # 첨부 원문 (sha256 1358643f…420efc95, 표지·목차·6·7·9·10쪽(인쇄 쪽)·간기 열람)
     - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=328&mPid=243&bbsSeqNo=127&nttSeqNo=3139462   # 과기정통부 게시물 (게시 시작일 Jul 8, 2026, 정보보호기획과). 첨부 zip 안 PDF sha256 이 보호나라 첨부와 같음
-candidate:
-  kind: new
-  target_path: kb/guides/ai-security-threat-manual.md
-  found_at:
-    - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000127&menuNo=205021&nttId=72124   # 보호나라 보고서/가이드 1556번, 2026-07-08 (2026-11-15 내장 브라우저)
-    - https://www.boho.or.kr/common/cmm/fms/FileDown.do?atchFileId=oRW1jQ9iSW1AIQtLJ0Yx09U7NDxx2wQnErUqhPz0Rjw&fileSn=1&bbsId=B0000127   # 첨부 「[최종]AI 보안 위협 대응 매뉴얼.pdf」 2,522,138바이트, sha256 1358643f3d93a643bda1d954b615aeb5046fe36716e333e98a5d5d71420efc95
-    - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=328&mPid=243&bbsSeqNo=127&nttSeqNo=3139462   # 과기정통부 정책정보 > 네트워크·전파 게시판 7번 「AI 보안 위협 대응 매뉴얼」, 담당부서 정보보호기획과, 2026. 7. 8, 첨부 「AI 보안 위협 대응 매뉴얼.zip」(2026-11-21 검증 때 받음: 안의 「[최종] AI 보안 위협 대응 매뉴얼.pdf」 2,522,138바이트, sha256 이 보호나라 첨부와 같음)
-  attempts: 0
 ---
 
 # AI 보안위협 대응 매뉴얼
