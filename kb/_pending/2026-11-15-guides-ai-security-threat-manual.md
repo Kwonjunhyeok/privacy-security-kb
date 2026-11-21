@@ -11,13 +11,19 @@ topics: [S08]
 source_url: https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000127&menuNo=205021&nttId=72124
 status: 현행
 verified:
+  date: 2026-11-21
+  by: kb-fact-checker
+  sources:
+    - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000127&menuNo=205021&nttId=72124   # 보호나라 게시물 (제목·등록일 2026-07-08·TLP·본문)
+    - https://www.boho.or.kr/common/cmm/fms/FileDown.do?atchFileId=oRW1jQ9iSW1AIQtLJ0Yx09U7NDxx2wQnErUqhPz0Rjw&fileSn=1&bbsId=B0000127   # 첨부 원문 (sha256 1358643f…420efc95, 표지·목차·6·7·9·10쪽(인쇄 쪽)·간기 열람)
+    - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=328&mPid=243&bbsSeqNo=127&nttSeqNo=3139462   # 과기정통부 게시물 (게시 시작일 Jul 8, 2026, 정보보호기획과). 첨부 zip 안 PDF sha256 이 보호나라 첨부와 같음
 candidate:
   kind: new
   target_path: kb/guides/ai-security-threat-manual.md
   found_at:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000127&menuNo=205021&nttId=72124   # 보호나라 보고서/가이드 1556번, 2026-07-08 (2026-11-15 내장 브라우저)
     - https://www.boho.or.kr/common/cmm/fms/FileDown.do?atchFileId=oRW1jQ9iSW1AIQtLJ0Yx09U7NDxx2wQnErUqhPz0Rjw&fileSn=1&bbsId=B0000127   # 첨부 「[최종]AI 보안 위협 대응 매뉴얼.pdf」 2,522,138바이트, sha256 1358643f3d93a643bda1d954b615aeb5046fe36716e333e98a5d5d71420efc95
-    - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=328&mPid=243&bbsSeqNo=127&nttSeqNo=3139462   # 과기정통부 정책정보 > 네트워크·전파 게시판 7번 「AI 보안 위협 대응 매뉴얼」, 담당부서 정보보호기획과, 2026. 7. 8, 첨부 zip(받지 않음)
+    - https://www.msit.go.kr/bbs/view.do?sCode=user&mId=328&mPid=243&bbsSeqNo=127&nttSeqNo=3139462   # 과기정통부 정책정보 > 네트워크·전파 게시판 7번 「AI 보안 위협 대응 매뉴얼」, 담당부서 정보보호기획과, 2026. 7. 8, 첨부 「AI 보안 위협 대응 매뉴얼.zip」(2026-11-21 검증 때 받음: 안의 「[최종] AI 보안 위협 대응 매뉴얼.pdf」 2,522,138바이트, sha256 이 보호나라 첨부와 같음)
   attempts: 0
 ---
 
@@ -26,8 +32,8 @@ candidate:
 ## 게시 정보
 
 - 보호나라 게시판 제목: AI 보안위협 대응 매뉴얼 (번호 1556, 게시일 2026-07-08, TLP:CLEAR). 첨부 파일명과 표지·간기의 자료명은 「AI 보안 위협 대응 매뉴얼」(띄어쓰기 다름). 게시물 본문: "한국인터넷진흥원 AI 보안 레드팀 사업 담당자"가 "AI에 특화된 보안 위협 대응을 위한" 매뉴얼을 게시한다고 적음.
-- 과기정통부 정책정보 > 네트워크·전파 게시판에도 「AI 보안 위협 대응 매뉴얼」로 2026. 7. 8 게시(정보보호기획과). 첨부 zip 은 받지 않아 같은 파일인지 확인필요.
-- 첨부 원문 231쪽(PDF 쪽수). 글자 추출이 되지 않아 표지·목차·6·9·10쪽·간기를 렌더링해 읽었다.
+- 과기정통부 정책정보 > 네트워크·전파 게시판에도 「AI 보안 위협 대응 매뉴얼」로 게시(게시 시작일 표기 "Jul 8, 2026", 담당부서 정보보호기획과). 게시물 본문: AI 보안 위협을 체계적으로 분류하고 위협별 분석방법과 완화방안을 기업과 국민이 참조하도록 마련. 첨부 zip 안의 PDF 는 보호나라 첨부와 같은 파일(SHA-256 일치).
+- 첨부 원문 231쪽(PDF 쪽수). 인쇄 쪽 번호는 PDF 쪽수보다 1 작다(인쇄 6쪽 = PDF 7쪽). 아래 "원문 N쪽"은 인쇄 쪽 번호. 글자 추출이 되지 않아 표지·목차·6·9·10쪽·간기를 렌더링해 읽었다.
 - 표지: "KISA AI Security Red Team | 2026-01", "2026. 7", 영문명 AI Security Threat Mitigation Manual.
 - 간기(원문): 발행일 2026년 7월 / 발행처 과학기술정보통신부 정보보호네트워크정책관 정보보호기획과, 한국인터넷진흥원 위협대응단 AI탐지대응팀 / 참여기관 SK쉴더스 EQST Lab, 중앙대학교 산업보안학과 TrustworthyAI Lab / 자문 AI 보안 레드팀 실무협의체.
 
@@ -56,9 +62,15 @@ candidate:
 - 원문 6쪽은 배경 설명으로 「인공지능 발전과 신뢰 기반 조성 등에 관한 기본법」 발효와 고영향 AI 에 대한 사람의 관리·감독 의무, 「범용 인공지능 행동강령(General-Purpose AI Code of Practice)」을 언급한다. 조문 번호 인용은 읽은 범위에서 보지 못했다(확인필요).
 - 매뉴얼의 진단·대응 방안은 안내서 권고다.
 
-## 연관 후보
+## 연관
 
-- 「AI 보안 레드티밍 가이드」(보호나라 1557번, 같은 날 게시, 위협 분류를 이 매뉴얼에서 인용)
-- kb/guides/ai-security-guide.md (인공지능(AI) 보안 안내서 2025.12. — 원문이 이 매뉴얼을 그 후속이라 적음)
-- 국가사이버안보센터 「국가ㆍ공공기관 AI보안 가이드북」(2025-12-10)
-- ISMS-P 후보: 1.2.3 위험 평가, 2.8.1 보안 요구사항 정의, 2.11.2 취약점 점검 및 조치
+- 「AI 보안 레드티밍 가이드」(kb/guides/ai-security-red-teaming-guide.md 로 반영 예정, 보호나라 1557번, 같은 날 게시): 레드티밍 가이드 원문 13쪽이 위협 분류의 구체 기준으로 이 매뉴얼을 참고하라고 적음.
+- kb/guides/ai-security-guide.md (인공지능(AI) 보안 안내서, 2025. 12.): 이 매뉴얼 원문 6쪽이 "「인공지능(AI) 보안 안내서」의 후속"이라고 적음.
+
+## 검증 기록
+
+- 2026-11-21 kb-fact-checker: **통과**(게시 정보 + 원문 표본 대조).
+- 게시 정보: 보호나라 게시물(제목 "AI 보안위협 대응 매뉴얼", 등록일 2026-07-08, TLP:CLEAR, 본문)과 과기정통부 정책정보 게시물(제목 "AI 보안 위협 대응 매뉴얼", 게시 시작일 Jul 8, 2026, 정보보호기획과)을 다시 열어 대조. 두 곳 첨부 SHA-256 일치(1358643f…420efc95). 제목 띄어쓰기는 보호나라 게시물만 "보안위협", 원문 표지·간기·과기정통부 게시물은 "보안 위협".
+- 원문(내장 브라우저 렌더링): 표지("KISA AI Security Red Team | 2026-01", "2026. 7", AI Security Threat Mitigation Manual, 과기정통부·KISA), 목차(PDF 4쪽, 장·절·쪽 번호 초안과 일치), 6쪽 발간 목적(LLM 시스템 전반, 기본법·범용 AI 행동강령 언급, 「인공지능(AI) 보안 안내서」 후속), 7쪽 적용 범위(LLM 과 LLM 시스템), 9쪽 챕터별 권장 독자 표, 10쪽 안전·보안 포괄, 간기(PDF 230쪽: 발행일 2026년 7월, 발행처, 참여기관 SK쉴더스 EQST Lab·중앙대 산업보안학과 TrustworthyAI Lab, 자문) 모두 초안과 일치.
+- 더 새 판: 보호나라 게시판 "AI" 검색 결과에 같은 자료의 다른 판 없음.
+- 연관: AI보안 가이드북(국가사이버안보센터)은 이 원문에서 인용 근거를 확인하지 못해 지웠다. ISMS-P 후보도 원문 근거가 없어 지웠다.

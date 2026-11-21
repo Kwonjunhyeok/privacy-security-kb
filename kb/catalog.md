@@ -65,8 +65,8 @@
 | P06 | [개인정보 영향평가 대가산정 가이드(2024.10.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10718) | 개인정보보호위원회 | 2024.10. | 2024-10-31 | 목록만 | 2026-11-15 |
 | P06, P09 | [자율규제 참여 단체사를 위한 업종별 개인정보 처리 가이드(학원업/호텔업/공인중개사업)('20.12.개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=7054) | 개인정보보호위원회 | '20.12.개정 | 2020-12-31 | 목록만 | 2026-11-15 |
 | P06, P09 | [자율규제단체 참여사를 위한 업종별 개인정보 처리 가이드(대중골프장업, 렌터카업, 여행업)('20.12.개정)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=7053) | 개인정보보호위원회 | '20.12.개정 | 2020-12-31 | 목록만 | 2026-11-15 |
-| P07, P09 | [공공 AX 프라이버시 보호 안내서(2026.7.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=12436) | 개인정보보호위원회 | 2026.7. | 2026-08-31 | 목록만 | 2026-11-15 |
-| P07 | [생성형 인공지능(AI) 개발·활용을 위한 개인정보 처리 안내서(2025.8.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11439) | 개인정보보호위원회 | 2025.8. | 2025-08-22 | 목록만 | 2026-11-15 |
+| P07, P09 | [공공 AX 프라이버시 보호 안내서(2026.7.)](pipc/pipc-guide-public-ax-privacy.md) | 개인정보보호위원회 | 2026.7. | 2026-08-31 | 있음 | 2026-11-21 |
+| P07 | [생성형 인공지능(AI) 개발·활용을 위한 개인정보 처리 안내서(2025.8.)](pipc/pipc-guide-generative-ai-privacy.md) | 개인정보보호위원회 | 2025.8. | 2025-08-22 | 있음 | 2026-11-21 |
 | P07 | [안전한 인공지능(AI) 데이터 활용을 위한 AI 프라이버시 리스크 관리 모델](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=11014) | 개인정보보호위원회 | 확인필요 | 2025-02-21 | 목록만 | 2026-11-15 |
 | P07 | [고정형 영상정보처리기기 설치·운영 안내서(2024.12.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10901) | 개인정보보호위원회 | 2024.12. | 2024-12-30 | 목록만 | 2026-11-15 |
 | P07 | [생체정보 보호 안내서(2024.12.)](https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=10900) | 개인정보보호위원회 | 2024.12. | 2024-12-30 | 목록만 | 2026-11-15 |
