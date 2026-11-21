@@ -8,7 +8,6 @@ effective_date: 2026-10-02
 published_date: 해당없음
 source_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290483
 status: 현행
-fact_check: 수정 후 통과
 verified:
   date: 2026-11-13
   by: kb-fact-checker

@@ -1,0 +1,49 @@
+name: kb-check
+
+# kb 갱신 PR 을 형식 검사하고, 통과하면 자동 병합한다.
+# 규칙·절차·출처·스크립트·워크플로를 건드린 PR 은 검사만 하고 병합하지 않는다(사람이 승인).
+# 검사 내용은 scripts/ci/check_kb.py. 값의 진위는 검사하지 못하므로 kb-fact-checker 가 맡는다.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      protected: ${{ steps.run.outputs.protected }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - id: run
+        run: |
+          set +e
+          python3 scripts/ci/check_kb.py "origin/${{ github.base_ref }}" > check.out 2> check.err
+          rc=$?
+          cat check.err
+          echo "protected=$(grep -o 'PROTECTED=.*' check.out | cut -d= -f2)" >> "$GITHUB_OUTPUT"
+          exit $rc
+
+  automerge:
+    needs: check
+    if: >-
+      needs.check.outputs.protected == 'false' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      (startsWith(github.head_ref, 'claude/') || startsWith(github.head_ref, 'kb-update/'))
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          if [ "${{ github.event.pull_request.draft }}" = "true" ]; then
+            gh pr ready "$PR" --repo "$REPO"
+          fi
+          gh pr merge "$PR" --repo "$REPO" --merge

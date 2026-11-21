@@ -8,7 +8,6 @@ effective_date: 해당없음
 published_date: 2026-10-06   # 게시판 등록일. 첨부 파일명은 "261004 즉시 (보도) ...(수정)", 페이지 수정일 2026-10-30
 source_url: https://www.msit.go.kr/bbs/view.do?sCode=user&mId=307&mPid=208&bbsSeqNo=94&nttSeqNo=3187846
 status: 현행
-fact_check: 수정 후 통과
 verified:
   date: 2026-11-13
   by: kb-fact-checker
