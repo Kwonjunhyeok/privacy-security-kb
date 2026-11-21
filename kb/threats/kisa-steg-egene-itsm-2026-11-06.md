@@ -9,12 +9,10 @@ published_date: 2026-11-06
 source_url: https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72284&menuNo=205020
 status: 현행
 verified:
-candidate:
-  kind: new
-  target_path: kb/threats/kisa-steg-egene-itsm-2026-11-06.md
-  found_at:
+  date: 2026-11-21
+  by: kb-fact-checker
+  sources:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72284&menuNo=205020
-  attempts: 0
 ---
 
 # 에스티이지 E-GENE ITSM 보안 조치 권고 (2026-11-06)
@@ -48,9 +46,12 @@ candidate:
 - 허용할 확장자에 대한 화이트리스트 방식의 검증 적용
 ※ 그 외 보안 조치는 제조사 안내에 따라 보안패치 적용
 
-## 연관 후보
+## 연관
 
-- ISMS-P 2.10.8 패치관리
-- ISMS-P 2.11.2 취약점 점검 및 조치
-- 개인정보 보호법 제29조(안전조치의무) — 안전성 확보조치 기준의 보안 업데이트 관련 조항(조문 번호 확인필요)
-- ISMS-P 2.5.1 사용자 계정 관리(비인가 회원가입 관련)
+- ISMS-P 2.10.8 패치관리 — 영향 버전 업데이트(최신 패치 적용) 권고와 직접 대응
+- ISMS-P 2.11.2 취약점 점검 및 조치 — 최신 보안취약점 발생 파악·영향 분석·조치 요구와 대응
+- ISMS-P 2.5.1 사용자 계정 관리 — 공지의 비인가 회원가입 취약점·임시 조치(회원가입 차단, 신규 사용자 수동 등록)가 사용자 등록 절차 통제와 대응
+
+## 검증 메모
+
+- 2026-11-21 kb-fact-checker: 보호나라 보안공지 목록(pageIndex=4)에서 제목·등록일을 독립 확인하고 원문(nttId 72284)을 직접 열어 대조. 제목·게시일·제품·영향 버전·조치 방안 일치(공지에 CVE·해결 버전 기재 없음 확인). 연관 후보 중 「개인정보 보호법 제29조 … (조문 번호 확인필요)」는 조문을 확정하지 못해 삭제.

@@ -19,7 +19,7 @@ candidate:
     - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNweQY_U_riHeJG4MbYAX_3cYu0dKvbkFyAgc_uNHfeX   # 8번 「국가ㆍ공공기관 AI보안 가이드북」 게시물
     - https://www.ncsc.go.kr/api/usr/bbs/downloadFile   # 8번 첨부(downloadFileId=53abf493-6fe3-484f-9da1-038247d7098a), sha256 d4ed2902…df9f = 게시 해시. 원문 3쪽 "문서이력"
     - https://www.ncsc.go.kr/ko/main/PageLink.html?token=MDEyMzQ1Njc4OWFiY2RlZrBvBnCd4cC_Aqu-HrYk1bi4IwVbci5a1FamchlW1qNssCyKZu6ZLfUXAiW9SUOAvNW9wnrsXcREF_zixwc3sj_du7Fw_EQfsAy0Fhg_EjyI   # 16번 「챗GPT 등 생성형 AI 활용 보안 가이드라인(2023.6)」 (목록 문서의 링크. 이번에 게시물 본문은 열지 않음)
-  attempts: 0
+  attempts: 1
 ---
 
 # 국가사이버안보센터 지침·가이드 현행 목록 (수정 초안)
@@ -47,3 +47,19 @@ candidate:
 
 - kb/_pending/2026-11-15-guides-public-ai-security-guidebook.md
 - kb/guides/n2sf-security-guideline.md
+
+## 보류 사유
+
+- 2026-11-21 kb-fact-checker: **보류** (attempts 1).
+- 사유: 수집(2026-11-15) 뒤 게시판이 바뀌어 행 단위 대조가 맞지 않는다. 2026-11-21 내장 브라우저로 지침·가이드("전체" 탭) 1~3쪽을 다시 넘긴 결과 "총 26건의 게시물이 있습니다. (1/3페이지)"이고, 2026.11.16 등록 게시물 3건이 새로 올라와 기존 23건의 번호가 모두 3씩 밀렸다. 이 초안대로 반영하면 목록 문서가 현행 게시물 3건을 빠뜨리고, 건수(23건·19건→18건)·번호(8번·16번 등)·published_date(2026-08-01)가 틀린 채로 "현행 목록"이 된다.
+- 새 게시물(게시판 표기 그대로, 분류·본문은 미확인. 목록 문서 수정 초안을 다시 만들 때 kb-guide-curator 가 게시물 본문·첨부를 열어 분류·판 관계를 판단):
+  - 1 / 가이드 / 국가ㆍ공공기관 대민 웹사이트 설치형 보안SW 최소화 가이드 / 2026.11.16
+  - 2 / 가이드 / 국가ㆍ공공기관 암호 안전성 기준(Draft)(2026.11) / 2026.11.16
+  - 3 / 가이드 / 국가ㆍ공공기관 양자내성암호 전환 가이드북」(Draft)(2026.11) / 2026.11.16 (제목의 「 없는 」 는 게시판 표기 그대로)
+  - 참고: 2·3번은 제목에 "(Draft)"가 붙어 있어 의견수렴·초안 성격인지 본문 확인 필요.
+- 이 초안의 핵심 변경(이전 판 제외 한 쌍)은 원문으로 확인했다. 다음 수정 초안에 그대로 옮겨 쓸 수 있다:
+  - 「국가ㆍ공공기관 AI보안 가이드북」(2026-11-21 기준 11번, 가이드, 2025.12.10) 첨부(sha256 d4ed2902…6299df9f, 게시 해시와 일치) PDF 3쪽 문서이력: "2023.06. / 1.0 / 챗GPT 등 생성형 AI 활용 보안 가이드라인", "2025.12. / 2.0 / 국가·공공기관 AI보안 가이드북".
+  - 「챗GPT 등 생성형 AI 활용 보안 가이드라인(2023.6)」(2026-11-21 기준 19번, 가이드, 2023.06.29) 게시물 본문 "챗GPT 등 생성형 AI 활용 보안 가이드라인(2023.6)을 배포하오니 참고하시기 바랍니다", 첨부 해시 게시 65d0c520…f0cc2726.
+  - 판단: 같은 자료의 1.0 → 2.0 이 맞다. 19번을 "이전 판 제외"로 옮기는 것은 타당.
+- 2026-11-21 기준 기존 23건의 번호 대응: 기존 n번 → n+3번 (예: 1→4, 4→7, 8→11, 9→12, 16→19, 18→21, 23→26). 2쪽(11~20번)과 3쪽(21~26번)의 제목·구분·등록일은 기존 목록 문서와 같다.
+- 다음 할 일: kb-guide-curator 가 목록 문서 전체를 2026-11-21 이후 게시판 기준으로 다시 쓴 수정 초안(새 3건 행, 번호 갱신, 건수, published_date 2026-11-16, 19번 이전 판 제외)을 만들면 다시 검증.

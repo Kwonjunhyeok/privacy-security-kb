@@ -9,12 +9,10 @@ published_date: 2026-11-13
 source_url: https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72306&menuNo=205020
 status: 현행
 verified:
-candidate:
-  kind: new
-  target_path: kb/threats/kisa-vates-xen-orchestra-2026-11-13.md
-  found_at:
+  date: 2026-11-21
+  by: kb-fact-checker
+  sources:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72306&menuNo=205020
-  attempts: 0
 ---
 
 # Vates Xen Orchestra 보안 업데이트 권고 (2026-11-13)
@@ -46,8 +44,11 @@ candidate:
 
 - [1] https://docs.vates.tech/security-advisories/advisories/2026/vates-sa-2026-062/
 
-## 연관 후보
+## 연관
 
-- ISMS-P 2.10.8 패치관리
-- ISMS-P 2.11.2 취약점 점검 및 조치
-- 개인정보 보호법 제29조(안전조치의무) — 안전성 확보조치 기준의 보안 업데이트 관련 조항(조문 번호 확인필요)
+- ISMS-P 2.10.8 패치관리 — 영향 버전 업데이트(최신 패치 적용) 권고와 직접 대응
+- ISMS-P 2.11.2 취약점 점검 및 조치 — 최신 보안취약점 발생 파악·영향 분석·조치 요구와 대응
+
+## 검증 메모
+
+- 2026-11-21 kb-fact-checker: 보호나라 보안공지 목록(pageIndex=2)에서 제목·등록일을 독립 확인하고 원문(nttId 72306)을 직접 열어 대조. 제목·게시일·제품·영향/해결 버전·참고사이트 일치(공지에 CVE 번호 기재 없음 확인). 연관 후보 중 「개인정보 보호법 제29조 … (조문 번호 확인필요)」는 조문을 확정하지 못해 삭제.

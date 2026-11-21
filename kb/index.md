@@ -1,6 +1,6 @@
-# 지식베이스 목록
+﻿# 지식베이스 목록
 
-마지막 갱신: 2026-11-15 (PC 주간 갱신: 이월 25건 검증, 법령·고시 5건·처분 15건·가이드 2건 반영, reports/2026-11-15.md 2차 실행 절. 이전: 가이드·안내서 점검)
+마지막 갱신: 2026-11-21 (일일 갱신: 검증 25건 — 통과 14, 수정 후 통과 8, 보류 2, 기각 1. reports/2026-11-21.md)
 
 시행예정 문서(laws/pipa-amendment-21910.md)는 2027-03-09 전까지 현행 근거가 아니다. 현행 개인정보 보호법은 laws/pipa.md(법률 제21445호)다.
 
@@ -18,6 +18,7 @@
 | laws | [개인정보 영향평가에 관한 고시](laws/pia-notice.md) | 고시 | 개인정보보호위원회고시 제2025-7호 (2025. 9. 5., 일부개정) | 시행 2025-09-05 | 2026-11-15 |
 | laws | [신용정보의 이용 및 보호에 관한 법률 (개인신용정보 관련 조항)](laws/credit-information-act.md) | 법률 | 법률 제21445호 (2026. 3. 10., 타법개정) | 시행 2026-09-11 | 2026-11-15 |
 | laws | [정보통신기반 보호법](laws/ciip-act.md) | 법률 | 법률 제20068호 (2024. 1. 23., 일부개정) | 시행 2025-01-24 | 2026-11-15 |
+| laws | [정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행규칙](laws/network-act-enforcement-rule.md) | 시행규칙 | 과학기술정보통신부령 제71호 (2021. 3. 31., 일부개정) | 시행 2021-03-31 | 2026-11-21 |
 | isms-p | [ISMS-P 인증기준 및 인증기준 안내서 (2023.11.)](isms-p/certification-criteria.md) | 인증기준 | 해당없음(안내서, 고시 제2023-8호 기준) | 게시 2024-01-17 | 2026-11-15 |
 | isms-p | [ISMS-P 인증기준 1. 관리체계 수립 및 운영 (16개)](isms-p/1-management-system.md) | 인증기준 | - | 게시 2024-01-17 | 2026-11-15 |
 | isms-p | [ISMS-P 인증기준 2. 보호대책 요구사항 (64개)](isms-p/2-protection-measures.md) | 인증기준 | - | 게시 2024-01-17 | 2026-11-15 |
@@ -35,6 +36,12 @@
 | guides | [KISA 보호나라 보고서/가이드 게시판 현행 목록](guides/boho-guides-current-list.md) | 목록 | - | 게시 2026-10-28 | 2026-11-15 |
 | guides | [한국인터넷진흥원 현행 가이드라인·안내서 목록](guides/kisa-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
 | guides | [과학기술정보통신부 정보보호 가이드 발표 목록](guides/msit-guides-current-list.md) | 정책자료 | - | 게시 2026-03-05 | 2026-11-15 |
+| guides | [AI 보안 레드티밍 가이드](guides/ai-security-red-teaming-guide.md) | 가이드라인 | - | 게시 2026-07-08 | 2026-11-21 |
+| guides | [AI 보안위협 대응 매뉴얼](guides/ai-security-threat-manual.md) | 가이드라인 | - | 게시 2026-07-08 | 2026-11-21 |
+| guides | [국가 망 보안체계(N2SF) 이해 및 활용 안내](guides/n2sf-overview.md) | 가이드라인 | - | 게시 2026-03-24 | 2026-11-21 |
+| guides | [OT 환경의 제로트러스트 적용 안내서](guides/ot-zero-trust-guide.md) | 가이드라인 | - | 게시 2025-12-22 | 2026-11-21 |
+| guides | [국가ㆍ공공기관 AI보안 가이드북 (2.0)](guides/public-ai-security-guidebook.md) | 가이드라인 | - | 게시 2025-12-10 | 2026-11-21 |
+| guides | [제로트러스트 성숙도 모델 해설서](guides/zero-trust-maturity-model-commentary.md) | 가이드라인 | - | 게시 2025-12-18 | 2026-11-21 |
 | pipc | [개인정보위 현행 안내서 목록 (안내서 게시판 기준)](pipc/pipc-guides-current-list.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
 | pipc | [개인정보의 안전성 확보조치 기준 안내서(2026.11.)](pipc/safety-measures-guide.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
 | pipc | [개인정보 보호책임자 지정·신고 실무 매뉴얼(2026.9.)](pipc/pipc-guide-cpo-designation-manual.md) | 가이드라인 | - | 게시 2026-09-15 | 2026-11-15 |
@@ -60,27 +67,42 @@
 | pipc | [개인정보위 사전 실태점검 — 에듀테크 분야 개인정보 처리 (5개사, 시정권고·개선조치)](pipc/pipc-inspection-2026-11-11-edutech.md) | 처분 | - | 의결 2026-11-11, 게시 2026-11-12 | 2026-11-15 |
 | pipc | [2020 개인정보 보호 법령 및 지침·고시 해설서](pipc/pipc-guide-legal-commentary.md) — 2020년 법 기준, 현행 조문과 다를 수 있음 | 가이드라인 | - | 게시 2020-12-02 | 2026-11-15 |
 | pipc | [개인정보관리 전문기관 지정 안내서 및 신청 관련 양식](pipc/pipc-guide-mydata-specialist-agency.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
+| pipc | [생성형 인공지능(AI) 개발·활용을 위한 개인정보 처리 안내서(2025.8.)](pipc/pipc-guide-generative-ai-privacy.md) | 가이드라인 | - | 게시 2025-08-22 | 2026-11-21 |
+| pipc | [공공 AX 프라이버시 보호 안내서(2026.7.)](pipc/pipc-guide-public-ax-privacy.md) | 가이드라인 | - | 게시 2026-08-31 | 2026-11-21 |
+| threats | [Vates Xen Orchestra 보안 업데이트 권고 (2026-11-13)](threats/kisa-vates-xen-orchestra-2026-11-13.md) | 보안공지 | - | 게시 2026-11-13 | 2026-11-21 |
 | threats | [Synology 제품 보안 업데이트 권고 (DSM 10건, 2026-11-12)](threats/kisa-synology-dsm-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
 | threats | [Node.js 제품 보안 업데이트 권고 (2026-11-12)](threats/kisa-nodejs-november-2026.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
 | threats | [React 서버 컴포넌트 보안 업데이트 권고 (CVE-2026-126187)](threats/kisa-react-server-components-cve-2026-126187.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
 | threats | [Apache HTTP Server 보안 업데이트 권고 (2026-11-12)](threats/kisa-apache-httpd-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
 | threats | [WordPress 플러그인 보안 업데이트 권고 (WPML·LiteSpeed Cache·Elementor·Ninja Forms, 2026-11-12)](threats/kisa-wordpress-plugins-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
 | threats | [MS 11월 보안 위협에 따른 정기 보안 업데이트 권고 (2026년 11월)](threats/kisa-ms-november-2026-security-update.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
+| threats | [Zoom Workplace for Windows 보안 업데이트 권고 (CVE-2026-108186·108187, 2026-11-12)](threats/kisa-zoom-workplace-windows-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-21 |
+| threats | [과기정통부 — 사물인터넷 제품, 제조사의 적극적 보안 강화와 소비자의 보안 수칙 실천이 필요 (보도자료)](threats/2026-11-12-msit-iot-security.md) | 동향 | - | 게시 2026-11-12 | 2026-11-21 |
 | threats | [MongoDB 제품 보안 업데이트 권고 (MongoDB Server 18건, 2026-11-11)](threats/kisa-mongodb-server-2026-11.md) | 보안공지 | - | 게시 2026-11-11 | 2026-11-13 |
 | threats | [Ivanti 제품 보안 업데이트 권고 (Sentry·EPMM·EPM·CSA, 2026-11-11)](threats/kisa-ivanti-sentry-epmm-epm-csa-2026-11.md) | 보안공지 | - | 게시 2026-11-11 | 2026-11-13 |
 | threats | [IBM 제품 보안 업데이트 권고 (MQ·API Connect·Aspera Faspex, 2026-11-10)](threats/kisa-ibm-mq-apiconnect-aspera-2026-11-10.md) | 보안공지 | - | 게시 2026-11-10 | 2026-11-13 |
 | threats | [SonicWall SonicOS 보안 업데이트 권고 (2026-11-09, 2026-11-10)](threats/kisa-sonicwall-sonicos-2026-11.md) | 보안공지 | - | 게시 2026-11-10 | 2026-11-13 |
 | threats | [SAP 제품 보안 업데이트 권고 (2026년 11월, 2026-11-10)](threats/kisa-sap-november-2026.md) | 보안공지 | - | 게시 2026-11-10 | 2026-11-13 |
+| threats | [OWASP ModSecurity 보안 업데이트 권고 (CVE-2026-104269, 2026-11-10)](threats/kisa-owasp-modsecurity-2026-11-10.md) | 보안공지 | - | 게시 2026-11-10 | 2026-11-21 |
+| threats | [WordPress Contact Form 7 플러그인 보안 업데이트 권고 (CVE-2026-114432, 2026-11-10)](threats/kisa-wordpress-contact-form-7-2026-11-10.md) | 보안공지 | - | 게시 2026-11-10 | 2026-11-21 |
 | threats | [개인정보위 — 스마트 글래스 이용 시 유의사항 당부 (분석 보고서 발간, 가이드라인 연내 배포 추진)](threats/2026-11-09-pipc-smart-glasses.md) | 동향 | - | 게시 2026-11-09 | 2026-11-13 |
 | threats | [인피니트헬스케어 INFINITT ULite 보안 업데이트 권고 (2026-11-07)](threats/kisa-infinitt-ulite-2026-11-07.md) | 보안공지 | - | 게시 2026-11-07 | 2026-11-13 |
 | threats | [OpenSSH 인증 우회 취약점(CVE-2026-123158) 보안 업데이트 권고 (2026-11-07)](threats/kisa-openssh-musl-auth-bypass-cve-2026-123158.md) | 보안공지 | - | 게시 2026-11-07 | 2026-11-13 |
+| threats | [Apache Juneau 보안 업데이트 권고 (CVE-2026-96677·73100, 2026-11-06)](threats/kisa-apache-juneau-2026-11-06.md) | 보안공지 | - | 게시 2026-11-06 | 2026-11-21 |
+| threats | [enspirit elo 보안 업데이트 권고 (CVE-2026-44267, 2026-11-06)](threats/kisa-enspirit-elo-2026-11-06.md) | 보안공지 | - | 게시 2026-11-06 | 2026-11-21 |
+| threats | [엠투소프트 ERS DataServer·ReportingServer 엔진 보안 업데이트 권고 (2026-11-06)](threats/kisa-m2soft-ers-2026-11-06.md) | 보안공지 | - | 게시 2026-11-06 | 2026-11-21 |
+| threats | [에스티이지 E-GENE ITSM 보안 조치 권고 (2026-11-06)](threats/kisa-steg-egene-itsm-2026-11-06.md) | 보안공지 | - | 게시 2026-11-06 | 2026-11-21 |
 | threats | [Debian 및 Ubuntu 패키지 매니저 APT 보안 업데이트 권고 (2026-11-05)](threats/kisa-debian-ubuntu-apt-cve-2026-109518.md) | 보안공지 | - | 게시 2026-11-05 | 2026-11-13 |
 | threats | [Zyxel 제품 보안 업데이트 권고 (GS1900 스위치·AP·FWA7·Security Router, 2026-11-05)](threats/kisa-zyxel-gs1900-ap-fwa7-2026-11-05.md) | 보안공지 | - | 게시 2026-11-05 | 2026-11-13 |
+| threats | [WordPress 코어 TOCTOU 경쟁 조건 취약점(CVE-2026-119977) 보안 업데이트 권고 (2026-11-04)](threats/kisa-wordpress-core-cve-2026-119977.md) | 보안공지 | - | 게시 2026-11-04 | 2026-11-21 |
 | threats | [Linux 커널 Use After Free 취약점(CVE-2026-43499) 보안 업데이트 권고 (2026-11-03)](threats/kisa-linux-kernel-cve-2026-43499.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-13 |
 | threats | [Synology NAS 대상 랜섬웨어 공격 주의 권고 (2026-11-03)](threats/kisa-synology-nas-ransomware-2026-11-03.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-13 |
 | threats | [지란지교소프트 CrossUploader 보안 조치 권고 (2026-11-03)](threats/kisa-jiran-crossuploader-2026-11-03.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-13 |
 | threats | [Apache 제품 보안 업데이트 권고 (Tomcat·Fineract, 2026-11-03)](threats/kisa-apache-tomcat-fineract-2026-11-03.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-13 |
+| threats | [Termix Path Traversal 취약점(CVE-2026-120322) 보안 업데이트 권고 (2026-11-03)](threats/kisa-termix-cve-2026-120322.md) | 보안공지 | - | 게시 2026-11-03 | 2026-11-21 |
 | threats | [Ivanti Connect Secure 보안 업데이트 권고 (2026-11-02)](threats/kisa-ivanti-connect-secure-2026-11-02.md) | 보안공지 | - | 게시 2026-11-02 | 2026-11-13 |
+| threats | [TeamViewer 보안 업데이트 권고 (CVE-2026-111585, 2026-11-02)](threats/kisa-teamviewer-cve-2026-111585.md) | 보안공지 | - | 게시 2026-11-02 | 2026-11-21 |
+| threats | [WordPress weDevs Project Manager 플러그인 보안 업데이트 권고 (CVE-2026-116512, 2026-11-02)](threats/kisa-wordpress-wedevs-project-manager-2026-11-02.md) | 보안공지 | - | 게시 2026-11-02 | 2026-11-21 |
 | threats | [Oracle Java SE·GraalVM·OpenJDK 암호 알고리즘 취약점(CVE-2026-91403) 보안 업데이트 권고](threats/threat-java-cve-2026-91403.md) | 보안공지 | - | 게시 2026-10-23 | 2026-11-13 |
 | threats | [Node.js 제품 보안 업데이트 권고](threats/2026-10-nodejs-security-update.md) | 보안공지 | - | 게시 2026-10-23 | 2026-11-13 |
 | threats | [민간분야 사이버위기 경보 단계 '관심' → '주의' 상향 (2026-10-22)](threats/threat-cyber-alert-level-2026-10-22.md) | 보안공지 | - | 게시 2026-10-22 | 2026-11-13 |
