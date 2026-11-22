@@ -45,6 +45,7 @@
 
 1. `CLAUDE.md`, `sources.md`, `kb/index.md`, `kb/topics.md`, `kb/catalog.md` 를 읽는다.
 2. `kb/_pending/` 의 기존 항목 목록을 확인한다.
+3. isms.kisa.or.kr(ISMS-P 누리집) 접속 여부를 확인한다. 복구됐으면 `sources.md` 의 "KISA 지정 배포처" 예외를 없애고 원래 출처로 되돌린다. 아직 중단이면 ISMS-P 인증제도 안내서·인증기준 안내서는 그 절의 조건(KISA 공지 + data.go.kr 파일)으로 수집한다. data.go.kr 에 접속할 수 없으면 이월로 남긴다.
 
 ## 1. 수집 — `kb-collector` 에이전트
 
