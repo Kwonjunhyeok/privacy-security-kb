@@ -14,6 +14,8 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
 ANCHOR = re.compile(r'<a\b([^>]*)>(.*?)</a>', re.S | re.I)
 TAG = re.compile(r'<[^>]+>')
 HANGUL = re.compile(r'[가-힣]')
+# 게시물 링크처럼 보이는 것: 쿼리의 seq/ntt/idx/id/no 번호 또는 onclick 호출의 번호(메뉴 링크와 구분)
+LISTLIKE = re.compile(r'(?:[?&;][A-Za-z_]*(?:seq|ntt|idx|id|no|sn)[A-Za-z_]*=\d{3,})|(?:onclick=["\'][^"\']*\(\s*["\']?\d{3,})', re.I)
 MAX_NEW = 25  # 한 번에 이만큼 넘게 새로 보이면 목록 구조 변경으로 본다
 
 
@@ -34,7 +36,7 @@ def extract(page, base):
     for attrs, inner in ANCHOR.findall(page):
         text = html.unescape(TAG.sub(' ', inner))
         text = re.sub(r'\s+', ' ', text).strip()
-        if len(text) < 6 or not HANGUL.search(text):
+        if len(text) < 6 or not HANGUL.search(text) or 'attr(' in text or "\\'" in text:
             continue
         href = re.search(r'href=["\']([^"\']*)["\']', attrs)
         href = href.group(1) if href else ''
@@ -44,7 +46,7 @@ def extract(page, base):
         else:
             link = base
         key = text + '|' + ','.join(ids) + ('|' + link if link != base else '')
-        items.setdefault(key, {'title': text, 'url': link, 'ids': ids})
+        items.setdefault(key, {'title': text, 'url': link, 'ids': ids, 'listlike': bool(LISTLIKE.search(attrs))})
     return items
 
 
@@ -66,20 +68,23 @@ def main():
             items = extract(page, b['url'])
             if not items:
                 raise ValueError(f'HTTP {status}, 추출된 링크 0건(구조 변경 또는 차단 페이지 의심)')
+            rows = {k: v for k, v in items.items() if v['listlike']}
+            if not rows and not a.probe:
+                raise ValueError(f'HTTP {status}, 게시물 목록으로 보이는 링크 0건: 목록이 자바스크립트로 나중에 불러와지는 게시판일 수 있어 감시가 새 글을 볼 수 없음')
             ok += 1
         except Exception as e:  # noqa
             result['errors'].append({'board': b['id'], 'name': b['name'], 'error': f'{type(e).__name__}: {e}'})
             result['probe'].append({'board': b['id'], 'ok': False, 'error': str(e)[:160]})
             continue
-        result['probe'].append({'board': b['id'], 'ok': True, 'http': status, 'links': len(items),
-                                'sample': [v['title'][:50] for v in list(items.values())[:3]]})
+        result['probe'].append({'board': b['id'], 'ok': True, 'http': status, 'links': len(items), 'listlike': len(rows),
+                                'sample': [v['title'][:40] for v in list(rows.values())[:3]]})
         if a.probe:
             continue
         seen = json.load(open(sp, encoding='utf-8')) if os.path.exists(sp) else None
         if seen is None:
             result['baseline'].append(b['id'])
             seen = {}
-        fresh = {k: v for k, v in items.items() if k not in seen}
+        fresh = {k: v for k, v in rows.items() if k not in seen}
         if result['baseline'] and result['baseline'][-1] == b['id']:
             fresh = {}
         kws = b.get('keywords')
