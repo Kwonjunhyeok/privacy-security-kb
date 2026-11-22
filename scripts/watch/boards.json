@@ -1,0 +1,20 @@
+{
+  "boards": [
+    {"id": "pipc_guides", "name": "개인정보위 안내서 게시판",
+     "url": "https://pipc.go.kr/np/cop/bbs/selectBoardList.do?bbsId=BS217&mCode=D010030000"},
+    {"id": "privacy_guides", "name": "개인정보 포털 지침자료",
+     "url": "https://www.privacy.go.kr/front/bbs/bbsList.do?bbsNo=BBSMSTR_000000000049"},
+    {"id": "kisa_guidelines", "name": "KISA 지식플랫폼 가이드라인",
+     "url": "https://www.kisa.or.kr/2060207"},
+    {"id": "kisa_manuals", "name": "KISA 지식플랫폼 안내서",
+     "url": "https://www.kisa.or.kr/2060307"},
+    {"id": "boho_guides", "name": "보호나라 보고서/가이드",
+     "url": "https://www.boho.or.kr/kr/bbs/list.do?menuNo=205021&bbsId=B0000127",
+     "keywords": ["가이드", "안내서", "해설서", "지침", "매뉴얼", "가이드라인"]},
+    {"id": "msit_press_guides", "name": "과기정통부 보도자료(가이드 검색)",
+     "url": "https://www.msit.go.kr/bbs/list.do?sCode=user&mPid=208&mId=307&bbsSeqNo=94&searchOpt=NTT_SJ&searchTxt=%EA%B0%80%EC%9D%B4%EB%93%9C"},
+    {"id": "msit_policy_network", "name": "과기정통부 정책정보(네트워크·전파)",
+     "url": "https://www.msit.go.kr/bbs/list.do?sCode=user&mPid=243&mId=328&bbsSeqNo=127",
+     "keywords": ["보안", "정보보호", "개인정보", "가이드", "안내서", "지침"]}
+  ]
+}
