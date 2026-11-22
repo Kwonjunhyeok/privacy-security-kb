@@ -13,12 +13,6 @@ verified:
   by: kb-fact-checker
   sources:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72319&menuNo=205020
-candidate:
-  kind: new
-  target_path: kb/threats/kisa-vmware-2026-11-20.md
-  found_at:
-    - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72319&menuNo=205020
-  attempts: 0
 ---
 
 # VMware 제품 보안 업데이트 권고 (2026-11-20)

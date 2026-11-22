@@ -14,13 +14,6 @@ verified:
   sources:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72313&menuNo=205020
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72315&menuNo=205020
-candidate:
-  kind: new
-  target_path: kb/threats/kisa-oracle-2026-11.md
-  found_at:
-    - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72313&menuNo=205020
-    - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72315&menuNo=205020
-  attempts: 0
 ---
 
 # Oracle 제품 보안 업데이트 권고 (2026년 11월, 11-18·11-19 공지 병합)

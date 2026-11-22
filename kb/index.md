@@ -28,7 +28,7 @@
 | guides | [주요정보통신기반시설 관리·물리적 취약점 분석·평가 방법 안내서](guides/ciip-managerial-physical-vulnerability-assessment-guide.md) | 가이드라인 | - | 게시 2025-12-24 | 2026-11-15 |
 | guides | [인공지능(AI) 보안 안내서](guides/ai-security-guide.md) | 가이드라인 | - | 게시 2025-12-10 | 2026-11-15 |
 | guides | [에이전틱 AI 제로트러스트 안내서](guides/agentic-ai-zero-trust-guide.md) | 가이드라인 | - | 게시 2026-11-06 | 2026-11-15 |
-| guides | [국가사이버안보센터 지침·가이드 현행 목록](guides/ncsc-guides-current-list.md) | 목록 | - | 게시 2026-08-01 | 2026-11-15 |
+| guides | [국가사이버안보센터 지침·가이드 현행 목록](guides/ncsc-guides-current-list.md) | 목록 | - | 게시 2026-11-16 | 2026-11-22 |
 | guides | [국가 망 보안체계(N2SF) 보안가이드라인 1.0](guides/n2sf-security-guideline.md) | 가이드라인 | - | 게시 2025-09-30 | 2026-11-15 |
 | guides | [정보통신분야 침해사고 대응 안내서(개정본)](guides/incident-response-guide.md) | 가이드라인 | - | 게시 2025-08-29 | 2026-11-15 |
 | guides | [침해사고 분석절차 안내서](guides/incident-analysis-procedure.md) | 가이드라인 | - | 게시 2016-02-24 | 2026-11-15 |
@@ -69,6 +69,17 @@
 | pipc | [개인정보관리 전문기관 지정 안내서 및 신청 관련 양식](pipc/pipc-guide-mydata-specialist-agency.md) | 가이드라인 | - | 게시 2026-11-05 | 2026-11-15 |
 | pipc | [생성형 인공지능(AI) 개발·활용을 위한 개인정보 처리 안내서(2025.8.)](pipc/pipc-guide-generative-ai-privacy.md) | 가이드라인 | - | 게시 2025-08-22 | 2026-11-21 |
 | pipc | [공공 AX 프라이버시 보호 안내서(2026.7.)](pipc/pipc-guide-public-ax-privacy.md) | 가이드라인 | - | 게시 2026-08-31 | 2026-11-21 |
+| threats | [VMware 제품 보안 업데이트 권고 (2026-11-20)](threats/kisa-vmware-2026-11-20.md) | 보안공지 | - | 게시 2026-11-20 | 2026-11-22 |
+| threats | [F5 제품 보안 업데이트 권고 (2026-11-19)](threats/kisa-f5-2026-11-19.md) | 보안공지 | - | 게시 2026-11-19 | 2026-11-22 |
+| threats | [NGINX 제품 보안 업데이트 권고 (2026-11-19)](threats/kisa-nginx-2026-11-19.md) | 보안공지 | - | 게시 2026-11-19 | 2026-11-22 |
+| threats | [PHP 제품 보안 업데이트 권고 (2026-11-19)](threats/kisa-php-2026-11-19.md) | 보안공지 | - | 게시 2026-11-19 | 2026-11-22 |
+| threats | [Oracle 제품 보안 업데이트 권고 (2026년 11월, 11-18·11-19 공지 병합)](threats/kisa-oracle-2026-11.md) | 보안공지 | - | 게시 2026-11-19 | 2026-11-22 |
+| threats | [MongoDB 제품 보안 업데이트 권고 (2026-11-17)](threats/kisa-mongodb-2026-11-17.md) | 보안공지 | - | 게시 2026-11-17 | 2026-11-22 |
+| threats | [PostgreSQL 제품 보안 업데이트 권고 (2026-11-17)](threats/kisa-postgresql-2026-11-17.md) | 보안공지 | - | 게시 2026-11-17 | 2026-11-22 |
+| threats | [Check Point 제품 보안 업데이트 권고 (2026-11-17)](threats/kisa-checkpoint-2026-11-17.md) | 보안공지 | - | 게시 2026-11-17 | 2026-11-22 |
+| threats | [Citrix 제품 보안 업데이트 권고 (2026-11-17)](threats/kisa-citrix-2026-11-17.md) | 보안공지 | - | 게시 2026-11-17 | 2026-11-22 |
+| threats | [Fortinet 제품 보안 업데이트 권고 (2026-11-16)](threats/kisa-fortinet-2026-11-16.md) | 보안공지 | - | 게시 2026-11-16 | 2026-11-22 |
+| threats | [Git 제품 보안 업데이트 권고 (2026-11-16)](threats/kisa-git-2026-11-16.md) | 보안공지 | - | 게시 2026-11-16 | 2026-11-22 |
 | threats | [Vates Xen Orchestra 보안 업데이트 권고 (2026-11-13)](threats/kisa-vates-xen-orchestra-2026-11-13.md) | 보안공지 | - | 게시 2026-11-13 | 2026-11-21 |
 | threats | [Synology 제품 보안 업데이트 권고 (DSM 10건, 2026-11-12)](threats/kisa-synology-dsm-2026-11-12.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
 | threats | [Node.js 제품 보안 업데이트 권고 (2026-11-12)](threats/kisa-nodejs-november-2026.md) | 보안공지 | - | 게시 2026-11-12 | 2026-11-13 |
