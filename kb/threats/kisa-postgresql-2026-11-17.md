@@ -9,12 +9,10 @@ published_date: 2026-11-17
 source_url: https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72310&menuNo=205020
 status: 현행
 verified:
-candidate:
-  kind: new
-  target_path: kb/threats/kisa-postgresql-2026-11-17.md
-  found_at:
+  date: 2026-11-22
+  by: kb-fact-checker
+  sources:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72310&menuNo=205020
-  attempts: 0
 ---
 
 # PostgreSQL 제품 보안 업데이트 권고 (2026-11-17)
@@ -223,7 +221,11 @@ candidate:
 - [49] https://nvd.nist.gov/vuln/detail/CVE-2026-120144
 - [50] https://nvd.nist.gov/vuln/detail/CVE-2026-120145
 
-## 연관 후보
+## 연관
 
 - ISMS-P 2.10.8 패치관리
 - ISMS-P 2.11.2 취약점 점검 및 조치
+
+## 검증 기록
+
+- 2026-11-22 kb-fact-checker: KISA 보호나라 원문(nttId=72310, 게시일 2026-11-17)을 브라우저로 재확인. CVE 24건과 PostgreSQL 14~18 버전별 영향받는 버전·해결 버전 표, 참고사이트 50건 모두 초안과 일치. 판정: 통과.

@@ -9,12 +9,10 @@ published_date: 2026-11-20
 source_url: https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72319&menuNo=205020
 status: 현행
 verified:
-candidate:
-  kind: new
-  target_path: kb/threats/kisa-vmware-2026-11-20.md
-  found_at:
+  date: 2026-11-22
+  by: kb-fact-checker
+  sources:
     - https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000133&nttId=72319&menuNo=205020
-  attempts: 0
 ---
 
 # VMware 제품 보안 업데이트 권고 (2026-11-20)
@@ -66,7 +64,11 @@ candidate:
 - [3] https://nvd.nist.gov/vuln/detail/CVE-2026-123891
 - [4] https://nvd.nist.gov/vuln/detail/CVE-2026-123892
 
-## 연관 후보
+## 연관
 
 - ISMS-P 2.10.8 패치관리
 - ISMS-P 2.11.2 취약점 점검 및 조치
+
+## 검증 기록
+
+- 2026-11-22 kb-fact-checker: KISA 보호나라 원문(nttId=72319, 게시일 2026-11-20)을 브라우저로 재확인. CVE 3건(123890·123891·123892)과 VMware Telco Cloud Platform/Infrastructure·Cloud Foundation·vCenter·vSphere Foundation·SDDC Manager 영향받는 버전·해결 버전 19행, 참고사이트 4건 모두 초안과 일치. 판정: 통과.
